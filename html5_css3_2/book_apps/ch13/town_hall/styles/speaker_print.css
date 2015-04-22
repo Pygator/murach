@@ -1,0 +1,35 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    width: auto;
+}
+h1, h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* the styles for the navigation bar */
+#nav_menu {
+	display: none;
+}
+/* the styles for the sidebar */
+aside {
+	display: none;
+}
+/* the styles for the article */
+article {
+	width: auto;
+}
+/* the styles for the header */
+header { 
+	border-bottom: 2px solid black;
+}
+header h2 {
+	color: black;
+	font-size: 180%;
+}
+header h3 {
+	color: black;
+	font-size: 120%;
+}
+/* the styles for the footer */
+footer {
+	border-top: 2px solid black;
+}

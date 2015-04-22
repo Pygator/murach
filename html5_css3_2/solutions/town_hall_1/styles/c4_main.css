@@ -1,0 +1,45 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header h2 {
+	font-size: 175%;
+	color: #800000;
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+header img {
+	float: left;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: #800000;
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+}

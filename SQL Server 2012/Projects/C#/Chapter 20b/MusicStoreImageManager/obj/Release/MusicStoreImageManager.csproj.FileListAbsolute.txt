@@ -1,0 +1,4 @@
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Form1.resources
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Properties.Resources.resources
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Release\MusicStoreImageManager.csproj.GenerateResource.Cache

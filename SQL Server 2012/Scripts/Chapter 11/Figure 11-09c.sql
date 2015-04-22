@@ -1,0 +1,4 @@
+USE New_AP;
+
+INSERT Invoices9
+VALUES (1, 99, 100);

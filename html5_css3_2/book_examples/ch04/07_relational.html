@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Relational selectors</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<style>
+			main li { font-size: 14pt; }
+			ul a { color: green; }
+
+			h2+p { margin-top: .5em; }
+			
+			main>p { font-size: 11pt; }
+			li>a { color: green; }
+			
+			h2~p { margin-left: 2em; }
+		</style>
+	</head>
+	
+	<body>
+		<main>
+			<h1>Winter 2012 Town Hall speakers</h1>
+			<ul class="speakers">
+				<li>January 20, 2012: <a href="speakers/brancaccio.html">David Brancaccio</a></li>
+				<li>February 17, 2012: <a href="speakers/fitzpatrick.html">Robert Fitzpatrick</a></li>
+				<li>March 17, 2012: <a href="speakers/williams.html">Juan Williams</a></li>
+			</ul>
+			<h2>Post-lecture luncheons</h2>
+			<p>Extend the excitement of Town Hall by purchasing tickets to the 
+			luncheons. This unique opportunity allows you to ask more questions 
+			of the speakers.</p>
+			<p>A limited number of tickets are available. Call now for reservations.</p>
+			<p><em>Contact us by phone</em> at (559) 555-1212.</p>
+		</main>
+		<footer>
+			<p class="copyright inactive">Copyright 2015</p>
+		</footer>
+	</body>
+</html>

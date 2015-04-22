@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/tickets.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+		<hgroup>
+			<h1>San Joaquin Valley Town Hall</h1>
+			<h2>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h2>
+		</hgroup>
+	</header>
+	<nav>
+    	<ul>
+    		<li><a class="current" href="index.html">Home</a></li>
+    		<li><a href="speakers.html">Speakers</a></li>
+    		<li><a href="luncheons.html">Luncheons</a></li>
+    		<li><a href="tickets.html">Tickets</a></li>
+    		<li><a href="about.html">About Us</a></li>
+    	</ul>
+    </nav>
+	<section>
+		<h1>Become a Member</h1>
+    	<form action="register_account.html" method="get"
+        	name="registration_form" id="registration_form">
+    		<fieldset>
+	        	<legend>Registration Information</legend>
+	        	<label for="email">E-Mail:</label>
+	        	<input type="email" name="email" id="email" autofocus required><br>
+	        	<label for="password">Password:</label>
+	        	<input type="password" name="password" id="password" required
+	        	       pattern="[a-zA-Z0-9]{6,}"
+	                   placeholder="At least 6 letters or numbers" ><br>
+	        	<label for="verify">Verify Password:</label>
+	        	<input type="password" name="verify" id="verify" required><br>
+    		</fieldset>
+    		<fieldset>
+        		<legend>Member Information</legend>
+        		<label for="first_name">First Name:</label>
+				<input type="text" name="first_name" id="first_name" required><br>
+				<label for="last_name">Last Name:</label>
+				<input type="text" name="last_name" id="last_name" required><br>
+				<label for="address">Address:</label>
+				<input type="text" name="address" id="address"><br>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" required><br>
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+				<label for="zip">ZIP Code:</label>
+				<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				       pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+				<label for="phone">Phone Number:</label>
+				<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+				</fieldset>
+			<fieldset>
+				<legend>Membership Information</legend>
+				<label for="membership_type">Membership Type:</label>
+				<select name="membership_type" id="membership_type">
+				    <option value="j">Junior</option>
+				    <option value="r">Regular</option>            
+				    <option value="c">Charter</option>
+				</select><br>
+				<label for="starting_date">Starting Date:</label>
+				<input type="date" name="starting_date" id="starting_date" required><br>
+				<label for="tickets">Tickets for Guests:</label>
+				<input type="number" name="tickets" id="tickets" value="2" min="1" max="4" placeholder="from 1 to 4"><br>
+				</fieldset>
+				<fieldset id="buttons">
+				<legend>Submit Your Membership</legend>
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset Fields"><br>
+			</fieldset>
+		</form>
+	</section>
+	<aside>
+		<h1 id="speakers">2011-2012 Speakers</h1>
+		<h2>October 19, 2011<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h2>
+		<img src="images/toobin75.jpg" alt="Jeffrey Toobin photo">
+		<h2>November 16, 2011<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h2>
+		<img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
+		<h2>January 18, 2012<br><a href="speakers/chua.html">Amy Chua</a></h2>
+		<img src="images/chua75.jpg" alt="Amy Chua photo">
+		<h2>February 15, 2012<br><a href="speakers/sampson.html">Scott Sampson</a></h2>
+		<img src="images/sampson75.jpg" alt="Scott Sampson">
+	</aside>
+	<footer>
+		<p>&copy; 2012, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>

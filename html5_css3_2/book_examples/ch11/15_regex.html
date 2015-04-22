@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Form Validation using Patterns</title>
+    <style>
+	body {
+		font: 90% Arial, Helvetica, sans-serif;
+	    margin: 20px; }
+	input {
+		width: 15em;
+		margin-left: 1em;
+		margin-bottom: .5em;}
+	input:focus {
+		border: 2px solid navy; }
+	</style>
+</head>
+
+<body>
+<form name="myform" action="survey.php" method="post">
+Name: <input type="text" name="name" required autofocus ><br>
+Zip: <input type="text" name="zip" required 
+    pattern="\d{5}([\-]\d{4})?" 
+    title="Must be 99999 or 99999-9999"><br>
+Phone: <input type="text" name="phone" required 
+    pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+    title="Must be 999-999-9999"><br>
+<input type="submit" name="submit" value="Submit Survey">
+</form>
+</body>
+</html>

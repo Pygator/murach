@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery.ui.all.css">
+    <!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+	<script>
+	$(function() {
+		$( "#sortable" ).sortable();
+		$( "#sortable" ).disableSelection();
+	});
+	</script>
+</head>
+
+<body>
+    <aside>
+    	<h1>Featured Book</h1>
+        <img src="images/javascriptbook.jpg" alt="JavaScript book" width="159" height="192">
+    </aside>
+    <section>
+        <h1>Rank the Murach books that you own</h1>
+        <h2>Drag up or down to rank</h2>
+        <ul id="sortable">
+        	<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>JavaScript and DOM Scripting</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Visual Basic 2010</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>C# 2010</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>HTML5 and CSS3</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Java Servlets and JSP</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>PHP and MySQL</li>
+        </ul>
+    </section>
+</body>
+</html>

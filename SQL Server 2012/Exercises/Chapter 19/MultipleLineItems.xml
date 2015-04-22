@@ -1,0 +1,36 @@
+﻿<MultipleLineItems>
+  <Invoice>
+    <InvoiceNumber>I77271-O01</InvoiceNumber>
+    <InvoiceDate>2011-12-26T00:00:00</InvoiceDate>
+    <InvoiceTotal>662.0000</InvoiceTotal>
+    <LineItem>
+      <ItemDescription>DiCicco's</ItemDescription>
+      <ItemAmount>50.0000</ItemAmount>
+    </LineItem>
+    <LineItem>
+      <ItemDescription>Kinko's</ItemDescription>
+      <ItemAmount>75.6000</ItemAmount>
+    </LineItem>
+    <LineItem>
+      <ItemDescription>Office Max</ItemDescription>
+      <ItemAmount>58.4000</ItemAmount>
+    </LineItem>
+    <LineItem>
+      <ItemDescription>Publishers Marketing</ItemDescription>
+      <ItemAmount>478.0000</ItemAmount>
+    </LineItem>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumber>97/522</InvoiceNumber>
+    <InvoiceDate>2012-02-28T00:00:00</InvoiceDate>
+    <InvoiceTotal>1962.1300</InvoiceTotal>
+    <LineItem>
+      <ItemDescription>Cover design</ItemDescription>
+      <ItemAmount>1197.0000</ItemAmount>
+    </LineItem>
+    <LineItem>
+      <ItemDescription>Catalog design</ItemDescription>
+      <ItemAmount>765.1300</ItemAmount>
+    </LineItem>
+  </Invoice>
+</MultipleLineItems>

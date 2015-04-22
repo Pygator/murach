@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sales table with header and footer</title>
+    <style>
+    	table {
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+		td, th {
+			border: 1px solid black;
+			padding: .2em .7em;
+			text-align: right;
+		}
+		td.left, th.left {
+			text-align: left;
+		}
+		thead, tfoot {
+		    background-color: aqua;
+		    border: 1px solid black;
+		}
+		tfoot {
+			font-weight: bold;
+		}
+    </style>
+</head>
+
+<body>
+
+<table>
+	<thead>
+		<tr>
+			<th class="left">Book</th>
+			<th>Year Published</th>
+		<th>Sales</th>
+	</tr>
+	</thead>
+	<tfoot>
+	<tr>
+		<th class="left">Total Sales</th>
+		<td></td>
+		<td>$2,154,786</td>
+	</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td class="left">PHP and MySQL</td>
+		<td>2010</td>
+		<td>$372,381</td>
+	</tr>
+	<tr>
+		<td class="left">JavaScript and DOM Scripting</td>
+		<td>2009</td>
+		<td>$305,447</td>
+	</tr>
+	<tr>
+		<td class="left">Java Programming</td>
+		<td>2011</td>
+		<td>$392,444</td>
+	</tr>
+	<tr>
+		<td class="left">Java Servlets and JSP</td>
+		<td>2008</td>
+		<td>$328.992</td>
+	</tr>
+	</tbody>
+	
+</table>
+
+
+</body>
+
+</html>

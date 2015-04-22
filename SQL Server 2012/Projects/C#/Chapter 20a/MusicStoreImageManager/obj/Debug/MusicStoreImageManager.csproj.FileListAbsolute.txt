@@ -1,0 +1,52 @@
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Form1.resources
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.csproj.GenerateResource.Cache
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+C:\Documents and Settings\Joel Murach\Local Settings\Application Data\Temporary Projects\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.csproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\MusicStoreImageManager\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.csproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19 varbinary\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.csproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 19a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.csproj.GenerateResource.Cache
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.exe
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.pdb
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.pdb
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.ImageManagerForm.resources
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\MusicStoreImageManager.Properties.Resources.resources
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\GenerateResource-ResGen.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\GenerateResource-ResGen.write.1.tlog
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\bin\Debug\MusicStoreImageManager.exe.config
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\GenerateResource.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 20a\MusicStoreImageManager\obj\Debug\GenerateResource.write.1.tlog

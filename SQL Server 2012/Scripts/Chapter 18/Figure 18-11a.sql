@@ -1,0 +1,4 @@
+USE master;
+
+GRANT ALTER ANY DATABASE
+TO JohnDoe;

@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[Vendors_Update_State] (Trigger)
+     Create
+       [ApClrObjectsEx] (Assembly)
+       [dbo].[WarehouseLocation] (User-Defined Type)
+       [dbo].[Invoices_Update_Shipping] (Trigger)
+       [dbo].[GetLargestInvoice] (Function)
+       [dbo].[GetLineItemCountDateRange] (Procedure)
+       [dbo].[GetTop10Vendors] (Procedure)
+
+** Supporting actions

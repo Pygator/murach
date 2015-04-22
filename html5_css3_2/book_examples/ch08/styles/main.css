@@ -1,0 +1,108 @@
+/* type selectors */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 96%;                       /* changed from 800 pixels */
+	max-width: 960px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 2px solid blue;
+}
+section, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+section, aside {
+	margin-bottom: 1em;
+}
+p {
+	font-size: 95%;
+	padding-bottom: .5em;
+	line-height: 130%;
+}
+a:hover, a:focus {
+	color: red;
+}
+/* the styles for the header */
+header {
+	width: 100%;                         /* full width of body */
+	padding-bottom: 2em;
+	border-bottom: 2px solid blue;
+}
+header h2 {
+	font-size: 220%;
+	color: blue;
+	margin-left: 17.5%;              /* 140 / 800 (increased from 120) */
+	margin-bottom: .25em;
+}
+header h3 {
+	font-size: 130%;
+	color: red;
+	margin-left: 17.5%;              /* 140 / 800 (increased from 120) */
+}
+header img {
+	float: left;
+	margin-left: 2.5%;                /* 20 / 800 */
+}
+/* the styles for the section */
+section {
+	width: 50%;                       /* 400 / 800 */
+	padding: 2.5% 2.5% 0 2.5%;       /* 20 / 800 */
+	float: left;
+}
+section img {
+	max-width: 100%;
+	margin-bottom: .5em;
+}
+section ul {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+section li {
+	font-size: 95%;
+	padding-bottom: .35em;
+}
+section h1 {
+	font-size: 170%;
+	margin-bottom: .35em;
+}
+section h2 {
+	font-size: 130%;
+	margin-bottom: .35em;
+}
+/* the styles for the sidebar */
+aside {
+	width: 37.5%;                 /* 300 / 800 */
+	float: left;
+	padding: 2.5%;                 /* 20 / 800 */
+	margin-right: 2.5%;        /* 20 / 800 */
+}
+aside h2 {
+	font-size: 120%;
+	padding-bottom: .5em;
+}
+aside p {
+	margin-bottom: .5em;
+}
+aside ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+aside li {
+	font-size: 95%;
+	padding-bottom: .35em;
+}
+/* the styles for the footer */
+footer {
+	clear: both;
+	width: 100%;                    /* full width of body */
+	border-top: 2px solid blue;
+	padding-top: .7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 2.5%;          /* 20 / 800 */
+}

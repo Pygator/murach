@@ -1,0 +1,114 @@
+/* type selectors */
+html {
+	background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #facd8a 100%);	
+	background-image: -o-linear-gradient(top, white 0%, #facd8a 100%);
+	background-image: linear-gradient(top, white 0%, #facd8a 100%);	
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 992px;
+	background-color: white;
+	margin: 1em auto;
+	padding: 1em 0;
+	border: 1px solid black;
+}
+article, aside, h1, h2, h3, p, ul {
+	margin: 0;
+	padding: 0;
+}
+article, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;	
+}
+
+a { font-weight: bold; }
+a:link { color: #931420; }
+a:hover, a:focus { color: blue; }
+a:visited { color: #f2972e; }
+
+ul { 
+	margin-left: 1.5em;
+	margin-bottom: 1.5em; 
+}
+li {
+	font-size: 95%;
+	padding-bottom: .35em;
+}
+p {
+	font-size: 95%;
+	padding-bottom: .5em;
+}
+em { font-weight: bold; }
+
+/* the styles for the header */
+header { 
+	padding-bottom: 2em;
+	border-bottom: 2px solid #f2972e;
+}
+header h2 {
+	font-size: 220%;
+    color: #f2972e;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 120px;
+	margin-bottom: 0.25em;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    margin-left: 120px;
+}
+header img { 
+	float: left;
+	margin-left: 20px;
+}
+
+/* the styles for the article */
+article {
+	width: 535px;
+	margin-left: 20px;
+	padding-right: 25px;
+	float: right;
+	 
+/*	-moz-column-count: 2;
+	-webkit-column-count: 2;
+    column-count: 2; 
+*/   
+
+}
+article h1 {
+	font-size: 170%;
+	margin-bottom: .35em;
+}
+article img {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+
+/* the styles for the sidebar */
+aside {
+	width: 350px;
+	float: right;
+	padding: 20px;
+	background-color: #ffebc6;
+	margin-right: 20px;
+}
+aside h2 {
+	font-size: 130%;
+	padding-bottom: .5em;
+}
+aside p { margin-bottom: .5em; }
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	margin-top: 1em;
+	border-top: 2px solid #f2972e;
+	padding-top: .7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 20px;
+}

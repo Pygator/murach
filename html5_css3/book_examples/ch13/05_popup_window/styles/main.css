@@ -1,0 +1,43 @@
+/* the default styles for the document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:85%;
+	background-color:#004e97;
+	margin:0 auto;
+	padding:0;
+	width:960px;}
+h1 {font-size:140%;}
+h2 {font-size:115%;}
+h3 {font-size:95%;}
+
+/* the styles for the section */
+section {
+	background-color:white;
+	padding:5px 275px 30px 265px;
+	min-height:500px;}
+section h1 {
+	color:#004e97;
+	padding-bottom:.3em;
+	margin-bottom:0;}
+section h2 {
+	margin-top:.6em;
+	margin-bottom:0;
+	position:relative;}
+section h3 {
+	font-weight:normal;
+	margin:.3em 0 0 0;
+	position:relative;}
+section .title {
+	position:absolute;
+	left:90px;}
+section .number {
+	position:absolute;
+	right:0;}
+
+/* the styles for the right sidebar */
+#sidebar2 {
+	width:200px;
+	float:right;
+	padding:7px 0;
+	margin-right:10px}
+#sidebar2 img {border:none;}

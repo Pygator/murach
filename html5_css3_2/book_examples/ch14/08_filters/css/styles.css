@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+}
+div {
+	width:900px;
+	margin:20px auto;
+}
+ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;	
+}
+ul li {
+	float:left;
+	margin-right:20px;
+}
+img	{
+	width:150px;
+	height:130px;
+}

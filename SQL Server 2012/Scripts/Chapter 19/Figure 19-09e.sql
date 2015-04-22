@@ -1,0 +1,4 @@
+USE AP;
+
+IF OBJECT_ID('DDLActivityLog3') IS NOT NULL
+    DROP TABLE DDLActivityLog3;

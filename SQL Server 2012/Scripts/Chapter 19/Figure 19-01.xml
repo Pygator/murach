@@ -1,0 +1,18 @@
+﻿<EVENT_INSTANCE>
+  <EventType>CREATE_TABLE</EventType>
+  <PostTime>2012-05-18T17:23:28.030</PostTime>
+  <SPID>55</SPID>
+  <ServerName>JOEL2\SQLEXPRESS</ServerName>
+  <LoginName>JOEL2\Joel Murach</LoginName>
+  <UserName>dbo</UserName>
+  <DatabaseName>AP</DatabaseName>
+  <SchemaName>dbo</SchemaName>
+  <ObjectName>VendorsTest</ObjectName>
+  <ObjectType>TABLE</ObjectType>
+  <TSQLCommand>
+    <SetOptions ANSI_NULLS="ON" ANSI_NULL_DEFAULT="ON" ANSI_PADDING="ON" QUOTED_IDENTIFIER="ON" ENCRYPTED="FALSE" />
+    <CommandText>CREATE TABLE VendorsTest
+        (VendorID int, VendorName varchar(50))
+    </CommandText>
+  </TSQLCommand>
+</EVENT_INSTANCE>

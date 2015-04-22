@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Access keys</title>
+	<style>
+	    body { 
+	    	margin: 30px auto; 
+	    	width: 	500px; }
+		label {
+			float: left;
+			width: 5em;
+			text-align: right;}
+		input {
+			margin-left: 1em;
+			margin-bottom: .5em;}
+		#button {
+			margin-left: 7em; }
+	</style>
+</head>
+
+<body>
+<form name="myform" action="survey.php" method="post">
+	<label for="firstname" accesskey="F"><u>F</u>irst name:</label>
+	<input type="text" name="firstname" id="firstname"><br>
+	<label for="lastname" accesskey="L"><u>L</u>ast name:</label>
+	<input type="text" name="lastname" id="lastname"><br>
+	<label for="email" accesskey="E"><u>E</u>mail:</label>
+	<input type="text" name="email" id="email"><br>
+    
+    <input type="button" id="button" value="Submit">
+    
+</form>
+</body>
+</html>

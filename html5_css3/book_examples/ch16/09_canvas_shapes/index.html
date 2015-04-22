@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Drawing Shapes</title>
+    <style>
+    body {
+    	padding: 2em;
+    }
+    canvas {
+    	border: none;
+    }
+    </style>
+    <script>
+	function drawShapes() {
+		//DRAW RECTANGLE
+		var shapes = document.getElementById("myShapes");
+		var contextShapes = shapes.getContext("2d");
+		contextShapes.fillStyle = "red";
+		contextShapes.fillRect(0, 0, 150, 100);
+		//DRAW CIRCLE
+		contextShapes.beginPath();
+		contextShapes.arc(200, 50, 50, 0, Math.PI*2, true); 
+		contextShapes.closePath();
+		contextShapes.fillStyle = "green";
+		contextShapes.fill();
+		//DRAW STROKED CIRCLE
+		contextShapes.beginPath();
+		contextShapes.arc(300, 50, 50, 0, Math.PI*1, false);
+		contextShapes.closePath();
+		contextShapes.lineWidth = 3;
+		contextShapes.stroke();
+	}
+	</script>
+</head>
+
+<body onLoad="drawShapes()">
+    <h1>Red Rectangle, Green Circle, and Stroked Arc</h1>
+    <canvas id="myShapes" width="600" height="150"></canvas>
+</body>
+</html>

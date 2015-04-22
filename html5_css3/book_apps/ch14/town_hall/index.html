@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery.ui.all.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	
+	<!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+	<script>
+        $(function() {
+			$("#speaker").click(function(event){
+				$("#dialog").dialog({width:400});
+			});
+    	});
+        $(function() {
+		    $( "#accordion" ).accordion();
+	    });
+	</script>
+</head>
+	
+<body>
+	<header>
+		<img src="images/logo.jpg" alt="Town Hall Logo" width="80">
+		<hgroup>
+			<h1>San Joaquin Valley Town Hall</h1>
+			<h2>Bringing cutting-edge speakers to the valley</h2>
+		</hgroup>
+    </header>
+    <nav id="nav_bar">
+    	<ul>
+    		<li><a class="current" href="index.html">Home</a></li>
+    		<li><a href="tickets.html">Get Tickets</a></li>
+    		<li><a href="members.html">Become a Member</a></li>
+    		<li><a href="">About Us</a></li>
+    	</ul>
+    </nav>
+    <aside>
+    	<h1>This month's speaker</h1>
+        <img src="images/sampson75.jpg" id="speaker" alt="Scott Sampson">
+        <div id="dialog" title="February 15, 2012: Scott Sampson" style="display:none">
+        	<h2>Fossil Threads in the Web of Life</h2>
+		    <img src="images/sampson_dinosaur.jpg" alt="Scott Sampson" width="260">
+		    <p>
+		    What's 75 million years old and brand spanking new? Find out this month 
+		    by attending Scott Sampson's fascinating presentation.
+		    </p>   
+        </div>    
+        <br><br>
+        <h1>Lecture notes</h1>
+		<h2>Event change for November 16</h2>
+		<p class="news_item">SJV Town Hall is pleased to announce the addition of award-winning author Andrew Ross Sorkin. 
+		The appearance of previously scheduled speaker, Greg Mortenson, has been postponed.</p>
+
+		<h2>Lecture day, time, and location</h2>
+		<p class="news_item">All one-hour lectures are on Wednesday beginning at 10:30 a.m. at William Saroyan Theatre, 
+		700 M Street, Fresno, CA.</p>
+    </aside>
+	<section>
+        <h1>2011-2012 guest speakers</h1>
+        <div id="accordion">
+            <h3><a href="#">October 19, 2011: Jeffrey Toobin</a></h3>
+            <div>
+            	
+                <p>
+                </p>
+            </div>
+ 			<h3><a href="#">November 16, 2011: Andrew Ross Sorkin</a></h3>
+            <div>
+                <p>
+ 
+				</p>
+            </div>
+            <h3><a href="#">January 18, 2012: Amy Chua</a></h3>
+		    <div>
+                <p>
+                	
+                </p>
+				
+        	</div>
+        	<h3><a href="#">February 15, 2012: Scott Sampson</a></h3>
+            <div>
+            	<h2>Fossil Threads in the Web of Life</h2>
+                <a href="sampson.html"><img src="images/sampson75.jpg" alt="Scott Sampson"></a>
+                <p>What's 75 million years old and brand spanking new? A teenage  
+		           Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, 
+		           Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's 
+		           research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has 
+		           conducted fieldwork in a number of countries in Africa.</p>
+				<p><a href="sampson.html">For more, click here</a></p>
+            </div>
+			<h3><a href="#">March 21, 2012: Carlos Eire</a></h3>
+            <div>
+                <p>
+                
+				</p>
+            </div>
+			<h3><a href="#">April 18, 2012: Ronan Tynan</a></h3> 
+            <div>
+                <p>
+                
+				</p> 
+            </div>
+        </div>
+        <br>
+		<h2>Looking for a unique gift?</h2>
+        <p>Town Hall has the answer. For only $100, you can get 
+           a book of tickets for all of the remaining speakers. And the bargain includes a 
+           second book of tickets for a companion.</p>
+		<p class="indent">Or, for $50, you can give yourself the gift of our speakers, and still get an extra
+           ticket for a companion, but for just one of the events.</p>
+        <p class="indent">See you at the next show?</p>
+        
+		<p id="contact_us"><em>Contact us by phone</em> at (559) 555-1212 for ticket information.</p>
+    </section>
+	<footer>
+		<p>&copy; Copyright 2012 San Joaquin Valley Town Hall.</p>
+	</footer>
+</body>
+</html>

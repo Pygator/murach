@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <title>Sales table</title>
+    <link rel="stylesheet" href="styles/css3_table.css" />
+</head>
+
+<body>
+
+<table summary="">
+	<caption>Total sales for books published from 2008 to 2011</caption>
+	<thead>
+	<tr>
+		<th id="hdr_book" scope="col">Book</th>
+		<th id="hdr_year" scope="col">Year Published</th>
+		<th id="hdr_sales" scope="col">Sales</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td headers="hdr_book">PHP and MySQL</td>
+		<td headers="hdr_year">2010</td>
+		<td headers="hdr_sales">$372,381</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">JavaScript and DOM Scripting</td>
+		<td headers="hdr_year">2009</td>
+		<td headers="hdr_sales">$305,447</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">Java Programming</td>
+		<td headers="hdr_year">2011</td>
+		<td headers="hdr_sales">$392,444</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">Java Servlets and JSP</td>
+		<td headers="hdr_year">2008</td>
+		<td headers="hdr_sales">$328.992</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr> 
+		<th id="hdr_total" scope="row">Total Sales</th>
+		<td></td>
+		<td headers="hdr_sales hdr_total">$2,154,786</td>
+	</tr>
+	</tfoot>
+</table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/speakers_pages.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+	$(function() {
+		var $slider = $('.panel-inner'); 							//get the slider
+		var liW = 75; 												//define single LI width
+		var liFW = parseInt(liW * ($slider.find('li').length + 1)); //find the full width of the UL 191 * LI's
+		$slider.css('width', liFW + 'px'); 							//apply the full-width to the UL
+		$('.button').click(function() {
+																	//if arrow right OR left, get the current left: CSS property of the UL
+			var leftX = (this.id == 'right') ? parseInt($slider.css('left').toString().replace('-', '')) : parseInt($slider.css('left'));
+																	//check and see if we have reached the end OR start of the UL width
+			var leftY = (this.id == 'right') ? ((leftX + 404) == liFW) ? 0: -(leftX + liW) : (leftX < 0) ? -(parseInt(leftX.toString().replace('-', '')) - liW) : 0;
+																	//apply the animation
+			rotate(leftY);
+		});
+		var rotate = function(leftY) {$slider.animate({left: leftY},500);}
+	});
+	</script>
+</head>
+
+<body>
+	<header>
+		<img src="../images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+		<hgroup>
+			<h1>San Joaquin Valley Town Hall</h1>
+			<h2>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h2>
+		</hgroup>
+	</header>
+	<nav>
+    	<ul>
+    		<li><a href="../index.html">Home</a></li>
+    		<li><a class="current" href="speakers.html">Speakers</a></li>
+    		<li><a href="../luncheons.html">Luncheons</a></li>
+    		<li><a href="../tickets.html">Tickets</a></li>
+    		<li><a href="about.html">About Us</a></li>
+    	</ul>
+    </nav>
+	<section>
+		<h1>jQuery Carousel</h1>
+		<div id="carousel">
+            <div class="button" id="left"><img src="../images/left.jpg" width="25" height="25" alt=""></div>
+            <div class="panel"> 
+                <ul class='panel-inner'>
+                	<li><img src="../images/toobin75.jpg" alt="Jeffrey Toobin"></li>
+            		<li><img src="../images/sorkin75.jpg" alt="Andrew Ross Sorkin"></li>
+            		<li><img src="../images/chua75.jpg" alt="Amy Chua"></li>
+            		<li><img src="../images/sampson75.jpg" alt="Scott Sampson"></li>
+     				<li><img src="../images/eire75.jpg" alt="Carlos Eire"></li>
+     				<li><img src="../images/tynan75.jpg" alt="Ronan Tynan"></li>
+                </ul>
+            </div>
+            <div class="button" id="right"><img src="../images/right.jpg" width="25" height="25" alt=""></div>
+	</section>
+	<aside>
+		<h1 id="speakers">Applications</h1>
+		<h2>JavaScript</h2>
+		<p><a href="image_swaps.html">Image Swaps</a></p>
+		<p><a href="image_rollovers.html">Image Rollovers</a></p>
+		<h2>jQuery</h2>
+		<p><a href="carousel.html">jQuery Carousel</a></p>
+		<p><a href="slideshow.html">jQuery Slide Show</a></p>
+		<p><a href="accordion.html">jQuery Accordion</a></p>
+		<h2>HTML5 and CSS3</h2>
+		<p><a href="geolocation.html">Fonts, Geolocation, and Storage</a></p>
+		<p><a href="canvas.html">Canvas</a></p>
+		
+	</aside>
+	<footer>
+		<p>&copy; 2012, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>

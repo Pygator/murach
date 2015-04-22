@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [ApClrObjects] (Assembly)
+     Create
+       [ApClrObjects] (Assembly)
+       [dbo].[GetInvoiceCount] (Procedure)
+       [dbo].[GetInvoiceReport] (Procedure)
+       [dbo].[GetInvoiceTotalSum] (Procedure)
+       [dbo].[InsertInvoiceTest] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[GetTop10Vendors] (Procedure)
+
+If this deployment is executed, [dbo].[GetTop10Vendors] will be dropped and not re-created.
+

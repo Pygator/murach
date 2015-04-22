@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Drop Down Lists</title>
+    <style>
+    	body {
+ 		    margin: 30px;
+		}
+    </style>
+</head>
+
+<body>
+<form name="myform" action="order.php" method="post">
+Crust:<br>
+<select name="crust">
+    <option value="thin">Thin Crust</option>
+    <option value="deep">Deep Dish</option>
+    <option value="hand">Hand Tossed</option>
+</select><br><br><br>
+
+Style:<br>
+<select name="size">
+    <optgroup label="The New Yorker">
+        <option value="ny10" selected>10"</option>
+        <option value="ny12">12"</option>
+        <option value="ny16">16"</option>
+    </optgroup>
+    <optgroup label="The Chicago">
+        <option value="chi10">10"</option>
+        <option value="chi12">12"</option>
+        <option value="chi16">16"</option>
+    </optgroup>
+</select><br><br>
+
+</form>
+</body>
+</html>

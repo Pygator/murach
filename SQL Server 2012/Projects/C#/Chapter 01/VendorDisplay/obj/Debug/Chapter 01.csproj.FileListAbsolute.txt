@@ -1,0 +1,10 @@
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\Chapter 01.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\Chapter 01.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\bin\Debug\Chapter 01.exe
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\bin\Debug\Chapter 01.pdb
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\Chapter_01.VendorDisplayForm.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\Chapter_01.Properties.Resources.resources
+C:\Murach\SQL Server 2008\Projects\C#\Chapter 01\Chapter 01\obj\Debug\Chapter 01.csproj.GenerateResource.Cache
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\Chapter 01.exe
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\Chapter 01.pdb

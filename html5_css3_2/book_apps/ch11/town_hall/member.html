@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>San Joaquin Valley Town Hall</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/member.css">
+</head>
+	
+<body>
+	<header>
+		<img src="images/logo.gif" alt="Town Hall Logo" width="80">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Bringing cutting-edge speakers to the valley</h3>
+    </header>
+    <nav id="nav_menu">
+    	<ul>
+    		<li><a href="index.html">Home</a></li>
+    		<li><a  href="#">Speakers</a>
+            	<ul>
+                	<li><a href="#">Jeffrey Toobin</a></li>
+                    <li><a href="#">Andrew Ross Sorkin</a></li>
+                    <li><a href="#">Amy Chua</a></li>
+                    <li><a href="sampson.html">Scott Sampson</a>
+                    	<ul>
+                        	<li><a href="#">September 2010</a></li>
+                    		<li><a href="#">February 2015</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="march.html">Carlos Eire</a></li>
+                    <li><a href="april.html">Ronan Tynan</a></li>
+                </ul>
+            </li>
+            <li><a href="tickets.html">Get Tickets</a></li>
+    		<li><a class="current" href="members.html">Become a Member</a></li>
+    		<li><a class="lastitem" href="aboutus.html">About Us</a></li>         
+    	</ul>
+    </nav>
+    <main>
+    	<aside>
+          <h2>This season's guest speakers</h2>
+          <nav>
+            <ul>
+              <li>October: <a class="date_passed" href="speakers/toobin.html">Jeffrey Toobin</a></li>
+              <li>November: <a class="date_passed" href="speakers/sorkin.html">Andrew Ross Sorkin</a></li>
+              <li>January: <a href="speakers/chua.html">Amy Chua</a></li>
+              <li>February: <a href="sampson.html">Scott Sampson</a></li>
+              <li>March: <a href="speakers/eire.html">Carlos Eire</a></li>
+              <li>April: <a href="speakers/tynan.html">Ronan Tynan</a></li>
+            </ul>
+          </nav>
+		</aside>
+		<article>
+			<h1>Become a Member</h1>
+    		<form action="register_account.html" method="get"
+        		name="registration_form" id="registration_form">
+    			<fieldset>
+	        		<legend>Registration Information</legend>
+	        		<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+	        		<label for="password">Password:</label>
+	        		<input type="password" name="password" id="password" required
+	                   	   placeholder="At least 6 letters or numbers"
+	                   	   pattern="[a-zA-Z0-9]{6,}" title="Must be at least 6 alphanumeric characters"><br>
+	        		<label for="verify">Verify Password:</label>
+	        		<input type="password" name="verify" id="verify" required><br>
+    			</fieldset>
+    			<fieldset>
+        			<legend>Member Information</legend>
+        			<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address"><br>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required><br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				           pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+				</fieldset>
+				<fieldset>
+					<legend>Membership Information</legend>
+					<label for="membership_type">Membership Type:</label>
+					<select name="membership_type" id="membership_type">
+				    	<option value="j">Junior</option>
+				    	<option value="r">Regular</option>            
+				    	<option value="c">Charter</option>
+					</select><br>
+					<label for="starting_date">Starting Date:</label>
+					<input type="date" name="starting_date" id="starting_date" required><br>
+					<label for="tickets">Tickets for Guests:</label>
+					<input type="number" name="tickets" id="tickets" value="2" min="1" max="4" placeholder="from 1 to 4"><br>
+				</fieldset>
+				<fieldset id="buttons">
+					<legend>Submit Your Membership</legend>
+					<label>&nbsp;</label>
+					<input type="submit" id="submit" value="Submit">
+					<input type="reset" id="reset" value="Reset Fields"><br>
+				</fieldset>
+			</form>
+		</article>
+	</main>
+	<footer>
+		<p>&copy; Copyright 2015 San Joaquin Valley Town Hall.</p>
+	</footer>
+	
+</body>
+</html>

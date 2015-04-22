@@ -1,0 +1,128 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #800000;
+    background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+}
+header h1 {
+	color: #800000;
+}
+header h2 {
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+/* the styles for the navigation bar */
+nav {
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	padding: 1em 0;       /* padding above and below li elements */
+	background-color: #800000; }
+nav li {
+	display: inline; }
+nav a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #fffded;
+	font-weight: bold;
+	border-right: 2px solid #fffded; }
+nav a.current { color: yellow; }
+
+/* the styles for the section */
+section {
+	clear: left;
+	padding: 0 20px 15px;
+	width: 525px;
+	float: right;
+}
+section h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+section h2 {
+	font-size: 120%;
+	padding: .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section ul {
+	padding-bottom: .25em;
+	list-style: none;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the image swap list */
+section #image_list li {
+	padding: 2px;
+	display: inline;
+}
+section #image_list a {
+	border:none;
+}
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+aside h2 {
+	font-size: 120%;
+	padding: .25em 0;
+}
+aside p {
+	padding-bottom: .5em;
+}
+/* the styles for the footer */
+footer {
+	border-top: 3px solid #800000;
+	clear: both;
+}
+footer p {
+	padding: 1em 0;
+	text-align: center;
+}

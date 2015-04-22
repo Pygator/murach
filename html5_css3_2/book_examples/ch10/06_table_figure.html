@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sales table as a figure</title>
+	<style>
+		figure, figcaption {
+			margin: 0;
+			padding: 0; }
+		figure {
+			border: 1px solid black;
+			width: 450px;
+			padding: 15px; }
+		figcaption {
+			display: block;
+			font-weight: bold;
+			text-align: center;
+			font-size: 120%;
+			padding-bottom: .25em; }
+		table {
+			border-collapse: collapse;
+			border: 1px solid black;
+			margin: 10px auto; }
+		thead, tfoot {
+			background-color: aqua;
+			font-weight: bold;
+			border: 1px solid black;
+		}
+		th, td {
+			padding: .2em .7em;
+			text-align: right;
+			border: 1px solid black;
+		}
+		th:first-child, td:first-child {
+			text-align: left;
+		}
+		tr td:nth-child(2) {
+			text-align: center;
+		}
+		tbody tr:nth-child(2n) {
+			background-color: silver;
+		}
+	</style>
+</head>
+
+<body>
+<figure>
+
+<figcaption>Total Sales by Book</figcaption>	
+<table>
+	<thead>
+		<tr>
+			<th>Book</th>
+			<th>Year Published</th>
+			<th>Sales</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>PHP and MySQL</td>
+			<td>2014</td>
+			<td>$372,381</td>
+		</tr>
+		<tr>
+			<td>JavaScript and jQuery</td>
+			<td>2015</td>
+			<td>$305,447</td>
+		</tr>
+		<tr>
+			<td>Java Programming</td>
+			<td>2011</td>
+			<td>$392,444</td>
+		</tr>
+		<tr>
+			<td>Java Servlets and JSP</td>
+			<td>2014</td>
+			<td>$328.992</td>
+		</tr>
+		<tr>
+			<td>ASP.NET with Visual Basic</td>
+			<td>2011</td>
+			<td>$351,200</td>
+		</tr>
+		<tr>
+			<td>ASP.NET with C#</td>
+			<td>2011</td>
+			<td>$404.332</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>Total Sales</th>
+			<td></td>
+			<td>$2,154,786</td>
+		</tr>
+	</tfoot>
+</table>
+</figure>
+
+</body>
+
+</html>

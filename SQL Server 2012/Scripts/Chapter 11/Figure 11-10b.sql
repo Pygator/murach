@@ -1,0 +1,3 @@
+USE New_AP;
+
+DROP TABLE Vendors1;

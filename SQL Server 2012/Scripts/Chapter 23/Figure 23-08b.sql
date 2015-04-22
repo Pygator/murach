@@ -1,0 +1,8 @@
+USE AP;
+
+IF OBJECT_ID('IX_Email') IS NOT NULL
+    DROP TABLE IX_Email;
+GO
+
+CREATE INDEX IX_Email
+	ON Users (Email);

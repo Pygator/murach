@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Other Selectors</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<style>
+			body { 
+				background-color: #facd8a;
+				font-family: Arial, sans-serif;
+			}
+			
+			* { color: green; }
+			
+			ul.speakers { list-style-type: square; }
+			
+			*[href] { font-family: Arial, sans-serif; }
+			a[href] { font-size: 95%; }
+			
+			input[type="submit"] {
+			    border: 1px solid black;
+			    color: #ef9c00;
+			    background-color: #facd8a;
+			}
+			
+			h1, h2, h3 { color: blue; }
+			p, ul.speakers>li { font-family: "Times New Roman", serif; }
+		</style>
+	</head>
+	
+	<body>
+		<main>
+			<h2>This Winter's Town Hall speakers</h2>
+			<ul class="speakers">
+				<li>January 20, 2010: <a href="speakers/brancaccio.html">David Brancaccio</a></li>
+				<li>February 17, 2010: <a href="speakers/fitzpatrick.html">Robert Fitzpatrick</a></li>
+				<li>March 17, 2010: <a href="speakers/williams.html">Juan Williams</a></li>
+			</ul>
+			<h2>Post-lecture luncheons</h2>
+			<p>Extend the excitement of Town Hall by purchasing tickets to the 
+			luncheons. This unique opportunity allows you to ask more questions 
+			of the speakers.</p>
+			<p>A limited number of tickets are available. Call now for reservations.</p>
+			<p><em>Contact us by phone</em> at (559) 555-1212.</p>
+		</main>
+		<footer>
+			<p class="copyright inactive">Copyright 2015</p>
+		</footer>
+	</body>
+</html>

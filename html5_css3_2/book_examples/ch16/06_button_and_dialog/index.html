@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Button and dialog</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.2.custom/jquery-ui.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+			$("#book").button();
+	
+			$("#book").click(function() { 
+				$("#dialog").dialog(					{
+					modal:true
+				});
+			});
+		});
+	</script>
+	</head>
+
+	<body>
+    <section>
+      <h1>Featured Book</h1>
+      <a id="book"><img src="images/jquery.jpg" alt="jQuery book" width="159" height="192" /></a>
+      <div id="dialog" title="JavaScript and jQuery" style="display: none;">
+        <p>jQuery is a free, open-source, JavaScript library that provides dozens of methods that 
+        	make it easier to code JavaScript applications (like slide shows, carousels, and image swaps). 
+        	That’s just one of the reasons why jQuery is so widely used that every web developer needs 
+        	to know how to use it...and use it well. And that’s where this book comes in.</p>
+      </div>
+    </section>
+</body>
+</html>

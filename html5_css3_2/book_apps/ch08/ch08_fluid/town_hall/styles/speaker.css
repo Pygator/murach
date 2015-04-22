@@ -1,0 +1,179 @@
+/* type selectors */
+html {
+	background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 96%;                       /* changed from 990 */
+	max-width: 1200px;                /* maximum width of page */
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 1px solid black;
+}
+article, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+article, aside {
+	margin-bottom: 1em;
+}
+p {
+	font-size: .875em;                   /* 14 / 16 */
+	padding-bottom: .5em;
+	line-height: 130%;
+}
+em {
+	font-weight: bold;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #931420 !important;
+}
+a:hover, a:focus {
+	color: black !important;
+}
+
+/* the styles for the header */
+header {
+	width: 100%;                         /* full width of body */
+	padding-bottom: 2em;
+}
+header h2 {
+	font-size: 2.25em;                   /* 36 / 16 */
+	color: #f2972e;
+	text-shadow: 2px 3px 0 black;
+	margin-left: 12.12121%;              /* 120 / 990 */
+	margin-bottom: .25em;
+}
+header h3 {
+	font-size: 1.25em;                   /* 20 / 16 */
+	font-style: italic;
+	margin-left: 12.12121%;              /* 120 / 990 */
+}
+header img {
+	width: 8.0808%;                      /* 80 / 990 */
+	max-width: 80px;                     /* native size */
+	float: left;
+	margin-left: 2.0202%;                /* 20 / 990 */
+}
+/* the styles for the navigation menu - operation */
+#nav_menu ul {
+	width: 100%;                        /* full width of body */
+	list-style-type: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+#nav_menu ul li.lastitem ul li ul {
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+/* the styles for the navigation menu - formatting */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li {
+	width: 20%;                              /* 198 / 990 */
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	background-color: #facd8a;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+}
+
+#nav_menu ul li:hover ul li:hover ul li {
+	width: 100%;
+}
+
+/* the styles for the article */
+article {
+	width: 54.0404%;                  /* 535 / 990 */
+	float: right;
+	margin-left: 2.0202%;             /* 20 / 990 */
+	padding: 1.5em 2.52525% 0 0;      /* 25 / 990 */
+}
+article h1 {
+	font-size: 1.75em;                /* 28 / 26 */
+	margin-bottom: .35em;
+}
+article img {
+	margin-bottom: 1em;
+	max-width: 100%;                  /* full width of article */
+}
+article p {
+	margin-bottom: .5em;
+}
+/* the styles for the sidebar */
+aside {
+	width: 35.35353%;                 /* 350 / 990 */
+	float: right;
+	padding: 2.0202%;                 /* 20 / 990 */
+	background-color: #ffebc6;
+	margin: 1.5em 2.0202% 0 0;        /* 20 / 990 */
+}
+aside h2 {
+	font-size: 1.25em;               /* 20 / 16 */
+	padding-bottom: .5em;
+}
+aside h3 {
+	font-size: 1em;                  /* base font size */
+	color: #931420;
+	padding-bottom: .5em;
+}
+aside ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+aside li {
+	font-size: .875em;              /* 14 / 16 */
+	padding-bottom: .35em;
+}
+/* the styles for the footer */
+footer {
+	clear: both;
+	width: 100%;                    /* full width of body */
+	border-top: 2px solid #f2972e;
+	padding-top: .7em;
+}
+footer p {
+	font-size: .75em;               /* 12 / 16 */ 
+	text-align: right;
+	margin-right: 2.0202%;          /* 20 / 990 */
+}

@@ -1,0 +1,40 @@
+.image1 {
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}
+.image2 {
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}
+.image3 {
+	-webkit-filter: contrast(50%);
+	filter: contrast(50%);
+}
+.image4 {
+	-webkit-filter: drop-shadow(2px 2px 5px #333);
+	filter: drop-shadow(2px 2px 5px #333);
+}
+.image5 {
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
+.image6 {
+	-webkit-filter: hue-rotate(90deg);
+	filter: hue-rotate(90deg);
+}
+.image7 {
+	-webkit-filter: invert(.80);
+	filter: invert(.80);
+}
+.image8 {
+	-webkit-filter: opacity(.50);
+	filter: opacity(.50);
+}
+.image9 {
+	-webkit-filter: saturate(30%);
+	filter: saturate(30%);
+}
+.image10 {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%) blur(1px);
+}

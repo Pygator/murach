@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	width: 500px;
+	margin: 0 auto;
+	border: 3px blue solid; 
+}
+section {
+	padding: 20px;	
+}
+div {
+    overflow:hidden;	
+}
+h1 {
+	margin: 0 0 .25em;
+	padding: 0;
+}
+ul {
+    list-style: none;
+	width: 500%;
+	margin:0;
+	padding:0;
+    position:relative;
+}
+ul li {
+    width: 20%;
+    float: left;
+}
+h2 {
+    color: blue;
+	font-size: 100%;
+}
+img {
+	max-width:100%;
+	height:auto;	
+}

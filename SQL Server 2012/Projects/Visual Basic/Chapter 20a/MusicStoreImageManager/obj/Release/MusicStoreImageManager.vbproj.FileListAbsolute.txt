@@ -1,0 +1,34 @@
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.vbproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.vbproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.pdb
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.xml
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\GenerateResource-ResGen.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\GenerateResource-ResGen.write.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe.config
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\GenerateResource.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 20a\MusicStoreImageManager\obj\Release\GenerateResource.write.1.tlog

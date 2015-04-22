@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/tickets.css">
+</head>
+
+<body>
+	<header>
+		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+	</header>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="speakers.html">Speakers</a></li>
+        	<li><a href="luncheons.html">Luncheons</a></li>
+        	<li><a href="tickets.html">Tickets</a></li>
+        	<li><a href="aboutus.html"> About Us</a>
+            	<ul>
+                	<li><a href="#">Our History</a></li>
+                	<li><a href="#">Board of Directors</a></li>
+                	<li><a href="#">Past Speakers</a></li>
+                	<li><a href="#">Contact Information</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav>
+	<main>
+		<section>
+			<h1>Become a Member</h1>
+    		<form action="register_account.html" method="get"
+        		name="registration_form" id="registration_form">
+    			<fieldset>
+	        		<legend>Registration Information</legend>
+	        		<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+	        		<label for="password">Password:</label>
+	        		<input type="password" name="password" id="password" required
+	                   	   placeholder="At least 6 letters or numbers"
+	                   	   pattern="[a-zA-Z0-9]{6,}" title="Must be at least 6 alphanumeric characters"><br>
+	        		<label for="verify">Verify Password:</label>
+	        		<input type="password" name="verify" id="verify" required><br>
+    			</fieldset>
+    			<fieldset>
+        			<legend>Member Information</legend>
+        			<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address"><br>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required><br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				           pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+				</fieldset>
+				<fieldset>
+					<legend>Membership Information</legend>
+					<label for="membership_type">Membership Type:</label>
+					<select name="membership_type" id="membership_type">
+				    	<option value="j">Junior</option>
+				    	<option value="r">Regular</option>            
+				    	<option value="c">Charter</option>
+					</select><br>
+					<label for="starting_date">Starting Date:</label>
+					<input type="date" name="starting_date" id="starting_date" required><br>
+					<label for="tickets">Tickets for Guests:</label>
+					<input type="number" name="tickets" id="tickets" value="2" min="1" max="4" placeholder="from 1 to 4"><br>
+				</fieldset>
+				<fieldset id="buttons">
+					<legend>Submit Your Membership</legend>
+					<label>&nbsp;</label>
+					<input type="submit" id="submit" value="Submit">
+					<input type="reset" id="reset" value="Reset Fields"><br>
+				</fieldset>
+			</form>
+		</section>
+		<aside>
+			<h2>Guest speakers</h2>
+			<h3>October<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h3>
+			<img src="images/toobin75.jpg" alt="Jeffrey Toobin photo">
+			<h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+			<img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
+			<h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
+			<img src="images/chua75.jpg" alt="Amy Chua photo">
+			<h3>February<br><a href="speakers/c7_sampson.html">Scott Sampson</a></h3>
+			<img src="images/sampson75.jpg" alt="Scott Sampson photo">
+		</aside>
+	</main>
+	<footer>
+		<p>&copy; 2015, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>

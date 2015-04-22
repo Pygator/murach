@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 706px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 20px;
+/*	border: 1px solid black*/
+}
+
+h2 { 
+	font-size: 125%;
+	margin-bottom: .5em;
+	clear: both;
+}
+
+nav {
+	margin-bottom: 2em;
+}
+/* the styles for the vertical navigation menu */
+#nav_menu_1 ul { 
+	list-style: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em; }
+#nav_menu_1 ul li { 
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px solid blue; }
+#nav_menu_1 ul li a {
+	display: block;
+	font-weight: bold;
+	color: blue;
+	text-decoration: none;
+	padding: .5em 0 .5em 1.5em; }
+#nav_menu_1 ul li a.current { background-color: silver; }
+
+/* the styles for the first horizontal navigation menu */
+#nav_menu_2 ul {
+	list-style: none;
+	padding: 1em 0;    /* padding above and below li elements */
+	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black; }
+#nav_menu_2 ul li {
+	display: inline;
+	padding: 0 1.5em;
+}
+#nav_menu_2 ul li a {
+	font-weight: bold;
+	color: blue; }
+#nav_menu_2 ul li a.current { text-decoration: none; }
+
+/* the styles for the second horizontal navigation menu */
+#nav_menu_3 ul {
+	list-style: none;
+}
+#nav_menu_3 ul li {
+	float: left;
+}
+#nav_menu_3 ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;      /* padding above and below li elements */
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid white;
+}
+#nav_menu_3 ul li a.lastitem {
+	border-right: none;
+}	
+#nav_menu_3 ul li a.current { color: yellow; }

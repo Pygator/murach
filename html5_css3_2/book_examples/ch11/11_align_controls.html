@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Aligning Controls</title>
+    <style>
+	    body { 
+	    	margin: 30px auto; 
+	    	width: 	500px; }
+		label {
+			float: left;
+			width: 5em;
+			text-align: right;}
+		input {
+			margin-left: 1em;
+			margin-bottom: .5em;}
+		#button {
+			margin-left: 7em; }
+	</style>
+</head>
+
+<body>
+<form name="myform" action="register.php" method="post">
+    <label for="firstname">First name:</label>
+    <input type="text" name="firstname" id="firstname" autofocus><br>
+    <label for="lastname">Last name:</label>
+    <input type="text" name="lastname" id="lastname"><br>
+    <label for="address">Address:</label>
+    <input type="text" name="address" id="address"><br>
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city"><br>
+    <label for="state">State:</label>
+    <input type="text" name="state" id="state"><br>
+    <label for="zip">Zip code:</label>
+    <input type="text" name="zip" id="zip"><br>
+    <input type="submit" name="register" id="button" value="Register">
+    <input type="reset" name="reset"> 
+</form>
+</body>
+</html>

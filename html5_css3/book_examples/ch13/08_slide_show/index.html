@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- JavaScript HTML requirements -->
+    <script src="slide_show_library.js"></script>
+    <script type="text/javascript" src="slide_show.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Current Best Sellers</h1><br>
+        <!-- 
+            JavaScript HTML requirements:
+            
+            A list that has the image reference for each photo in the a element,
+            and the caption in the title for each list item. 
+            
+            A span element that will display the caption for each photo. This  element
+            can be within a paragraph, an a heading element, or any other block element.
+            
+            An image element that will display the photo that corresponds to the thumbnail.
+            
+            The ids for the list, span, and img elements should be
+            image_list, caption, and image.                
+        -->
+        <ul id="image_list">
+            <li><a href="images/js.jpg" title="JavaScript and DOM Scripting"></a></li>
+            <li><a href="images/php.jpg" title="PHP and MySQL"></a></li>
+            <li><a href="images/vb10.jpg" title="Visual Basic 2010"></a></li>
+            <li><a href="images/cs10.jpg" title="C# 2010"></a></li>
+            <li><a href="images/asp_vb.jpg" title="ASP.NET 4 with VB 2010"></a></li>
+            <li><a href="images/asp_cs.jpg" title="ASP.NET 4 with C# 2010"></a></li>
+        </ul>
+        <p id="controls">
+            <button id="btn_previous" disabled="disabled">
+                <img src="images/prev.gif" alt="Previous Image">
+            </button>
+            <button id="btn_play">
+                <img src="images/pause.gif" alt="Play or Pause" id="img_play_pause">
+            </button>
+            <input type="button" id="btn_speed" value="Slow">
+            <button id="btn_next" disabled="disabled">
+                <img src="images/next.gif" alt="Next Image">
+            </button>
+        </p>
+        
+        <h2><span id="caption">JavaScript and DOM Scripting</span></h2>               
+        <p><img src="images/js.jpg" alt="" id="image"></p>
+    </section>
+    
+</body>
+</html>

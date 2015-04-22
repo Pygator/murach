@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery.ui.all.css">
+    <!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+	<script>
+    $(function() {
+		$("#book").click(function(event){
+			$("#dialog").dialog({width:300});
+		});
+    });
+    </script>
+</head>
+
+<body>
+   <aside>
+    	<h1>Featured Book</h1>
+        <img src="images/javascriptbook.jpg" id="book" alt="JavaScript book" width="159" height="192">
+        <div id="dialog" title="JavaScript and DOM Scripting" style="display:none;">
+        	<img src="images/javascriptbook_300.jpg" alt="JavaScript book" width="250" height="313">
+        </div>
+   </aside>
+    
+    <section>
+
+    </section>
+</body>
+</html>

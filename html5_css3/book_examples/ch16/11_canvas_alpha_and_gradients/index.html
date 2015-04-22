@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Canvas Element - Drawing Simple Shapes</title>
+    <style>
+    body {
+    	margin: 2em;
+    }
+    canvas { display: inline; }
+	#myCanvas_01 {background-image:url('images/murach_100_square.jpg');}
+	</style>
+    <script>
+	function drawShapes() {
+		// DRAW TRANSPARENT SQUARE
+		var canvas_01 = document.getElementById("myCanvas_01");
+		var context_01 = canvas_01.getContext("2d");
+		context_01.fillStyle = "blue";
+		context_01.globalAlpha = .5;
+		context_01.fillRect(15, 15, 70, 70);
+    	// DRAW RECTANGLE WITH GRADIENT FILL
+		var canvas_02 = document.getElementById("myCanvas_02");
+		var context_02 = canvas_02.getContext("2d");
+		var gradient = context_02.createLinearGradient(50, 0, 150, 100);
+		gradient.addColorStop(0, "red");
+		gradient.addColorStop(.5, "white");
+		gradient.addColorStop(1, "blue");
+		context_02.fillStyle = gradient;
+		context_02.fillRect(0, 0, 200, 100);
+	}
+	</script>
+</head>
+
+<body onLoad="drawShapes()">
+    <h1>Transparency and Gradient</h1>
+	<canvas id="myCanvas_01" width="200" height="100"></canvas>
+    <canvas id="myCanvas_02" width="200" height="100"></canvas>
+</body>
+</html>

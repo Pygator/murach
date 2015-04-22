@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Fluid widths</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<style>
+		body {
+			width: 90%;    /* changed from 960px */
+			max-width: 1024px;
+			margin: 0 auto;
+			border: 2px solid black; 
+		}
+		header {
+			width: 96.875%;    /* 930 / 960 */
+			padding: 15px 1.5625%;    /* 15 / 960 */
+			border-bottom: 2px solid black;
+		}
+		main {
+			width: 59.375%;    /* 570 / 960 */             
+			padding: 15px 1.5625%;    /* 15 / 960 */
+			float: left;
+		}
+		aside {
+			width: 34.375%;    /* 330 / 960 */
+			padding: 15px 1.5625%;    /* 15 / 960 */
+			float: right;
+		}
+		footer {
+			clear: both;
+			width: 96.875%;    /* 930 / 960 */
+			padding: 15px 1.5625%;    /* 15 / 960 */
+			border-top: 2px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<header><p>This is the text for the header.</p></header>
+   	<main><p>This is the text for the main element.</p></main>
+   	<aside><p>This is the text for the aside.</p></aside>
+	<footer><p>This is the text for the footer.</p></footer>
+</body>
+</html>

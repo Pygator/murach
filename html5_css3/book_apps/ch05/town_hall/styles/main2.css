@@ -1,0 +1,61 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/* the reset selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 600px;
+	margin: 1em auto;
+}
+img { float: left; }
+
+h1 { font-size: 250%; }
+h2 { font-size: 150%; }
+
+h1, h2 {
+	margin-bottom: 0.25em;
+}
+a { font-weight: bold; }
+a:link { color: green; }
+a:visited { color: #ef9c00; }
+a:hover { color: blue; }
+
+ul { margin: 0 0 1.5em 1.25em; }
+li { 
+	padding-bottom: 0.35em;
+	padding-left: 0.25em; }
+
+p { padding: 0.25em 0;}
+	
+em { font-weight: bold; }
+
+/* the styles for the header */
+header h1 {
+    color: #ef9c00;
+    text-align: center;
+	text-shadow: 2px 2px 0 black; }
+header h2 {
+    color: green;
+	font-style: italic;
+    text-align: center; }
+
+/* the styles for the section */
+section { clear: left; }
+section h1 {
+	font-size: 200%;
+	margin-top: 1em; }
+#contact_us { margin-top: 1.5em; }
+a.date_passed  { color: gray; }
+
+/* the styles for the footer */
+footer { margin-top: 1em; }
+footer p {
+	font-size: 80%;
+	text-align: right; }

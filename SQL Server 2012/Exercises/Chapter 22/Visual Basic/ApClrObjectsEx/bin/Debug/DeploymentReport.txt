@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[GetTop10Vendors] (Procedure)
+       [ApClrObjectsEx] (Assembly)
+     Create
+       [ApClrObjectsEx] (Assembly)
+       [dbo].[GetTop10Vendors] (Procedure)
+
+** Supporting actions

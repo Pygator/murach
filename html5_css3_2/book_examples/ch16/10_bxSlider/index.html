@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bxSlider Plugin</title>
+    <!-- Normal style sheet -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- bxSlider styles -->
+	<link href="jquery.bxslider.css" rel="stylesheet">
+    <!-- jQuery library -->
+     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- The bxSlider plugin -->
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <!-- Call to the bxSlider function -->
+    <script>
+    	$(document).ready(function() {
+        	$("#slider").bxSlider({
+			  auto: true,
+			  autoControls: true,
+			  captions: true,
+			  minSlides: 2,
+			  maxSlides: 2,
+			  slideWidth: 250,
+			  slideMargin: 10
+			});
+    	});
+    </script>
+</head>
+
+<body>
+    <section>
+        <h1>About Us</h1>
+        <p>On June 6th, 2012, Vecta Corp. moved into its new 4 story, 35,000 square foot facilty. Below are a few pictures of the new facility.</p>
+        <ul id="slider">
+            <li><img src="images/building_01.jpg" alt="" title="Front"></li>
+            <li><img src="images/building_02.jpg" alt="" title="Left side"></li>
+            <li><img src="images/building_03.jpg" alt="" title="Rear"></li>
+            <li><img src="images/building_04.jpg" alt="" title="Offices"></li>
+            <li><img src="images/building_05.jpg" alt="" title="Conference room"></li>
+        </ul>
+    </section>
+</body>
+</html>

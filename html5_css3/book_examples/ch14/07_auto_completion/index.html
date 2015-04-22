@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery.ui.all.css">
+    <!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+	<script>
+    $(function() {
+        var murachBooks = [
+            "ASP",
+			"ASP.NET",
+            "BASIC",
+            "C",
+			"C#",
+            "C++",
+			"CICS",
+			"CSS",
+            "COBOL",
+			"Databases",
+			"DOS",
+			"DB2",
+			"HTML",
+			"IMS",
+            "Java",
+            "JavaScript",
+			"LINQ",
+			"OS/390",
+            "Perl",
+            "PHP",
+            "Python",
+			"VB",
+			"VB.NET",
+			"Visual Basic",
+            "Web Development",
+			"Web Programming",
+			"XHTML",
+			"z/OS JCL"
+        ];
+        $("#books").autocomplete({
+            source: murachBooks
+        });
+    });
+    </script>
+</head>
+
+<body>
+   <section>
+        <h1>Search our Book Database</h1><br>       
+        <div class="ui-widget">
+            <label for="books">Book: </label>
+            <input id="books">
+        </div>
+    </section>
+    
+</body>
+</html>

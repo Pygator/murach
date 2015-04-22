@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <style>
+    	body {
+    		margin: 1em;
+    	}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>  
+    function initGeolocation() {  
+        navigator.geolocation.getCurrentPosition(getLocation, errorHandling);  
+    }  
+    function errorHandling(error) {  
+        switch(error.code) {  
+            case error.PERMISSION_DENIED: alert("You are not sharing your location.");  
+            break;  
+            case error.POSITION_UNAVAILABLE: alert("Could not detect your position.");  
+            break;  
+            case error.TIMEOUT: alert("Position retrieval timed out.");  
+            break;  
+            default: alert("Unknown error.");  
+            break;  
+        }  
+    }
+    function getLocation(position) {  
+        var url = "http://maps.google.com/maps/api/staticmap?sensor=false&center=" + 
+            position.coords.latitude + "," +  
+            position.coords.longitude + "&zoom=14&size=300x400&markers=color:red|" +  
+            position.coords.latitude + ',' + 
+            position.coords.longitude;  
+        $("#map").attr("src", url)
+    }
+    </script> 
+</head>
+
+<body onLoad="initGeolocation()">
+    <p>Your current location is:</p>
+    <img src="" id="map">       
+</aside>
+</body>
+</html>

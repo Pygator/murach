@@ -1,0 +1,3 @@
+USE AP;
+
+DELETE InvoiceCopy;

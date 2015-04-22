@@ -1,0 +1,4 @@
+USE AP;
+
+SELECT * FROM DDLActivityLog2
+WHERE EventType = 'DROP_TABLE';

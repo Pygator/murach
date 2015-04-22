@@ -1,0 +1,48 @@
+﻿** Warnings
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [ApClrObjects] (Assembly)
+     Create
+       [MartinRey] (User)
+       [ApClrObjects] (Assembly)
+       [dbo].[Vendors_Update_State] (Trigger)
+       [Database_CreateTable_DropTable] (Trigger)
+
+** Supporting actions
+     Drop
+       [dbo].[GetHelloMessage] (Function)
+       [dbo].[GetBalanceDueSum] (Function)
+       [dbo].[GetTopVendorsDue] (Function)
+       [dbo].[GetInvoiceTotalSum] (Procedure)
+       [dbo].[InsertInvoiceTest] (Procedure)
+       [dbo].[InsertInvoice] (Procedure)
+       [dbo].[InsertInvoiceWithDefaultValues] (Procedure)
+       [dbo].[GetInvoiceCount] (Procedure)
+       [dbo].[GetInvoiceReport] (Procedure)
+     Create
+       [dbo].[GetHelloMessage] (Function)
+       [dbo].[GetBalanceDueSum] (Function)
+       [dbo].[GetTopVendorsDue] (Function)
+       [dbo].[GetInvoiceTotalSum] (Procedure)
+       [dbo].[InsertInvoiceTest] (Procedure)
+       [dbo].[InsertInvoice] (Procedure)
+       [dbo].[InsertInvoiceWithDefaultValues] (Procedure)
+       [dbo].[GetInvoiceCount] (Procedure)
+       [dbo].[GetInvoiceReport] (Procedure)

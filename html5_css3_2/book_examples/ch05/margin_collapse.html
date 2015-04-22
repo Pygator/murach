@@ -1,0 +1,44 @@
+<!doctype html >
+<html >
+	<head>
+		<title>Margin Collapse</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+			    border: 1px dashed black;
+			    margin: 10px;
+			}
+			main {
+			    border:  2px solid black;
+			    margin:  15px;
+			    padding: 10px;
+			}
+			footer {
+				border: 2px solid black;
+				margin: 15px;
+				padding: 10px;
+			}
+			h1 {
+			    border: 1px dashed black;
+			    margin:  0;  /* .5em top, 0 right and left, .25em bottom */
+			    padding-left: 15px;
+			}
+			p {
+			    border: 1px dashed black;
+			    margin: 0;
+			    padding-left: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<main>
+			<h1>San Joaquin Valley Town Hall</h1>
+			<p>Welcome to San Joaquin Valley Town Hall.
+			We have some amazing speakers in store for you this season!</p>
+		</main>
+		<footer>
+			<p>&copy; Copy 2015 San Joaquin Valley Town Hall.</p>
+		</footer>
+	</body>
+</html>

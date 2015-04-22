@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [ApClrObjects] (Assembly)
+     Create
+       [ApClrObjects] (Assembly)
+       [Database_CreateTable_DropTable] (Trigger)
+
+** Supporting actions
+     Drop
+       [dbo].[Vendors_Update_State] (Trigger)
+       [dbo].[GetHelloMessage] (Function)
+       [dbo].[GetBalanceDueSum] (Function)
+       [dbo].[GetTopVendorsDue] (Function)
+       [dbo].[GetInvoiceCount] (Procedure)
+       [dbo].[GetInvoiceReport] (Procedure)
+       [dbo].[GetInvoiceTotalSum] (Procedure)
+       [dbo].[InsertInvoiceTest] (Procedure)
+       [dbo].[InsertInvoice] (Procedure)
+       [dbo].[InsertInvoiceWithDefaultValues] (Procedure)
+     Create
+       [dbo].[Vendors_Update_State] (Trigger)
+       [dbo].[GetHelloMessage] (Function)
+       [dbo].[GetBalanceDueSum] (Function)
+       [dbo].[GetTopVendorsDue] (Function)
+       [dbo].[GetInvoiceCount] (Procedure)
+       [dbo].[GetInvoiceReport] (Procedure)
+       [dbo].[GetInvoiceTotalSum] (Procedure)
+       [dbo].[InsertInvoiceTest] (Procedure)
+       [dbo].[InsertInvoice] (Procedure)
+       [dbo].[InsertInvoiceWithDefaultValues] (Procedure)

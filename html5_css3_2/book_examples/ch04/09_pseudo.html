@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Psuedo-class selectors</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<style>
+			body {
+    			font-family: Arial, Helvetica, sans-serif;
+    			font-size: 87.5%;
+    			margin: 2em; }
+			a { font-weight: bold; }
+			a:link { color: green; }
+			a:hover, a:focus { color: fuchsia; }
+			main p:first-child { font-weight: bold; }
+			main p:first-child::first-letter { font-size: 150%; }
+		</style>
+	</head>
+	
+	<body>
+		<main>
+			<p>Welcome to San Joaquin Valley Town Hall.</p> 
+			<p>We have some fascinating speakers for you this season!</p>
+			<ul>
+				<li><a href="speakers/toobin.html">Jeffrey Toobin</a></li>
+				<li><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></li>
+				<li><a href="speakers/chua.html">Amy Chua</a></li>
+			</ul>
+		</main>
+	</body>
+</html>

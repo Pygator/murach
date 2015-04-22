@@ -1,0 +1,41 @@
+/* the default styles for the document */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+    margin: 0;
+	padding: 0;
+}
+
+/* the styles for the center content */
+main {
+	width: 450px;
+	padding: 25px;
+}
+main h1 {
+	font-size: 140%;
+	color: #004e97;
+	padding-bottom: .3em;
+	margin-bottom: 0;
+}
+main h2 {
+    font-size: 105%;
+	margin-top: .6em;
+	margin-bottom: 0;
+	position: relative;
+}
+main h3 {
+	font-size: 95%;
+	font-weight: normal;
+	margin-top: .3em;
+	margin-bottom: 0;
+	position: relative;
+}
+.title {
+	position: absolute;
+	left: 90px;
+}
+.number {
+	position: absolute;
+	right: 0;
+}
+

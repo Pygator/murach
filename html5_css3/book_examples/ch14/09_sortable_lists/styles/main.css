@@ -1,0 +1,56 @@
+/* the default styles for the document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	margin: 0 auto;
+	padding: 0;
+	width: 750px;}
+	
+div, h1, h3, p {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 140%;
+	color: blue;
+}
+h2 {
+	font-size: 115%;
+}
+p {
+	padding-bottom: .5em;
+}
+	
+/* the styles for the section */
+section {
+	background-color: white;
+	width: 500px;
+	padding: 20px 0;
+	float: left;
+	}
+
+/* the styles for the right sidebar */
+aside {
+	width: 200px;
+	float: right;
+	padding: 20px 0;
+}
+aside img {border: none;}
+
+/* the styles for the sortable list */
+#sortable {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:80%;
+}
+#sortable li {
+	margin:0 3px 3px 3px;
+	padding:0.4em;
+	padding-left:1.5em;
+	height:18px;
+}
+#sortable li span {
+	position:absolute;
+	margin-left:-1.3em; /* This determines the location of the icon to the left of each item */
+}

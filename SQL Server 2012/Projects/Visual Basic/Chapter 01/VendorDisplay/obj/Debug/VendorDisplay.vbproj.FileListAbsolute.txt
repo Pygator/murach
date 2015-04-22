@@ -1,0 +1,38 @@
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.frmVendorDisplay.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.vbproj.GenerateResource.Cache
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.exe
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.xml
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.pdb
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.exe
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.pdb
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.xml
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.frmVendorDisplay.resources
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.Resources.resources
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.exe.config
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Anne.murach\Documents\SQL Server 2012\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource.write.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.exe.config
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.exe
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.xml
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.pdb
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.exe
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.pdb
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\bin\Debug\VendorDisplay.xml
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.frmVendorDisplay.resources
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\VendorDisplay.Resources.resources
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource-ResGen.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource.read.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource-ResGen.write.1.tlog
+M:\Current projects\SQL Server 2012\Projects\Visual Basic\Chapter 01\VendorDisplay\obj\Debug\GenerateResource.write.1.tlog

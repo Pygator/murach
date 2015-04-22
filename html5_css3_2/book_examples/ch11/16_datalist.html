@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Datalist</title>
+    <style>
+    	body { margin: 30px; }
+    </style>
+</head>
+
+<body>
+<form name="myform" action="survey.php" method="post">
+<p>Our company is conducting a survey. Please answer the question below.</p>
+<label for="link">What is your preferred search engine:</label>
+<input type="url" name="link" id="link" list="links"><br><br>
+<datalist id="links">
+    <option value="http://www.google.com/" label="Google">
+    <option value="http://www.yahoo.com/" label="Yahoo">
+    <option value="http://www.bing.com/" label="Bing">
+    <option value="http://www.ask.com/" label="Ask">
+</datalist>
+<input type="submit" name="submit" value="Submit Survey">
+</form>
+</body>
+</html>

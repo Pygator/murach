@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>A Simple Transform</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+		.image1, .image2 {
+			transition: 2s;
+			-webkit-transition: 2s;
+		}
+		.image1:hover {
+			transform: rotateY(360deg);
+			-webkit-transform: rotateY(360deg);
+		}
+		.image2:hover {
+			transform: rotateY(180deg);
+			-webkit-transform: rotateY(180deg);
+			transform-origin: right;
+		}
+	</style>
+    </head>
+
+    <body>
+        <h3>Default Transform Origin</h3>
+        <p><img src="images/01.jpg" > <img src="images/01.jpg" class="image1"></p>
+        <h3>Modified Transform Origin</h3>
+        <p><img src="images/01.jpg"> <img src="images/01.jpg" class="image2"></p>
+    </body>
+</html>

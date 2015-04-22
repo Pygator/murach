@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Image map</title>
+		<style>
+			img {
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<p>
+			<img src="images/washington_divided.gif" alt="Washington" usemap="#washington">
+			<map name="washington">
+				<area href="north.html" shape="rect" coords="0,0,132,37" 
+				      alt="Northern Washington" title="Northern Washington">
+				<area href="south.html" shape="rect" coords="0,38,132,82" 
+				      alt="Southern Washington" title="Southern Washington">
+			</map>
+		</p>
+		<p>
+			<img src="images/web.jpg" alt="Dreamweaver and jQuery books" usemap="#books">
+			<map name="books">
+				<area href="Dreamweaver.html" shape="poly" alt="Dreamweaver book" title="Dreamweaver" 
+				      coords="0,44, 171,1, 202,13, 170,230, 57,258">
+				<area href="jquery.html" shape="poly" alt="jQuery book" title="jQuery" 
+				      coords="223,40, 393,88, 336,302, 166,252">
+			</map>
+		</p>
+	</body>
+</html>

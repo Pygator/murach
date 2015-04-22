@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Fieldsets and legends</title>
+    <style>
+    	body {
+ 		    margin: 30px;
+		}
+    </style>
+</head>
+
+<body>
+<form name="myform" action="order.php" method="get">
+	<fieldset>
+    <legend>Crust</legend>
+    <input type="radio" name="crust" id="crust1" value="thin">
+    <label for="crust1">Thin Crust</label><br>
+    <input type="radio" name="crust" id="crust2" value="deep">
+    <label for="crust2">Deep Dish</label><br>
+    <input type="radio" name="crust" id="crust3" value="hand">
+    <label for="crust3">Hand Tossed</label>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>Toppings</legend>
+    <input type="checkbox" name="topping1" id="topping1" value="pepperoni">
+    <label for="topping1">Pepperoni</label><br>
+    <input type="checkbox" name="topping2" id="topping2" value="mushrooms">
+    <label for="topping2">Mushrooms</label><br>
+    <input type="checkbox" name="topping3" id="topping3" value="olives">
+    <label for="topping3">Black Olives</label>
+    </fieldset>
+</form>
+</body>
+</html>

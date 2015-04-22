@@ -1,0 +1,66 @@
+
+/* the default styles for the document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:85%;
+	margin:0 auto;
+	width: 400px;}
+	
+h1, h2, p, ul {
+	margin: 0;
+	padding: 0;
+	
+}
+h1 {
+	font-size:140%;
+	padding-top: 1em;
+	color: blue;
+}
+h2 {
+	font-size: 125%;
+	padding: .5em 0;
+}
+h3 {font-size:95%;}
+
+
+/* the styles for the center content */
+section {
+	background-color: white;
+}
+
+/* the styles for the tabs */
+#tab_list {
+    margin:0;
+    padding: 3px 6px;
+    border-bottom: 1px solid black;
+}
+#tab_list li {
+    list-style: none;
+    display: inline;
+}
+#tab_list li a {
+    padding: 3px 1em;
+    margin-left: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #ccffff;
+    border: 1px solid black;
+}
+#tab_list li a:hover { 
+    background: silver;
+    border-color: black;
+}
+#tab_list li a.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+#tab_contents div { 
+    padding: 5px 10px 10px;
+    border: 1px solid black;
+    border-top: 0;
+    height: 100px;
+    overflow:auto;
+}
+.hide {
+    display: none; 
+}

@@ -1,0 +1,30 @@
+ul {
+	-webkit-animation: slideshow 15s infinite alternate;
+	animation: slideshow 15s infinite alternate;
+}
+@-webkit-keyframes slideshow {
+    0%		{left:    0%;}
+    10%		{left:    0%;}
+    20%		{left: -100%;}
+    30%		{left: -100%;}
+    40%		{left: -200%;}
+    50%		{left: -200%;}
+    60%		{left: -300%;}
+    70%		{left: -300%;}
+    80%		{left: -400%;}
+    90%		{left: -400%;}
+    100%	{left: -400%;}
+}
+@keyframes slideshow {
+    0%		{left:    0%;}
+    10%		{left:    0%;}
+    20%		{left: -100%;}
+    30%		{left: -100%;}
+    40%		{left: -200%;}
+    50%		{left: -200%;}
+    60%		{left: -300%;}
+    70%		{left: -300%;}
+    80%		{left: -400%;}
+    90%		{left: -400%;}
+    100%	{left: -400%;}
+}

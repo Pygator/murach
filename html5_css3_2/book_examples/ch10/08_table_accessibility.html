@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <title>Sales table</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			border: 1px solid black;
+			margin: 10px auto;
+		}
+		caption {
+			font-weight: bold;
+			font-size: 115%;
+			padding-bottom: .25em;
+		}
+		thead, tfoot {
+			background-color: aqua;
+			font-weight: bold;
+			border: 1px solid black;
+		}
+		th, td {
+			padding: .2em .7em;
+			text-align: right;
+			border: 1px solid black;
+		}
+		th:first-child, td:first-child {
+			text-align: left;
+		}
+		th:nth-child(2), td:nth-child(2) {
+			text-align: center;
+		}
+		tbody tr:nth-child(even) {
+			background-color: silver;
+		}
+	</style>
+</head>
+
+<body>
+
+<table summary="">
+	<caption>Total sales for books published from 2011 to 2015</caption>
+	<thead>
+	<tr>
+		<th id="hdr_book" scope="col">Book</th>
+		<th id="hdr_year" scope="col">Year Published</th>
+		<th id="hdr_sales" scope="col">Sales</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td headers="hdr_book">PHP and MySQL</td>
+		<td headers="hdr_year">2014</td>
+		<td headers="hdr_sales">$372,381</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">JavaScript and jQuery</td>
+		<td headers="hdr_year">2015</td>
+		<td headers="hdr_sales">$305,447</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">Java Programming</td>
+		<td headers="hdr_year">2011</td>
+		<td headers="hdr_sales">$392,444</td>
+	</tr>
+	<tr>
+		<td headers="hdr_book">Java Servlets and JSP</td>
+		<td headers="hdr_year">2014</td>
+		<td headers="hdr_sales">$328.992</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr> 
+		<th id="hdr_total" scope="row">Total Sales</th>
+		<td></td>
+		<td headers="hdr_sales hdr_total">$2,154,786</td>
+	</tr>
+	</tfoot>
+</table>
+
+
+</body>
+
+</html>

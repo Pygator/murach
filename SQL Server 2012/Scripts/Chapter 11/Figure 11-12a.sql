@@ -1,0 +1,4 @@
+Use New_AP;
+
+CREATE SEQUENCE TestSequence1
+START WITH 1;

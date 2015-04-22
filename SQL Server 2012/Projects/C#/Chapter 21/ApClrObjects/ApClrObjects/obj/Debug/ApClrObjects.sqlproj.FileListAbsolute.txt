@@ -1,0 +1,6 @@
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\bin\Debug\ApClrObjects.dacpac
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\bin\Debug\ApClrObjects.dll
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\bin\Debug\ApClrObjects.pdb
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\obj\Debug\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\obj\Debug\ApClrObjects.dll
+M:\Current projects\SQL Server 2012\Projects\C#\Chapter 21\ApClrObjects\ApClrObjects\obj\Debug\ApClrObjects.pdb

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="MultipleLineItems">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="Invoice">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="InvoiceNumber" type="xs:string" />
+							<xs:element name="InvoiceDate" type="xs:dateTime" />
+							<xs:element name="InvoiceTotal" type="xs:decimal" />
+							<xs:element maxOccurs="unbounded" name="LineItem">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ItemDescription" type="xs:string" />
+										<xs:element name="ItemAmount" type="xs:decimal" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

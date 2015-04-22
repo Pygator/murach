@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- JavaScript HTML requirements -->
+    <script type="text/javascript" src="rollover_library.js"></script>
+    <script type="text/javascript" >
+        var $ = function (id) { return document.getElementById(id); }
+        var rollover;
+            window.onload = function () {
+            <!-- One statement for each rollover -->
+            rollover1 = new Rollover("image1", "images/vb10.jpg")
+            rollover2 = new Rollover("image2", "images/asp_vb.jpg")
+			rollover3 = new Rollover("image3", "images/ado_vb.jpg")              
+            }
+    </script>
+</head>
+
+<body>
+    <section>
+        <h1>Current Best Sellers in both C# and VB Editions</h1><br>            
+        <ul>
+        	<li><img src="images/cs10.jpg" alt="" id="image1"></li>
+        	<li><img src="images/asp_cs.jpg" alt="" id="image2"></li>
+        	<li><img src="images/ado_cs.jpg" alt="" id="image3"></li>
+        </ul>
+        <h2>Hover the mouse over a cover to see the VB edition</h2>       
+    </section>
+</body>
+</html>

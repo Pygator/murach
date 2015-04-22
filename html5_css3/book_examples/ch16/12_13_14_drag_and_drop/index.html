@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+	<style>
+	    body {
+	    	margin: 2em;
+	    }
+		img {
+			float:left;
+			margin:10px;
+			width:75px;
+			height:100px;}
+		#cart {
+			min-height:100px;
+			width:275px;
+			border:3px dashed #ccc;
+			margin:10px;
+			padding:10px;
+			clear:left;}
+		#books input {
+			margin:10px;
+			border:2px solid black;
+			width:100px;
+			height:30px;}
+    </style>
+</head>
+
+<body>
+    <section id="books">
+        <h1>Murach Books</h1>
+        <img src="images/book1.jpg" draggable="true" ondragstart="drag(this, event)" id="SQL Server 2008">
+        <img src="images/book2.jpg" draggable="true" ondragstart="drag(this, event)" id="PHP and MySQL">
+        <img src="images/book3.jpg" draggable="true" ondragstart="drag(this, event)" id="Visual Basic 2010">
+        <img src="images/book5.jpg" draggable="true" ondragstart="drag(this, event)" id="ASP.NET 4 with VB 2010">
+        <div id="cart"
+             ondrop="drop(this, event)" 
+        	 ondragenter="return false" 
+             ondragover="return false">
+        	<strong>Shopping Cart (Drag books here)</strong>
+        </div>
+		<script>
+        function drag(target, e) {
+            e.dataTransfer.setData('Text', target.id);
+        }
+        function drop(target, e) {
+            if (e.preventDefault) {
+                e.preventDefault();
+            }
+            target.innerHTML += '<p>' + e.dataTransfer.getData('Text') + '</p>';
+        }
+        </script>
+        <input type="button" value="Checkout">
+    </section>
+    
+    
+</body>
+</html>

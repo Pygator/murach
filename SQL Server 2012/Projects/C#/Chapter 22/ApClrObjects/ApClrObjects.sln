@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ApClrObjects", "ApClrObjects\ApClrObjects.sqlproj", "{D26BA9AC-B70D-4001-9479-39D862625BAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26BA9AC-B70D-4001-9479-39D862625BAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

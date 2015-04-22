@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+	font-size: 100%;
+    width: 300px;
+    padding: 1em;
+}
+h1 {
+	font-size: 180%;
+}
+#copyright {
+    font-size: 75%;
+    text-align: right;
+}
+.base_color {
+    color: blue;
+}

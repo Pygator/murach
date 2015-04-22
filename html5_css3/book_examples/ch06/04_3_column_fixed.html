@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>3-column fixed template</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+<style>
+	/* basic setup */
+	article, aside, figure, footer, header, nav, section {
+	    display: block; }
+	* {
+		margin: 0;
+		padding: 0; }
+	html { background-color:#FACD8A; }
+	
+	h1 { padding: 10px; }
+	
+	/* the styles for the header, section, sidebar, and footer */
+	header { border-bottom: 2px solid #ef9c00; }
+	body {
+		width: 964px;
+		background-color: white;
+		margin: 15px auto;
+		border: 1px solid black; }
+	#sidebarA {
+		width: 180px;
+		height: 400px;
+		float: left;
+		border-right: 2px solid #ef9c00; }
+	section {
+		width: 600px; 
+		float: left; }
+	#sidebarB {
+		width: 180px;
+		height: 400px;
+		float: right;
+		border-left: 2px solid #ef9c00; }
+	footer {
+		clear: both;
+		border-top: 2px solid #ef9c00; }
+</style>
+</head>
+
+<body>
+	<header><h1>Header</h1></header>
+	<aside id="sidebarA"><h1>Sidebar A</h1></aside>
+    <section><h1>Section</h1></section>
+    <aside id="sidebarB"><h1>Sidebar B</h1></aside>
+	<footer><h1>Footer</h1></footer>
+</body>
+</html>

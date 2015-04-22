@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>How Geolocation Works</title>
+	<script>  
+    function initGeolocation() {  
+        navigator.geolocation.getCurrentPosition(getLocation);  
+    }  
+    function getLocation(position) {  
+        alert("Latitude: " + position.coords.latitude + "\n" + 
+              "Longitude: " + position.coords.longitude + "\n" + 
+			  "Accuracy: " + position.coords.accuracy); 
+    }
+    </script> 
+</head>
+
+<body>      
+	<input type="button" value="Get Location" onClick="initGeolocation()">
+</body>
+</html>

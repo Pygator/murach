@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Canvas Element - Drawing Text</title>
+    <style>
+    body {
+    	padding: 2em;
+    }
+    canvas {
+    	border: none;
+    }
+    </style>
+    <script>
+	function drawFooter() {
+		var footer = document.getElementById("myFooter");
+		var contextFooter = footer.getContext("2d");
+		contextFooter.moveTo(0, 0);
+		contextFooter.lineTo(500, 0);
+		contextFooter.stroke();
+
+        contextFooter.moveTo(0, 40);
+		contextFooter.lineTo(500, 40);
+		contextFooter.stroke();
+
+		contextFooter.font = "bold 14px sans-serif";
+		contextFooter.fillText("Copyright 2011 - All Rights Reserved.", 0, 25);
+	}
+	</script>
+</head>
+
+<body onLoad="drawFooter()">
+    <h1>Drawing a footer with canvas</h1>
+    <canvas id="myFooter" width="500" height="40"></canvas>
+</body>
+</html>

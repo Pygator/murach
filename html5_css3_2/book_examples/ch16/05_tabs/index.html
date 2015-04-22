@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>Tabs</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.2.custom/jquery-ui.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+    <script>
+		$(document).ready(function() {
+			$("#tabs").tabs();
+		});
+	</script>
+</head>
+	
+<body>
+	<section>
+		<h1>Murach's JavaScript and jQuery</h1>
+        <!-- Tabs HTML code. -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Book description</a></li>
+                <li><a href="#tabs-2">About the author</a></li>
+                <li><a href="#tabs-3">Who this book is for</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Today, more than half of the 10,000 most-visited   websites use jQuery, and that number is growing every day. In fact,   jQuery has joined HTML, CSS, and JavaScript as an essential part of   every web developer&rsquo;s resume.</p>
+                <p>That's where this book comes in. Fast-paced, professional, and packed with real-world   examples, it delivers the jQuery expertise you need...and the JavaScript   knowledge you need to tweak  jQuery code for specific applications.   That's true whether you use it for step-by-step training or for   on-the-job reference.</p>
+            </div>
+            <div id="tabs-2">
+                <p>Zak Ruvalcaba has been researching,  designing, and developing for the Web since 1995. He holds a Bachelor's degree  from San Diego State University and a Master of Science degree in instructional  technology from National University in San Diego.<br>
+                </p>
+              <p>Zak's skillset includes HTML/HTML5,  CSS/CSS3, JavaScript, jQuery, ASP.NET, ADO.NET, Visual Basic, C#, Web Services,  and Flash/ActionScript. He is also a Microsoft Certified Application Developer  for .NET (MCAD) and a Microsoft Certified Solutions Developer for .NET (MCSD).</p>
+                <p>                  Besides working as a web developer, Zak is currently the Lead  Instructor for the Front-End Web Developer Certificate Program in the San Diego  Community College District. He is not only responsible for developing the curriculum, but also hiring adjunct instructors to help teach the seven  courses in this program.</p>
+                <p>Zak co-authored Murach's <i>HTML5 and CSS3</i> by Mike Murach &amp; Associates, and he is the lead author on this book.</p>
+          </div>
+            <div id="tabs-3">
+                <p>Due to our unique presentation methods and this book's modular organization,
+				this is the right book for any web developer who wants to use JavaScript effectively. 
+				That includes:</p>
+				<ul>
+					<li>Web developers who know HTML5 and CSS3 and are ready to master JavaScript and jQuery.</li> 
+					<li>Web developers who program in ASP.NET, JSP, or PHP on the server side and 
+					now want to master client-side programming.</li>
+					<li>Web developers who have already read 3 or 4 JavaScript or jQuery books 
+					but still don't know how to get the most from jQuery UI and jQuery plugins.</li>
+				</ul>
+            </div>
+        </div>
+        <!-- End Tabs HTML code. -->
+    </section>
+</body>
+</html>

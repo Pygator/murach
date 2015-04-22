@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen">
+    <!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$('.fadein img:gt(0)').hide();
+		setInterval(function(){
+		$('.fadein :first-child').fadeOut(1000)
+		   .next('img').fadeIn(1000)
+		   .end().appendTo('.fadein');}, 5000);
+	});
+    </script>
+</head>
+
+<body>
+    <aside>
+    	<h1>Featured Book</h1>
+        <img src="images/javascriptbook.jpg" id="book" alt="JavaScript book" width="159" height="192">
+    </aside>
+    
+    <section>
+        <h1>Current Books Slide Show</h1><br>       
+        <div class="fadein">
+            <img src="images/book1.jpg" alt="SQL Server 2008 for Developers">
+            <img src="images/book2.jpg" alt="PHP and MySQL">
+            <img src="images/book3.jpg" alt="Visual Basic 2010">
+            <img src="images/book4.jpg" alt="ADO.NET 4 database programming with VB 2010">
+            <img src="images/book5.jpg" alt="ASP.NET 4 web programming with VB 2010">
+        </div>
+    </section>
+
+</body>
+</html>

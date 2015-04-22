@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>A Simple Transition</title>
+<style>
+h1 {
+	font-size: 120%;
+	color: blue;
+	transition: font-size 2s ease-out 1s,
+	            color 3s ease-in 1s;
+}
+h1:hover {
+	cursor: pointer;
+	font-size: 180%;
+	color: red;
+}
+
+/*h1 {
+	font-size: 120%;
+	transition: font-size 2s ease-out;
+	-webkit-transition: font-size 2s ease-out;
+}
+h1:hover {
+	font-size: 180%;
+}*/
+
+/*h1 {
+	font-size: 120%;
+	transition: all 2s ease-out 1s;
+	-webkit-transition: all 2s ease-out 1s;
+}
+h1:hover {
+	font-size: 180%;
+	color: red;
+}
+*/
+</style>
+</head>
+
+<body>
+<h1>Hover over this heading to see its transition</h1>
+</body>
+</html>

@@ -1,0 +1,10 @@
+bin\Debug\VendorDisplay.exe
+bin\Debug\VendorDisplay.pdb
+bin\Debug\VendorDisplay.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VendorDisplay.frmVendorDisplay.resources
+obj\Debug\VendorDisplay.Resources.resources
+obj\Debug\VendorDisplay.vbproj.GenerateResource.Cache
+obj\Debug\VendorDisplay.exe
+obj\Debug\VendorDisplay.xml
+obj\Debug\VendorDisplay.pdb

@@ -1,0 +1,192 @@
+/* type selectors */
+html {
+	background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);	
+	background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+	background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);	
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 990px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 1px solid black;
+}
+article, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+article, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;	
+}
+
+a { font-weight: bold; }
+a:link, a:visited { color: #931420; }
+a:hover, a:focus { color: black; }
+
+p {
+	font-size: 95%;
+	padding: .25em 0;
+}
+em { font-weight: bold; }
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: #931420;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+}
+label, input, select {
+	font-size: 90%;
+}
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+input:required, input[required] {
+	border: 3px solid red;
+}
+input:valid {
+	border: 1px solid black;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
+
+/* the styles for the header */
+header { 
+	padding-bottom: 2em;
+}
+header h2 {
+	font-size: 220%;
+    color: #f2972e;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 120px;
+	margin-bottom: .25em;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    margin-left: 120px;
+}
+header img { 
+	float: left;
+	margin-left: 20px;
+}
+
+/* The styles for the navigation menu - operation */
+#nav_menu ul {
+	list-style: none;
+	position: relative;    /* So the submenus can be positioned */
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;         /* Don't display submenu until hover of the li element */
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+#nav_menu ul li:hover > ul {
+	display: block;           /* Display the submenu on hover of the li element */
+}
+#nav_menu ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* The styles for the navigation menu - formatting */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 198px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: #facd8a;
+}
+#nav_menu ul li a.current {
+	color: #f2972e !important;
+}
+#nav_menu ul li:hover ul li a {
+	display: block;
+	text-align: center;
+}
+
+/* the styles for the article */
+article {
+	width: 535px;
+	margin-left: 20px;
+	padding-right: 25px;
+	float: right;
+}
+article h1 {
+	font-size: 170%;
+	margin-bottom: 0.35em;
+}
+
+/* the styles for the sidebar */
+aside {
+	width: 350px;
+	float: right;
+	padding: 20px;
+	background-color: #ffebc6;
+	margin-right: 20px;
+}
+aside h2 {
+	font-size: 130%;
+	padding-bottom: .5em;
+}
+aside ul { 
+	margin-top: 0;
+	margin-bottom: 1.5em; 
+}
+aside li {
+	font-size: 95%;
+	padding-bottom: 0.35em;
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	border-top: 2px solid #f2972e;
+	padding-top: 0.7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Accordion</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../jquery-ui-1.11.2.custom/jquery-ui.min.css">
+    
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+	
+	<script>
+    	$(document).ready(function() {
+			$("#accordion").accordion(
+				{ 
+					event: "mouseover",
+					heightStyle: "content",
+					collapsible: true 
+				});
+	    });
+	</script>
+</head>
+
+<body>
+    <section>
+        <h1>jQuery FAQs</h1>       
+        <div id="accordion">
+ 			<h3>What is jQuery?</h3>
+			<div>
+				<p>jQuery is a library of the JavaScript functions that you're most likely 
+			   	to need as you develop websites.
+				</p>
+			</div>
+			<h3>Why is jQuery becoming so popular?</h3>
+			<div>
+				<p>Three reasons:</p>
+				<ul>
+					<li>It's free.</li>
+					<li>It lets you get more done in less time.</li>
+					<li>All of its functions are cross-browser compatible.</li>
+				</ul>
+			</div>
+			<h3>Which is harder to learn: jQuery or JavaScript?</h3>
+			<div>
+				<p>For most functions, jQuery is significantly easier to learn 
+			    and use than JavaScript. But remember that jQuery is JavaScript.
+				</p>
+			</div>
+        </div>
+    </section>
+</body>
+</html>

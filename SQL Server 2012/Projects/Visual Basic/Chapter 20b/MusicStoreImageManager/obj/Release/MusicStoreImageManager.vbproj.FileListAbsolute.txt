@@ -1,0 +1,27 @@
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.vbproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\bin\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\MusicStoreImageManager\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\bin\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.vbproj.GenerateResource.Cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19a\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.exe
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.xml
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.pdb
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\ResolveAssemblyReference.cache
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.ImageManagerForm.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.Resources.resources
+C:\Murach\SQL Server 2008\Projects\Visual Basic\Chapter 19b\MusicStoreImageManager\obj\Release\MusicStoreImageManager.vbproj.GenerateResource.Cache

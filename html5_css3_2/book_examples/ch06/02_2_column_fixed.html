@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>2-column fixed template</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<style>
+		/* basic setup */
+		* {
+			margin: 0;
+			padding: 0; }
+		html { background-color:#facd8a; }
+	
+		h2 { padding: 1em; }
+	
+		/* the styles for the header, main content, sidebar, and footer */
+		header { border-bottom: 2px solid #ef9c00; }
+		body {
+			width: 962px;
+			background-color: white;
+			margin: 15px auto;
+			border: 1px solid black; }
+		main { 
+			width: 600px;
+			height: 350px;
+			border-right: 2px solid #ef9c00;
+			float: left;
+		}
+		aside {
+			width: 360px;
+			float: right;
+		}
+		footer {
+			clear: both;
+			border-top: 2px solid #ef9c00; 
+		}
+	</style>
+</head>
+
+<body>
+	<header><h2>Header</h2></header>
+	<main><h2>Main content</h2></main>
+	<aside><h2>Aside</h2></aside>
+	<footer><h2>Footer</h2></footer>
+</body>
+</html>

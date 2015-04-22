@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Canvas Element - Drawing Simple Shapes</title>
+    <style>
+    body {
+    	padding: 2em;
+    }
+    canvas {
+    	border: 1px solid black;
+    }
+    </style>
+    <script>
+	function drawRectangle() {
+		var rectangle = document.getElementById("myRectangle");
+		var contextRectangle = rectangle.getContext("2d");
+		contextRectangle.fillRect(25, 0, 100, 100);
+	}
+	</script>
+</head>
+
+<body onLoad="drawRectangle()">
+    <h1>Black Square</h1>
+    <canvas id="myRectangle" width="200" height="150"></canvas>
+</body>
+</html>

@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+/* type selectors */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 750px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1px solid black;
+}
+
+h1 { 
+	font-size: 125%;
+	margin-bottom: .5em; }
+
+a { font-weight: bold; }
+
+nav {
+	margin-bottom: 2em;
+}
+/* the styles for the navigation list */
+#nav_list ul { 
+	list-style: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em; }
+#nav_list li { 
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px solid blue; }
+#nav_list li a {
+	display: block;
+	font-weight: bold;
+	color: blue;
+	text-decoration: none;
+	padding: .5em 0 .5em 1.5em; }
+#nav_list a.current { color: red; }
+
+/* the styles for the first navigation bar */
+#nav_bar_1 ul {
+	list-style: none;
+	padding: 1em 0;    /* padding above and below li elements */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black; }
+#nav_bar_1 li {
+	display: inline;
+	padding: 0 1.5em;
+	border-right: 2px solid black; }
+#nav_bar_1 a {
+	font-weight: bold;
+	color: blue; }
+#nav_bar_1 a.current { color: red; }
+
+/* the styles for the second navigation bar */
+#nav_bar_2 ul {
+	list-style: none;
+	padding: 1em 0;       /* padding above and below li elements */
+	background-color: blue; }
+#nav_bar_2 li {
+	display: inline; }
+#nav_bar_2 a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid white; }
+#nav_bar_2 a.current { 	color: yellow; }

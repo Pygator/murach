@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Mike Murach &amp; Associates - Professional Programming Books</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- JavaScript HTML requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- if carousel script is in JavaScript file use this script element1
+	<script src="carousel.js"></script>
+	-->
+	<script>
+	$(function() {
+		var $slider = $('.panel-inner'); 							//get the slider
+		var liW = 101; 												//define single LI width
+		var liFW = parseInt(liW * ($slider.find('li').length + 1)); //find the full width of the UL 191 * LI's
+		$slider.css('width', liFW + 'px'); 							//apply the full-width to the UL
+		$('.button').click(function() {
+																	//if arrow right OR left, get the current left: CSS property of the UL
+			var leftX = (this.id == 'right') ? parseInt($slider.css('left').toString().replace('-', '')) : parseInt($slider.css('left'));
+																	//check and see if we have reached the end OR start of the UL width
+			var leftY = (this.id == 'right') ? ((leftX + 404) == liFW) ? 0: -(leftX + liW) : (leftX < 0) ? -(parseInt(leftX.toString().replace('-', '')) - liW) : 0;
+																	//apply the animation
+			rotate(leftY);
+		});
+		var rotate = function(leftY) {$slider.animate({left: leftY},500);}
+	});
+	</script>
+</head>
+
+<body>   
+    <aside>
+    	<h1>Featured Book</h1>
+        <img src="images/javascriptbook.jpg" id="book" alt="JavaScript book" width="159" height="192">
+    </aside>
+    
+    <section>
+        <h1>View our Books</h1>
+        <div id="carousel">
+            <div class="button" id="left"><img src="images/left.jpg" width="25" height="25" alt=""></div>
+            <div class="panel"> 
+                <ul class='panel-inner'>
+                    <li><a href="main.html"><img src="images/book1.jpg" alt="SQL Server 2008 for Developers"></a></li>
+                    <li><img src="images/book2.jpg" alt="PHP and MySQL"></li>
+                    <li><img src="images/book3.jpg" alt="Visual Basic 2010"></li>
+                    <li><img src="images/book4.jpg" alt="ADO.NET 4 database programming with VB 2010"></li>
+                    <li><img src="images/book5.jpg" alt="ASP.NET 4 web programming with VB 2010"></li>
+                    <li><img src="images/book6.jpg" alt="Oracle SQL and PL/SQL"></li>
+                    <li><img src="images/book7.jpg" alt="Java Servlets and JSP"></li>
+                    <li><img src="images/book8.jpg" alt="C# 2010"></li>
+                    <li><img src="images/book9.jpg" alt="ASP.NET 4 web programming with C# 2010"></li>
+                </ul>
+            </div>
+            <div class="button" id="right"><img src="images/right.jpg" width="25" height="25" alt=""></div>
+        </div>
+    </section>
+    
+</body>
+</html>

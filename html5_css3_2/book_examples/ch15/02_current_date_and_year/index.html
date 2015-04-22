@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>San Joaquin Valley Town Hall</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script>
+		var $ = function (id) {
+			return document.getElementById(id);
+		}
+		window.onload = function() {
+			var today = new Date();
+			$("date").firstChild.nodeValue = 
+			    "Current date: " + today.toDateString();
+		}
+	</script>
+</head>
+	
+<body>
+    <p id="date">
+    </p>
+    <p id="copyright">
+    </p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>How to use jQuery in your web pages</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+	$(document).ready(function() {
+		$("a").click(function(event){
+			window.alert("Click OK to be redirected to another web site.");
+		});
+		$("h1").hide("slow");
+		$("h1").show("slow");
+		
+	});
+	</script>
+</head>
+	
+<body>
+	<h1>Welcome to jQuery!</h1>
+    <a href="http://www.murach.com">Visit Murach's Web Site</a>
+</body>
+</html>

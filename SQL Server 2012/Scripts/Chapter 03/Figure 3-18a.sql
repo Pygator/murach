@@ -1,0 +1,7 @@
+USE AP;
+
+SELECT VendorID, InvoiceTotal
+FROM Invoices
+ORDER BY InvoiceTotal DESC
+    OFFSET 0 ROWS
+    FETCH FIRST 5 ROWS ONLY;

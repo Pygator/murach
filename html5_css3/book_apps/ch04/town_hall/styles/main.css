@@ -1,0 +1,59 @@
+/* So the HTML5 structural tags work in IE */
+article, aside, figure, footer, header, nav, section {
+		    display: block;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+}
+h1 { font-size: 250%; }
+h2 { font-size: 150%; }
+
+
+a { font-weight: bold; }
+a:link { color: green; }
+a:hover, a:focus { color: blue; }
+
+ul {
+    line-height: 1.5;
+}
+em { 
+    font-weight: bold;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+header h1 {
+    color: #ef9c00;
+    text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+header h2 {
+    color: green;
+	font-style: italic;
+    text-align: center;
+}
+
+/* the styles for the section */
+section {
+	clear: left;
+}
+section h1 {
+	font-size: 200%; 
+}
+section p.indent {
+    text-indent: 2em;
+}
+section a.date_passed  {
+    color: gray;
+}
+
+/* the styles for the footer */
+footer p {
+	font-size: 80%;
+	text-align: right;
+}

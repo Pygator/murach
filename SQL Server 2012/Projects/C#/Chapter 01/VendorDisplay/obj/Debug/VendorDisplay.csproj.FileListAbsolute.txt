@@ -1,0 +1,10 @@
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\bin\Debug\VendorDisplay.exe.config
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\bin\Debug\VendorDisplay.exe
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\bin\Debug\VendorDisplay.pdb
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\VendorDisplay.VendorDisplayForm.resources
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\VendorDisplay.Properties.Resources.resources
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\VendorDisplay.exe
+C:\Users\Anne.murach\Documents\SQL Server 2012\C#\Chapter 01\Chapter 01\obj\Debug\VendorDisplay.pdb

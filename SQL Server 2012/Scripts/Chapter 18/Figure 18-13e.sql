@@ -1,0 +1,1 @@
+ALTER SERVER ROLE Consultant WITH NAME = DBConsultant;

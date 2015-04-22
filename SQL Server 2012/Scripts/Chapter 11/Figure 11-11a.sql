@@ -1,0 +1,4 @@
+USE New_AP;
+
+ALTER TABLE Vendors
+ADD LastTranDate SMALLDATETIME NULL;

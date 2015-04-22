@@ -1,0 +1,16 @@
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.dacpac
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.dll
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.pdb
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\Model.xml
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\refactor.xml
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\postdeploy.sql
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\predeploy.sql
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\ApClrObjectsEx.dll
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 21\Visual Basic\ApClrObjectsEx\obj\Debug\ApClrObjectsEx.pdb
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.dacpac
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\obj\Debug\ResolveAssemblyReference.cache
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\obj\Debug\ApClrObjectsEx.dll
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\obj\Debug\ApClrObjectsEx.pdb
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.dll
+M:\Current projects\SQL Server 2012\Exercise solutions\Chapter 22\Visual Basic\ApClrObjectsEx\bin\Debug\ApClrObjectsEx.pdb

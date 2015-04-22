@@ -1,0 +1,35 @@
+/* the default styles for the document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:85%;
+	margin:0 auto;
+	width: 560px;}
+	
+h1, h2, p, ul {
+	margin: 0;
+	padding: 0;
+	
+}
+h1 {
+	font-size:140%;
+	padding-top: 1em;
+	color: blue;
+}
+h2 {
+	font-size: 125%;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+h3 {font-size:95%;}
+
+
+/* the styles for the center content */
+section {
+	background-color: white;
+}
+section #image_list li {
+	display: inline;
+}
+section #image_list a {
+	border:none;
+}

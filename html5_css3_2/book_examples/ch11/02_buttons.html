@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Buttons</title>
+    <style>
+    	body {
+ 		    margin: 30px;
+		}
+    </style>
+</head>
+
+<body>
+<form name="myform" action="sample.php" method="post">
+<!-- The 3 most common types of buttons button, submit, and reset -->
+<br>
+<input type="button" name="message" value="Alert Me" onClick="return alert('Hello there!');">
+<input type="submit" name="checkout" value="Checkout">
+<input type="reset" name="resetform" value="Reset">
+<!-- An image button -->
+<input type="image" src="images/submit.jpg" alt="Submit" width="114" height="42">
+<!-- A button element with an image and text nested inside -->
+<button type="submit"><img src="images/addtocart.png" width="30" height="23" alt="Add to Cart">Add to Cart</button>
+</form>
+</body>
+</html>

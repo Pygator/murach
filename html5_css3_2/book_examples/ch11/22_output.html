@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Output</title>
+	<style>
+    	body { margin: 30px; }
+    	output { 
+    		padding: 10px;
+    		margin-left: 10px;
+    		border: 1px solid black; }
+    </style>
+</head>
+
+<body>
+<p>Enter numbers in both fields and click the Calculate button.</p>
+<form onsubmit="return false">
+	<input name="x" type="number" min="100" step="5" value="100"> + 
+	<input name="y" type="number" min="100" step="5" value="100"><br><br>
+	<input type="button" value="Calculate" 
+		onClick="result.value = parseInt(x.value) + parseInt(y.value)">
+	<br><br>
+	Total: <output name="result" for="x y"></output>
+</form>
+</body>
+</html>
