@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta charset="utf-8" />
+        <title>Murach's Java Servlets and JSP</title>
+        <link rel="stylesheet" href="/ch21email/styles/main.css" type="text/css"/>
+    </h:head>
+    <h:body>
+        <p>#{messageBean.message}</p>
+        <h:outputText value="#{messageBean.message}" escape="false"/>
+        <h:form>
+            <label class="pad_top">Message:</label>
+            <h:inputText id="message" value="#{messageBean.message}"/>
+        </h:form>
+    </h:body>
+</html>

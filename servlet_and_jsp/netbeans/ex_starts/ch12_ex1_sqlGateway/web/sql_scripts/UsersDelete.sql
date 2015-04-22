@@ -1,0 +1,1 @@
+DELETE FROM UserTest WHERE UserID > 2

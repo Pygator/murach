@@ -1,0 +1,4 @@
+java	Murach's Beginning Java	49.5
+jsps	Murach's Java Servlets and JSP	49.5
+txtp	TextPad 4.0	20.0
+mcb2	Murach's Mainframe COBOL	59.5

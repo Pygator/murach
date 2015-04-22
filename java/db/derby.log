@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Wed Sep 28 10:23:49 PDT 2011:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0132-b110-5333-ffffde6e0ee7 
+on database directory /murach/java/db/MurachDB  with class loader sun.misc.Launcher$ExtClassLoader@543a586d 
+Loaded from file:/System/Library/Java/Extensions/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0-b147-20110926
+user.dir=/murach/java/netbeans/book_apps/ch21_ProductMaint
+derby.system.home=/murach/java/db
+Database Class Loader started - derby.database.classpath=''

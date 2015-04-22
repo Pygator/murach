@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" 
+      codebase=""
+      href="future_value.jnlp">
+    <information>
+        <title>Future Value Calculator</title>
+        <vendor>Mike Murach & Associates</vendor>
+        <icon href="murach64.gif"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="ch23_FutureValueGUI.jar" main="true" />
+    </resources>
+    <application-desc></application-desc>
+    <update check="background"
+            policy="prompt-run" />
+</jnlp>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch16_ex1_admin">
+  <Realm className="org.apache.catalina.realm.JDBCRealm" connectionName="root" connectionPassword="sesame" connectionURL="jdbc:mysql://localhost:3306/murach" debug="99" driverName="com.mysql.jdbc.Driver" roleNameCol="Rolename" userCredCol="Password" userNameCol="Username" userRoleTable="UserRole" userTable="UserPass"/>
+</Context>
