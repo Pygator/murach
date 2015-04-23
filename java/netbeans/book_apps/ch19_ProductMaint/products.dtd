@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD for the products.xml file. -->
+<!ELEMENT Products (Product*)>
+<!ELEMENT Product (Description, Price)>
+<!ATTLIST Product 
+          Code CDATA #REQUIRED
+>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Price (#PCDATA ) >

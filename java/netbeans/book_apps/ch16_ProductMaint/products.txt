@@ -1,0 +1,8 @@
+java	Murach's Beginning Java	49.5
+jsps	Murach's Java Servlets and JSP	49.5
+mcsp	Murach's C#	49.5
+BVBN	Murach's Beginning VB.NET	49.5
+MCCP	Murach's CICS for the COBOL Programmer	49.5
+ADON	Murach's VB.NET Database Programming with ADO.NET	49.5
+ASPN	Murach's ASP.NET Web Programming with VB.NET	49.5
+TXTP	TextPad	16.5

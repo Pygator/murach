@@ -1,0 +1,4 @@
+java	Murach's Beginning Java	49.5
+jsps	Murach's Java Servlets and JSP	49.5
+txtp	TextPad 7.4	20.0
+cshp	Murach's C#	49.5

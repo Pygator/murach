@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+        web-jsptaglibrary_2_0.xsd">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>murach</short-name>
+    <uri>/WEB-INF/murach.tld</uri>
+    <info>A custom tag library developed by 
+          Mike Murach and Associates</info>
+
+    <tag>
+        <name>currentDate</name>
+        <tagclass>murach.tags.CurrentDateTag</tagclass>
+        <info>Returns the current date with the SHORT date format</info>
+    </tag>
+
+    <tag>
+        <name>currentTime</name>
+        <tagclass>murach.tags.CurrentTimeTag</tagclass>
+    </tag>
+
+    <tag>
+        <name>ifWeekday</name>
+        <tagclass>murach.tags.IfWeekdayTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+    </tag>
+
+    <tag>
+        <name>ifEmptyMark</name>
+        <tagclass>murach.tags.IfEmptyMarkTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <attribute>
+            <name>color</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>field</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>
