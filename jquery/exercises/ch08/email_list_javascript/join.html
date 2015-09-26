@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Join Our Email List</title>
+	<style>
+    	body {
+		    font-family: Arial, Helvetica, sans-serif;
+		    background-color: white;
+		    margin: 0 auto;
+		    width: 700px;
+		    padding: 10px 25px;
+		    border: 3px solid blue;
+		}
+		h1 {
+			color: blue;
+		}
+	</style>
+	<script>
+	//<![CDATA[
+	var decode = function ( text ) {
+	    text = text.replace(/\+/g, " ");
+	    text = text.replace(/%[a-fA-F0-9]{2}/g, 
+	        function ( text ) {
+	            return String.fromCharCode( "0x" + text.substr(1,2));
+	        }
+	    );
+	    return text;
+	}
+	    
+	var display_data = function () {
+	    var url_parts = window.location.toString().split("?");
+	    if ( url_parts.length != 2 ) return;
+	    
+	    var fields = url_parts[1].split("&");
+	    
+	    if ( fields.length == 0 ) {
+	        document.write("<p>No data was submitted.</p>");
+	    } else {
+	        document.write("<dl>");
+	        var field_parts;
+	        for ( var i in fields ) {
+	            field_parts = fields[i].split("=");
+	            field_parts[0] = decode( field_parts[0] );
+	            field_parts[1] = decode( field_parts[1] );
+	            document.write("<dt>" + field_parts[0] + "</dt>");
+	            document.write("<dd>" + field_parts[1] + "</dd>");
+	        }
+	        document.write("</dl>");
+	    }
+	}
+	//]]>
+	</script>
+</head>
+
+<body>
+	<main>
+	    <h1>Thanks for joining!</h1>
+	    <p>Your registration has been submitted with the following data:</p>
+	    <script type="text/javascript">display_data();</script>
+	</main>
+</body>
+</html>

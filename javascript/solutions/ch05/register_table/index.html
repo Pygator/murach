@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account Registration</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <script type="text/javascript" src="register.js"></script>
+</head>
+
+<body>
+<main>
+    <h1>Register for an Account</h1>
+    <form action="register_account.html" method="get"
+        name="registration_form" id="registration_form">
+    
+        <label for="email_address">E-Mail:</label>
+            <input type="text" name="email_address" id="email_address">
+            <br>
+        <label for="phone">Mobile Phone:</label>
+            <input type="text" name="phone" id="phone">
+            <br>
+        <label for="country">Country:</label>
+            <select name="country" id="country">
+            	<option value="">Select an option</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select>
+            <br>
+        <label>Contact me by:</label>         
+            <input type="radio" name="contact" id="text" value="text" checked>Text
+            <input type="radio" name="contact" id="email" value="email">Email
+            <input type="radio" name="contact" id="mobile" value="mobile">Mobile phone
+            <input type="radio" name="contact" id="none" value="none">Don't contact me
+        <br>
+        <label>Terms of Service:</label>
+            <input type="checkbox" name="terms" id="terms" value="yes">I accept
+            <br>
+		<label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+            <br>
+        <input type="button" id="register" value="Register">
+        <input type="button" id="reset_form" value="Reset">
+    </form>
+    <h2 id="registration_header">&nbsp;</h2>
+    <table id="registration_info"></table>
+</main>
+</html>

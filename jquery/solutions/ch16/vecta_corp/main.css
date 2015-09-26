@@ -1,0 +1,55 @@
+h2 {
+	margin: 0 0 1em;
+}
+#home h2, #aboutus h2 {
+	margin: 0 0 .5em;
+}
+#home h3, #vprospect h3, #vconvert h3, #vretain h3 {
+	margin: .75em 0 .5em;
+	padding-top: .5em;
+	border-top: 2px solid blue;
+}
+h4 {
+	margin: .75em 0 .25em;
+}
+#vprospect img, #vconvert img, #vretain img {
+	float: left;
+	margin: 0 .5em .5em 0;
+}
+#solutions img {
+	margin: 1.2em 0 0 1em;
+}
+#team {
+	padding-bottom: .4em;
+}
+p {
+	margin: 0 0 .5em;
+}
+#aboutus p {
+	margin: 0 0 1em;
+}
+a {
+	margin-bottom: .5em;
+}
+q {
+	margin-bottom: .5em;
+	display: block;
+}
+cite {
+	margin: .5em 0;
+	display: block;
+	text-align: right;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+li {
+	padding-left: .25em;
+	padding-bottom: .25em;
+}
+

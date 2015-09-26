@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Class transitions</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+        <!-- 3 CSS classes that jQuery UI will switch between -->
+		<style>
+			.small {font-size: 75%;}
+			.medium {font-size: 100%;}
+			.large {font-size: 120%;}
+			.x_large {font-size: 150%;}
+        </style>
+        <!-- jQuery UI code to switch between classes -->
+		<script>
+		$(document).ready(function() {
+			$("#button1, #button2, #button3").button().addClass("small");
+			$("#button1").click(function() { setSize("medium"); });
+			$("#button2").click(function() { setSize("large"); });
+			$("#button3").click(function() { setSize("x_large"); });
+			function setSize(size) {
+				$("#p1").removeClass();  // jQuery method to remove all classes
+				$("#p1").addClass(size, 1000);
+			}
+		});
+		</script>
+	</head>
+	
+	<body>
+		<main>
+            <p>Change text size: 
+            <input type="button" id="button1" value="Medium"> 
+            <input type="button" id="button2" value="Large"> 
+            <input type="button" id="button3" value="X-Large"></p>
+            <h2>Welcome</h2>
+            <p id="p1">With innovative approaches and advanced methodologies, Vecta Corporation 
+            provides scalable business solutions to help companies achieve success through 
+            revenue increase, cost management, and user satisfaction.</p>
+	    </main>	  	  
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Local Storage</title>
+		<style>
+			body {
+				padding: 10px;
+			}
+		</style>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	    <script>
+        	$(document).ready(function () {
+        		if (localStorage.hits) {
+	            	localStorage.hits = parseInt(localStorage.hits) + 1;
+	        	} else {
+	            	localStorage.hits = 1;
+	        	}
+		    	$("#hits").html("You have visited this page " + localStorage.hits + " time(s).");
+        	});		    
+	    </script>
+	</head>
+	<body>
+		<p id="hits"></p>
+	</body>
+</html>

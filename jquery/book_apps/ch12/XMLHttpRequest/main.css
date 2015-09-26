@@ -1,0 +1,51 @@
+html {
+	background-color: #dfe3e6;	
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 25px;
+	background: #fff;
+	width: 697px;
+	margin: 15px auto 0 auto;
+}
+header {
+	height: 100px;
+	background: url('images/logo.gif') no-repeat 25px;
+}
+nav	{
+	width: 235px;
+	float: left;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li a:link, nav ul li a:visited, main h2 {
+	font-size: 14px;
+	font-weight: bold;
+	background: #dfe3e6 url('images/bullet.gif') no-repeat 7px center;
+	padding: 3px 0 3px 20px;
+	border: solid #929ca4 1px;
+	color: #cc1c0d;
+}
+nav ul li a:link, nav ul li a:visited {
+	width: 110px;
+	margin-bottom: 15px;
+	text-decoration:none;
+	display: block;
+}				
+nav ul li a:hover {
+	color: #000;
+	background-color: #ccc;
+}
+main {
+	width: 447px;
+	float: left;
+	background-color: #fff;
+	padding-right: 15px;
+}
+footer {
+	height: 35px;
+	background: url('images/footer.gif');
+	clear: both;
+}

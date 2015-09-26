@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Geolocation</title>
+    	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>
+			$(document).ready(function() {
+            	$("button").click(function (event) {
+                	navigator.geolocation.getCurrentPosition(function (position) {
+                    	alert("Latitude: " + position.coords.latitude + "\n" +
+                    	"Longitude: " + position.coords.longitude + "\n" +
+                    	"Accuracy: " + position.coords.accuracy);
+                	});
+            	});
+			});
+		</script>
+	</head>
+	<body>
+		<button>Get Location</button>
+	</body>
+</html>

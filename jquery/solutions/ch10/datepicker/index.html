@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Datepicker</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+    <!-- jQuery call to the datepicker() method. -->
+	<script>
+        $(document).ready(function() {
+        	$("#datepicker").datepicker({
+        		minDate: new Date(),
+        		maxDate: "+6m",
+        		showOn: "button",
+        		buttonImage: "images/calendar.jpg",
+        		buttonImageOnly: true
+        	});
+		});
+       </script>
+</head>
+	
+<body>
+	<main>
+        <form id="request_form" name="request_form" action="response.html" method="get">		
+			<h1>Royal Inn and Suites</h1>
+			<!-- Code for datepicker widget -->        
+			<label>Arrival date:</label>
+			<label class="nofloat"><input type="text" id="datepicker"></label><br>
+        	<!-- End code for datepicker widget -->
+        	<label>Nights:</label>
+        	<input type="text" id="nights"><br>
+        	<label>Guests:</label>
+        	<input type="text" id="guests"><br><br>
+        	<label>Name:</label>
+        	<input type="text" id="name"><br>
+        	<label>Email:</label>
+        	<input type="text" id="email"><br><br>
+        	<label>&nbsp;</label>
+        	<input type="submit" id="request" name="request" value="Submit Request">
+        </form>
+	</main>
+</body>
+</html>

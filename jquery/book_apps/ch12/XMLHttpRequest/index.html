@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Vecta Corp.</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+	  		var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					xmlDoc = xhr.responseXML;
+					var team = xmlDoc.getElementsByTagName("teammember");
+					var html = "";
+					for (i = 0; i < team.length; i++){
+						html +=
+							xmlDoc.getElementsByTagName("name")[i].childNodes[0].nodeValue + "<br>" +
+							xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue + "<br>" +
+							xmlDoc.getElementsByTagName("bio")[i].childNodes[0].nodeValue + "<br><br>";
+					}
+					document.getElementById("team").innerHTML = html; 
+				}
+			}
+			xhr.open("GET", "team.xml", true);
+			xhr.send();
+		});
+    </script>
+</head>
+
+<body>
+    <header></header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>The Vecta Corp. Management Team</h2>
+
+		<div id="team"></div>
+    </main>
+    
+    <footer></footer>
+</body>
+</html>

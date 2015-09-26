@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 410px;
+	height: 160px;
+	padding: 20px 0;	
+	border: 2px solid blue;
+}
+h1 {
+	font-size: 140%;
+	margin-left: 55px;
+	margin-bottom: 10px;
+}
+/* the styles for the carousel */
+.button_panel	{
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+#display_panel {
+	height: 125px;
+	width: 300px;
+	overflow: hidden;
+	float: left;
+}
+#image_list {
+	left: 0px;
+	position: relative;   
+    width: 900px;
+    list-style: none;  
+}
+#image_list li	{
+	float: left;
+	width: 100px;
+}
+#image_list li img	{
+	width: 95px;
+	
+}

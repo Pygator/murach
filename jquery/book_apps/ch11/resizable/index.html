@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resizable interaction</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+	<style>
+        .ui-resizable-se {
+        	bottom: 13px;
+			right: -3px;
+        }
+	</style>
+    <!-- jQuery call to the resizable() method. -->
+    <script>
+		$(document).ready(function() {
+			$("#questions").resizable({
+				handles: "se"
+			});
+		});
+    </script>
+</head>
+	
+<body>
+	<main>
+        <fieldset><legend>Contact a Sales Rep.</legend>
+        	<form id="contactus_form" name="contactus_form" action="response.html" method="get">
+           		<label>Name:</label>
+           		<input name="name" type="text" id="name" maxlength="30"><br>
+           
+           		<label>Company Name:</label>
+           		<input name="companyname" type="text" id="companyname" maxlength="30"><br>
+            
+           		<label>Phone Number:</label>
+           		<input name="phonenumber" type="text" id="phonenumber" maxlength="10"><br>
+            
+           		<label>Email:</label>
+           		<input name="email" id="email" type="text" maxlength="10"><br>
+            
+           		<label>Product Interest:</label>
+           		<select name="product" id="product" size="3" multiple>
+           			<option value="vProspect 2.0">vProspect 2.0</option>
+					<option value="vConvert 2.0">vConvert 2.0</option>
+           			<option value="vRetain 1.0">vRetain 1.0</option>
+           		</select><br>
+            
+           		<label>Current Infrastructure:</label>
+				<select name="infrastructure" id="infrastructure">
+					<option value="Mac">Mac</option>
+					<option value="Linux">Linux</option>
+           			<option value="Unix">Unix</option>         
+           			<option value="Windows">Windows</option>
+           		</select><br>
+            
+           		<label>Company Size:</label>
+				<select name="companysize" id="companysize">
+					<option value="1-10">1-10 Employees</option>
+					<option value="11-50">11-50 Employees</option>
+           			<option value="51-100">51-100 Employees</option>         
+           			<option value="101+">101+ Employees</option>
+        		</select><br>
+            
+           		<label>How did you hear about us?</label>
+				<select name="hearaboutus" id="hearaboutus">
+					<option value="Ad">Print Ad / Web Ad</option>
+					<option value="Word of Mouth">Word of Mouth</option>
+           			<option value="Radio">Radio Ad</option>         
+           			<option value="TV Commercial">TV Commercial</option>
+        		</select><br>
+            
+           		<!-- THIS ELEMENT WILL BE RESIZABLE -->
+           		<p>Questions / Comments:</p>
+           		<textarea name="questions" id="questions"></textarea>    
+           		<!-- END RESIZABLE -->   
+            
+           		<br>
+           		<input type="submit" id="submitbutton">
+            
+           	</form>
+        </fieldset>
+	</main>
+</body>
+</html>

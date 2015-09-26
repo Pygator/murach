@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Geolocation on Google Map</title>
+		<style>
+			body { padding: 10px 20px; }
+			h3 {
+				margin-top: .5em;
+				margin-bottom: .5em;
+			}
+			p {
+				margin-top: 0;
+				margin-bottom: .5em;
+			}
+		</style>
+    	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>
+        	$(document).ready(function () {
+    			navigator.geolocation.getCurrentPosition(getLocation, errorHandling);
+
+    			function getLocation(position) {
+        			var url =
+            			"http://maps.google.com/maps/api/staticmap?sensor=false" +
+            			"&center=" + position.coords.latitude + "," + 
+            			position.coords.longitude +
+            			"&zoom=14&size=300x400&markers=color:red|" +
+            			position.coords.latitude + "," + 
+            			position.coords.longitude;
+        
+        			$("img").attr("src", url);
+    			}
+
+    			function errorHandling(error) {
+        			switch(error.code) {
+            			case error.PERMISSION_DENIED:
+                			alert("Not sharing your location.");
+                			break;
+            			case error.POSITION_UNAVAILABLE:
+                			alert("Couldn’t detect position.");
+                			break;
+            			case error.TIMEOUT: 
+                			alert("Position retrieval timed out.");
+                			break;
+            			default:
+                			alert("Unknown error.");
+                			break;
+        			}  
+    			}
+
+		    	if (localStorage.hits) {
+		      		localStorage.hits = Number(localStorage.hits) + 1;
+		    	} else {
+		       		localStorage.hits = 1;
+		    	}
+		    	$("#localcount").html("Overall, you have visited this page " + localStorage.hits + " time(s).");
+		    
+		    	if (sessionStorage.hits) {
+		      		sessionStorage.hits = Number(sessionStorage.hits) + 1;
+		    	} else {
+		       		sessionStorage.hits = 1;
+		    	}
+		    	$("#sessioncount").html("In this session, you have visited this page " + sessionStorage.hits + " time(s).");		                 
+        	});
+		</script>
+	</head>
+	<body>
+    	<h3>Your current location is:</h3>
+		<img src="" alt="">
+		<h3>Your local and session storage data is:</h3>
+		<p id="localcount"></p>
+		<p id="sessioncount"></p>
+	</body>
+</html>

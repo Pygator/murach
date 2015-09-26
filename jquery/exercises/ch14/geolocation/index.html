@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Geolocation on Google Map</title>
+		<style>
+			body { padding: 10px 20px; }
+			h3 {
+				margin-top: .5em;
+				margin-bottom: .5em;
+			}
+			p {
+				margin-top: 0;
+				margin-bottom: .5em;
+			}
+		</style>
+    	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>
+        	$(document).ready(function () {
+            	navigator.geolocation.getCurrentPosition(function (position) {
+                	var url = 
+                	"http://maps.google.com/maps/api/staticmap?sensor=false&center=" + 
+                	position.coords.latitude + "," + 
+                	position.coords.longitude + 
+                	"&zoom=14&size=300x400&markers=color:red|" + 
+                	position.coords.latitude + "," + 
+                	position.coords.longitude;  
+                
+                	$("img").attr("src", url);
+            	});
+        	});
+		</script>
+	</head>
+	<body>
+    	<h3>Your current location is:</h3>
+		<img src="" alt="">
+		<h3>Your local and session storage data is:</h3>
+		<p id="localcount"></p>
+		<p id="sessioncount"></p>
+	</body>
+</html>

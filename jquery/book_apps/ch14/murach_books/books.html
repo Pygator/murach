@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Find a Murach Book</title>
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/slideshow.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+<script>
+	$(document).ready(function(){
+		// retrieve the category id from session storage
+		var categoryID = sessionStorage.categoryID;
+
+        // retrieve the book data from session storage
+        var data = JSON.parse(sessionStorage.books)
+        
+        // loop through the data and display the book titles
+        $.each(data, function() {
+            $.each(this, function(key, value) {
+                if (value.categoryid == categoryID) {
+                    $("#books").append('<li><a href="book.html" id="' + 
+                                       value.bookid + '">' + 
+                                       value.title + '</a></li>');
+                }
+            });
+        });
+            
+        // handle the click event of a book
+		$("#books").on("click", "a", function() {
+            // retrieve the id for the selected book and save it in session storage
+            var bookID = $(this).attr("id");
+            sessionStorage.bookID = bookID;
+		});
+	});
+</script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"><img src="images/logo.jpg"></a>
+</header>
+
+<main>
+    <div class="cycle-slideshow" 
+        data-cycle-fx="scrollHorz" 
+        data-cycle-timeout="3000" 
+        data-cycle-speed="400">
+        <div class="cycle-prev"></div>
+        <div class="cycle-next"></div>
+        <img src="images/image1.png" alt="">
+        <img src="images/image2.png" alt="">
+        <img src="images/image3.png" alt="">
+        <img src="images/image4.png" alt="">
+    </div>
+
+    <h1>Select a book</h1>
+    <ul id="books"></ul>
+    <p><a href="index.html">Return to category list</a></p>
+</main>
+<footer>
+	<p>&copy; 2016 Mike Murach &amp; Associates, Inc.</p>
+</footer>
+</body>
+</html>

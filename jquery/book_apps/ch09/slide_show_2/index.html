@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Slide Show with DOM Traversal 2</title>
+    <link rel="stylesheet" href="slide_show.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#slides img").slice(1).hide();
+			var slideIndex = 0, topIndex = $("#slides img").length - 1;
+			setInterval(function(){
+				$("#slides img").eq(slideIndex).fadeOut(1000);
+				if (slideIndex < topIndex) { 
+				    $("#slides img").eq(slideIndex).next().fadeIn(1000);
+				    slideIndex++ 				}
+				else {
+					$("#slides img").eq(0).fadeIn(1000);
+					slideIndex = 0; 				}
+		   	}, 3000);
+		});
+    </script>
+</head>
+
+<body>
+   <main>
+       <h1>Current Books Slide Show</h1><br>       
+       <div id="slides">
+           <img src="images/book1.jpg" alt="HTML5 and CSS3">
+           <img src="images/book2.jpg" alt="PHP and MySQL">
+           <img src="images/book3.jpg" alt="Java Servlets and JSP">                      
+           <img src="images/book4.jpg" alt="Dreamweaver CC 2014">
+           <img src="images/book5.jpg" alt="SQL Server 2012">
+       </div>
+    </main>
+</body>
+</html>

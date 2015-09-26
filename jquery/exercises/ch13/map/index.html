@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps API</title>
+    <link rel="stylesheet" href="main.css">	
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>
+		$(document).ready(function(){
+			var mapOptions = {
+				zoom: 8, 
+				center: new google.maps.LatLng(36.7468422, -119.7725868), 
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map($("#map").get(0), mapOptions);
+		});
+    </script>
+</head>
+<body>
+   	<div id="map"></div>
+   	<div id="directions"></div>
+   	<div id="message" style="display:none;"></div>
+</body>
+</html>

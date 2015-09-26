@@ -1,0 +1,18 @@
+h3 {
+	margin: .75em 0 .5em;
+	padding-top: .5em;
+	border-top: 2px solid blue;
+}
+h4 {
+	margin: .75em 0 .25em;
+}
+img {
+	float: left;
+	margin: 0 .5em .5em 0;
+}
+p {
+	margin: 0 0 .5em;
+}
+a {
+	margin-bottom: .5em;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Account Registration</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+<script type="text/javascript" src="library_navigate.js"></script>
+<script type="text/javascript" src="library_fields.js"></script>
+<script type="text/javascript" src="library_validate.js"></script>
+<script type="text/javascript" src="library_validate_form.js"></script>
+<script type="text/javascript" src="register.js"></script>
+</head>
+
+<body>
+<main>
+    <h1>Register for an Account</h1>
+    <form id="registration_form" action="register_account.php" method="get"
+    	  name="registration_form" class="show">
+        <label for="email">E-Mail:</label>
+            <input type="text" name="email" id="email">
+            <span id="email_error">&nbsp;</span><br>
+        <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <span id="password_error">&nbsp;</span><br>
+        <label for="verify">Verify Password:</label>
+            <input type="password" name="verify" id="verify">
+            <span id="verify_error">&nbsp;</span><br>
+        <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name">
+            <span id="first_name_error">&nbsp;</span><br>
+        <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name">
+            <span id="last_name_error">&nbsp;</span><br>
+        <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="phone">
+            <span id="phone_error">&nbsp;</span><br>
+        <label for="zip">ZIP Code:</label>
+            <input type="text" name="zip" id="zip">
+            <span id="zip_error">&nbsp;</span><br>
+        <label for="card_type">Card Type:</label>
+            <select name="card_type" id="card_type">
+                <option value="v">Visa</option>
+                <option value="m">MasterCard</option>
+                <option value="d">Discover</option>
+            </select><br>
+        <label for="card_number">Card Number:</label>
+            <input type="text" name="card_number" id="card_number">
+            <span id="card_number_error">&nbsp;</span><br>
+        <label for="exp_date">Expiration Date:</label>
+            <input type="text" name="exp_date" id="exp_date">
+            <span id="exp_date_error">&nbsp;</span><br>               
+        <input type="button" id="register" value="Register">
+        <input type="button" id="reset" value="Reset">
+    </form>
+    <section id="registration_result" class="hide">
+        <p>Congratulations! Your account registration has been submitted.</p>
+        <p>You'll receive an email shortly with more information. Welcome!</p>
+        <input type="button" id="back" value="Back">
+    </section>
+</main>
+</html>

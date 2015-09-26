@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 550px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 1em 1.5em 0;
+}
+h1 {
+	color: blue;
+	margin-top: 0;
+	margin-bottom: .5em;
+	padding: 0;
+}
+ul {
+	margin: 0;
+}
+

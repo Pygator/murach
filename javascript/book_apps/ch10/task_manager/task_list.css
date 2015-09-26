@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 725px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 8em;
+}
+input {
+    width: 20em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#tasks {
+    float: right; 
+    width: 25em;
+    margin: 0 0 .5em;
+	padding: 1em;
+	border: 2px solid black;
+}
+#tasks a {
+    margin-right: 0.5em;
+}
+p {
+	margin: 0;
+	padding-bottom: .5em;
+}
+.clear {
+    clear: both;
+}

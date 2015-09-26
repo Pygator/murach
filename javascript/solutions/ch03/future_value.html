@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Future Value Application</title>
+    <script>
+		var futureValue;
+		var repeat = "y";
+		var yearlyInterest;
+
+		do {
+			// get user entries
+			do {
+				var investment = prompt("Enter investment amount as xxxxx.xx", 10000);
+				investment = parseFloat(investment);
+				if ( isNaN(investment) ) {
+					alert("Investment must be a number");	
+				}
+			}
+			while ( isNaN(investment) );
+			do {
+				var rate = prompt("Enter interest rate as xx.x", 7.5);
+				rate = parseFloat(rate);
+				if (rate <= 0 || rate > 15) {
+					alert("Rate must be greater than zero and less than 15");
+				}
+			}
+			while (rate <= 0 || rate > 15);
+			
+			var years = prompt("Enter number of years", 10);
+			years = parseInt(years);
+			
+			// display entries in browser
+			document.write("Investment amount = " + investment);
+			document.write(" Interest rate = " + rate);
+			document.write(" Years = " + years+ "<br>");
+			
+			// calulate future value
+			futureValue = investment;
+			for (var i = 1; i <= years; i++ ) {
+				yearlyInterest = futureValue * rate / 100;
+				futureValue = futureValue + yearlyInterest;
+				document.write("Year=" + i + " Interest=" + yearlyInterest + 
+				               " Value=" + parseInt(futureValue) + "<br>");
+			}
+			document.write("<br>");
+			repeat = prompt("Repeat entries (y or n)?", "y");
+		}
+		while (repeat == "y");
+    </script>
+</head>
+<body>
+    <main>
+        Thanks for using the Future Value application.
+    </main>
+</body>
+</html>

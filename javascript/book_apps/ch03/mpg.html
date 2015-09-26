@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Calculate Miles Per Gallon</title>
+    <script>
+		var again = "y";
+		do {
+			var miles = prompt("Enter miles driven");
+			miles = parseFloat(miles);
+			var gallons = prompt("Enter gallons of gas used");
+			gallons = parseFloat(gallons);
+			if (!isNaN(miles) && miles > 0 && !isNaN(gallons) && gallons > 0)
+			{ 
+				var mpg = miles/gallons;
+				mpg = parseInt(mpg);
+				alert("Miles per gallon = " + mpg);
+			}
+			else
+			{
+				alert("One or both entries are invalid");
+			}
+			again = prompt("Repeat entries?", "y");
+		}
+		while (again == "y");
+    </script>
+</head>
+<body>
+    <main>
+        <!-- Will show after JavaScript has run -->
+        Thanks for using the Miles Per Gallon application!
+    </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps API Example: Advanced Directions</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+	<script>
+		$(document).ready(function(){
+			var directionsService = new google.maps.DirectionsService();
+			var markers = [];
+			var myLatLng = new google.maps.LatLng(33.4936111, -117.1475);
+			var mapOptions = {zoom: 8, center: myLatLng, mapTypeId: google.maps.MapTypeId.ROADMAP}
+			var map = new google.maps.Map($("#map").get(0), mapOptions);
+		
+			var listener = google.maps.event.addListener(map, "click", function(event) {
+				var marker = new google.maps.Marker({position: event.latLng, map: map});
+				markers[markers.length] = marker;
+			
+				if (markers.length > 1) {
+					google.maps.event.removeListener(listener);
+				
+					var directionsRenderer = new google.maps.DirectionsRenderer();
+					directionsRenderer.setMap(map);
+					directionsRenderer.setPanel($("#directions").get(0));
+				
+					var request = {origin: markers[0].getPosition(), 
+						destination: markers[1].getPosition(), 
+						travelMode: google.maps.TravelMode.DRIVING};
+					directionsService.route(request, function(result, status) {
+						if (status == google.maps.DirectionsStatus.OK) {
+							directionsRenderer.setDirections(result); }
+					});
+				}  // end if
+			});  // end listener
+		});  // end ready
+    </script>
+</head>
+<body>
+   	<h1>Click on two points to get the directions <br>for getting from the first to the second point</h1>
+       <div id="map"></div>
+       <div id="directions"></div>
+</body>
+</html>

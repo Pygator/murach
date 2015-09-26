@@ -1,0 +1,24 @@
+/* the default styles for the document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	padding: 20px;	
+	border: 3px solid blue;
+}
+	
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 140%;
+}
+	
+/* the styles for the slide show */
+#slides {
+	
+}
+#slides img {
+	position: absolute;
+}

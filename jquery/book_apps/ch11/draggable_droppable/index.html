@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Draggable and Droppable interactions</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+    <!-- jQuery calls to the draggable() and droppable methods. -->
+	<script>
+    	$(document).ready(function() {
+            $("#vprospect, #vconvert, #vretain").draggable({
+            	cursor: "move"
+            });
+            $("#cart ul").droppable({
+                drop: function(evt, ui) {
+					$("<li></li>").html(ui.draggable.children()).appendTo(this);
+                }
+            });
+        });
+    </script>
+</head>
+	
+<body>
+	<main>       
+		<h2>Add to Cart</h2>
+        <p>Drag a software box to add it to the cart.</p>
+		<div id="draggables">
+        	<div id="vprospect"><img src="images/vprospect.png"></div>
+        	<div id="vconvert"><img src="images/vconvert.png"></div>
+        	<div id="vretain"><img src="images/vretain.png"></div>
+		</div>	
+        <h3>Your Cart</h3>
+        <div id="cart">
+        	<ul></ul>
+        </div>
+	</main>
+</body>
+</html>

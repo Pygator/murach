@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 375px;
+	height: 75px;
+	margin: 0 auto;
+	padding: 15px 25px;	
+}
+label {
+	width: 100px;
+}
+input {
+	width: 50px;
+}
+#size {
+	float: left;
+	width: 160px;
+}
+#slider {
+	float: right;
+	margin-right: 110px;
+}

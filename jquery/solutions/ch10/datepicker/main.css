@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 15px 25px;	
+	border: 3px solid blue;
+}
+label {
+	float: left;
+    width: 8em;
+    text-align: right;
+}
+label.nofloat {
+	float: none;
+}
+input {
+	width: 12em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+h1 {
+	font-size: 150%;
+	color: blue;
+	margin-bottom: .7em;
+}
+#datepicker {
+    margin-right: .5em;	
+}
+#nights, #guests {
+	width: 5em;
+}
+#name, #email {
+	width: 20em;
+}

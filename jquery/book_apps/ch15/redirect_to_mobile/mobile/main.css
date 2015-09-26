@@ -1,0 +1,46 @@
+h2 {
+	margin: 0 0 1em;
+}
+#home h2 {
+	margin: 0 0 .5em;
+}
+h3 {
+	margin: .75em 0 .5em;
+	padding-top: .5em;
+	border-top: 2px solid blue;
+}
+h4 {
+	margin: .75em 0 .25em;
+}
+img {
+	float: left;
+	margin: 0 .5em .5em 0;
+}
+p {
+	margin: 0 0 .5em;
+}
+a {
+	margin-bottom: .5em;
+}
+q {
+	margin-bottom: .5em;
+	display: block;
+}
+cite {
+	margin: .5em 0;
+	display: block;
+	text-align: right;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+li {
+	padding-left: .25em;
+	padding-bottom: .25em;
+}
+

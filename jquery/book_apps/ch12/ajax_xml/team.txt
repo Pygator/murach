@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<management>
+	<teammember>
+		<name>Agnes</name>
+		<title>Vice President of Accounting</title>
+		<bio>With over 14 years of public accounting and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, Agnes is the most seasoned and diversed member of the Vecta Corp. team.</bio>
+	</teammember>
+	<teammember>
+		<name>Damon</name>
+		<title>Director of Development</title>
+		<bio>Damon is the Director of Development for Vecta Corp. Damon creates learning materials for Vecta Corp. as well as consulting for customers to integrate vSolutions into their production pipeline and business processes. Vecta Corp. is creating the next revolution of digital media applications that incorporates 2D, 3D, sound, and video into a single multimedia presentations that can be distributed on the Web, CD/DVD-ROM, Kiosks, or intranet environments.</bio>
+	</teammember>
+	<teammember>
+		<name>Herbert</name>
+		<title>Director of Human Resources</title>
+		<bio>Herbert joined Vecta Corp. in October 1999 as Vecta Corp's first Human Resources Director. As such, he has overall human resources responsibility for Vecta Corp's operations worldwide and is based at the company's global headquarters in San Diego. Although responsible for Vecta Corp's human resources strategies globally, Herbert's work is directly focused on assuring complete employee satisfaction and loyalty.</bio>
+	</teammember>
+	<teammember>
+		<name>Mike</name>
+		<title>Vice President of Sales and Marketing</title>
+		<bio>Mike serves as the Vice President of Sales and Marketing for Vecta Corp. In this role Mike oversees Vecta Corp's marketing and corporate communications efforts worldwide. Mike joined Vecta Corp. in early 1998 and worked in business development roles prior to being assigned to lead Vecta Corp's global vSolutions sales and marketing team in the summer of 2000. He initiated Vecta Corp's global branding and marketing campaigns as vSolutions global director and then Vice President of Marketing. In 2001, his role expanded to include overall responsibility for corporate marketing, sales, and communications.</bio>
+	</teammember>
+	<teammember>
+		<name>Wilbur</name>
+		<title>Founder and CEO</title>
+		<bio>While Wilbur is the founder and CEO of Vecta Corp, he is primarily known for being the pioneer and world leader of creating vSolutions. Wilbur has led the commercialization of vSolution technology and its success as the world’s fastest-growing, most advanced technologies in its respective industry. Now used by tens of millions of consumers worldwide, vSolutions have been the technology of choice for governments and private organizations for nearly a decade.</bio>
+	</teammember>
+</management>

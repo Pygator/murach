@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Datepicker</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="../jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="../jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- jQuery call to the autocomplete() method. An array of items is passed in as a parameter. -->
+	<script>
+        $(document).ready(function() {
+        	$("#datepicker").datepicker();
+		});
+    </script>
+<!--<script>
+    	$(document).ready(function(){
+    		$("#datepicker").datepicker({
+        		minDate: new Date(),
+        		maxDate: +45,
+        		showButtonPanel: true
+    		});
+		});
+	</script> -->
+</head>
+	
+<body>
+	<main>
+		<!-- Code for datepicker widget -->        
+		<label>Arrival date:</label>
+		<label><input type="text" id="datepicker"></label>
+        <!-- End code for datepicker widget -->
+	</main>
+</body>
+</html>

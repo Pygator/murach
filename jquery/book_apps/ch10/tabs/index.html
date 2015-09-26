@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabs</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="../jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="../jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- jQuery call to the tabs() method. -->
+    <script>
+		$(document).ready(function() {
+			$("#tabs").tabs();
+		});
+	</script>
+</head>
+	
+<body>
+	<main>
+		<h1>Murach's HTML5 and CSS3 3rd Edition</h1>
+        <!-- Tabs HTML code. -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Book description</a></li>
+                <li><a href="#tabs-2">About the authors</a></li>
+                <li><a href="#tabs-3">Who this book is for</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>With this book, you can teach yourself how to design web pages the way the 
+                professionals do, by using HTML and CSS in tandem to structure and format the 
+                page content. It begins with a crash course that teaches you more about HTML 
+                and CSS than you can learn from most full books. That includes a chapter on 
+                Responsive Web Design that shows you how to build responsive websites that will 
+                look and work right on all devices, from phones to tablets to desktop computers.</p>
+                <p>After that, this book shows you how to enhance your web pages with features 
+                like images, forms with built-in data validation, and audio and video clips. 
+                You'll also learn how to use JavaScript and jQuery to add features like image 
+                rollovers, image swaps, and slide shows. You'll learn how to use jQuery UI and 
+                jQuery plugins to add features like accordions, tabs, carousels, and slide shows. 
+                And you'll learn how to use jQuery Mobile to develop separate websites for mobile 
+                devices.</p>
+            </div>
+            <div id="tabs-2">
+                <p><strong>Anne Boehm</strong> has over 30 years of experience as an enterprise programmer. She got 
+                started with Visual Basic in the days of VB5 and has been programming on .NET since 
+                its inception. She added C# to her programming repertoire in the mid-2000s, and she's 
+                authored or co-authored our books on Visual Basic, C#, ADO.NET, ASP.NET, and HTML5/CSS3</p>
+				<p><strong>Zak Ruvalcaba</strong> has been researching, designing, and developing for the web since 
+				1995. His skill set ranges from HTML5/CSS3 and JavaScript/jQuery to .NET with VB 
+				and C#, and he's created web applications for companies like HP, Toshiba, IBM, 
+				Gateway, Intuit, Peachtree, Dell, and Microsoft. He has authored or co-authored our 
+				books on HTML5/CSS3, jQuery, and Dreamweaver CC.</p>
+            </div>
+            <div id="tabs-3">
+                <p>This book is for anyone who wants to develop web pages at a thoroughly professional 
+                level. That includes:</p>
+				<ul>
+					<li>budding web developers</li> 
+					<li>web developers who haven't yet updated their websites to HTML5 and CSS3</li>
+					<li>web developers who need to expand and enhance their skillsets</li>
+				</ul>
+            </div>
+        </div>
+        <!-- End Tabs HTML code. -->
+    </main>
+</body>
+</html>

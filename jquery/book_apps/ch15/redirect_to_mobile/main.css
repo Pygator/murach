@@ -1,0 +1,78 @@
+#container {
+	background-image: url(images/mainbg.gif);
+	background-repeat: repeat-y;	
+	width: 697px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	background-color: #dfe3e6;
+}
+header {
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	clear: both;
+	height: 227px;
+	width: 697px;
+}
+nav {
+	float: left;
+	width: 235px;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #CC1C0D;
+	text-decoration: none;
+	background-color: #DFE3E6;
+	display: block;
+	width: 105px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	background-image: url(images/bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 7px center;
+	border: 1px solid #929CA4;
+}
+nav ul li a:hover {
+	color: #000;
+	background-color: #CCC;
+}
+
+
+main {
+	float: left;
+	width: 455px;
+	padding-right: 7px;
+	min-height: 150px;
+}
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p {
+	margin-top: .2em;
+}
+footer {
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+	clear: both;
+	height: 35px;
+	width: 697px;
+}
+/*main fieldset #contactusForm p label {
+	display: block;
+	width: 200px;
+	float: left;
+}
+main fieldset {
+	margin-right: 10px;
+}*/

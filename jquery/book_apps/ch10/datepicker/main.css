@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 500px;
+	height: 275px;
+	margin: 0 auto;
+	padding: 15px 25px;	
+}

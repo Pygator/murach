@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bxSlider Plugin</title>
+    <!-- Normal style sheet -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- bxSlider styles -->
+	<link href="jquery.bxslider.css" rel="stylesheet">
+    <!-- jQuery library -->
+     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- The bxSlider plugin. -->
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <!-- Call to the bxSlider function. -->
+    <script>
+    	$(document).ready(function() {
+        	$('#slider').bxSlider({
+				auto: true,
+				autoControls: true,
+				captions: true,
+				minSlides: 2,
+				maxSlides: 2,
+				slideWidth: 260,
+				slideMargin: 10
+			});
+    	});
+    </script>
+</head>
+
+<body>
+    <section>
+        <h1>About our guided fishing trips</h1>
+        <ul id="slider">
+            <li><img src="images/gear.jpg" alt="" title="Fishing Gear"></li>
+            <li><img src="images/plane.jpg" alt="" title="Bush Plane"></li>
+            <li><img src="images/hero.jpg" alt="" title="Hero Photo"></li>
+            <li><img src="images/lunch.jpg" alt="" title="Streamside Lunch"></li>
+            <li><img src="images/plane.jpg" alt="" title="Bush Plane"></li>
+            <li><img src="images/release.jpg" alt="" title="Catch and Release"></li>
+        </ul>
+    </section>
+</body>
+</html>

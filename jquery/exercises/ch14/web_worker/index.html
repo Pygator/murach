@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculate Factorial</title>
+    <style>
+		body { margin: 0 20px; }
+		input { width: 50px; }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+        	$("#calculate").click(function() {
+        		var number = parseInt($("#number").val());
+        		$("#result").html(""); 
+				var factorial = 1;
+				for ( var counter = number; counter > 1; counter--) {
+					factorial = factorial * counter;
+				}
+                $("#result").html("The factorial of " + number + " is " + factorial + ".");
+        	});
+    	});
+    </script>
+</head>
+<body>
+	<h2>Calculate Factorial</h2>
+	Enter a number: <input type="text" id="number" name="number">
+	<button id="calculate">Calculate</button> 
+    <p id="result"></p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
+	margin: 0 auto;
+	padding: 15px 20px;
+	border: 3px solid blue;
+}
+aside {
+	margin: 50px 0 10px 0;
+	width: 175px;
+	float: right;
+}
+main {
+	display: block;
+	margin-right: 25px;
+}
+h1 { 
+	font-size: 150%;
+}
+h2 {
+	font-size: 120%;
+	padding: .25em 0 .25em 25px;
+	cursor: pointer;
+	background: url(images/plus.png) no-repeat left center;
+}
+h2.minus {
+	background: url(images/minus.png) no-repeat left center;
+}
+div {
+	display: none;
+}
+div.open {
+	display: block;
+}
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
+}

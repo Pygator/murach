@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+#map {
+	float: left;
+	width: 500px;
+	height: 400px}
+ul {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li a	{
+	display: block;
+	width: 100px;
+	padding: 10px;
+	margin: 0 5px 5px; 
+	background-color:#ccc;
+}
+#message {
+	position: absolute;
+	padding: 10px;
+	background: white;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+img {
+	margin: .5em 0 0;
+	padding: 0;
+}
+
+
+
+
+

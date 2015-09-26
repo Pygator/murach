@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps API Example: Clickable Markers with Geocoding</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>	
+		$(document).ready(function(){
+			var geocoder = new google.maps.Geocoder();				
+			var myLatLng = new google.maps.LatLng(33.4936111, -117.1475);
+			var mapOptions = {zoom: 8, center: myLatLng, mapTypeId: google.maps.MapTypeId.ROADMAP}
+			var map = new google.maps.Map($("#map").get(0), mapOptions);
+	
+			$("#links a").click(function() {
+				var address = $(this).text();
+				geocoder.geocode({address: address}, function(results) {
+			    	new google.maps.Marker({
+				    	position: results[0].geometry.location,
+			    		map: map
+			    	});
+		    	});
+			});
+		});
+    </script>
+</head>
+<body>
+   	<div id="map"></div>
+    <ul id="links">
+        <li><a href="#">Los Angeles, CA</a></li>
+        <li><a href="#">Temecula, CA</a></li>
+        <li><a href="#">San Diego, CA</a></li>
+        <li><a href="#">Riverside, CA</a></li>
+		<li><a href="#">Escondido, CA</a></li>
+		<li><a href="#">Anaheim, CA</a></li>
+		<li><a href="#">Oceanside, CA</a></li>
+		<li><a href="#">Santa Ana, CA</a></li>
+		<li><a href="#">Long Beach, CA</a></li>
+    </ul>
+</body>
+</html>

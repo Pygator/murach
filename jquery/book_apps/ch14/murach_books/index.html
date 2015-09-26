@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Find a Murach Book</title>
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/slideshow.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+<script>
+	$(document).ready(function(){
+        // create a web worker to retrieve JSON data in the background
+        var worker = new Worker("getJSON.js");
+        worker.postMessage("data/books.json");
+        worker.onmessage = function(e) {
+            // store the JSON data in session storage for later use
+            sessionStorage.books = JSON.stringify(e.data);
+        };
+        
+        // get JSON data from the categories.js file in the foreground
+        $.getJSON("data/categories.json", function(data) {
+            $("#categories").html("");
+            $.each(data, function() {
+                $.each(this, function(key, value) {
+                    $("#categories").append('<li><a href="books.html" id="' + 
+                                            value.categoryid + '">' + 
+                                            value.category + '</a></li>');             
+                });
+            });
+        });
+        
+        // handle the click event of a category
+		$("#categories").on("click", "a", function() {
+            // retrieve the id for the selected category and save it in session storage
+            var categoryID = $(this).attr("id");
+            sessionStorage.categoryID = categoryID;
+		});
+	});
+</script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"><img src="images/logo.jpg"></a>
+</header>
+
+<main>
+    <div class="cycle-slideshow" 
+        data-cycle-fx="scrollHorz" 
+        data-cycle-timeout="4000" 
+        data-cycle-speed="400">
+        <div class="cycle-prev"></div>
+        <div class="cycle-next"></div>
+        <img src="images/image1.png" alt="">
+        <img src="images/image2.png" alt="">
+        <img src="images/image3.png" alt="">
+        <img src="images/image4.png" alt="">
+    </div>
+
+    <h1>Select a category</h1>
+    <ul id="categories"></ul>
+</main>
+<footer>
+	<p>&copy; 2016 Mike Murach &amp; Associates, Inc.</p>
+</footer>
+</body>
+</html>

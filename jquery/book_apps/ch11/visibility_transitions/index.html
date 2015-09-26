@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Visibility transitions</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+    <!-- jQuery UI API calls -->
+    <script type="text/javascript" src="vecta_corp.js"></script>
+	<script>
+        $(document).ready(function() {           
+            $("#solutions").click(function() {
+                $("#solutions_menu").toggle("blind", 500);
+            });
+        });
+    </script>	</head>
+	
+<body>
+	<header></header>
+			
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#" id="solutions">Solutions</a></li>
+            <div id="solutions_menu">
+                <a href="solutions.html#vprospect">vProspect 2.0</a>
+                <a href="solutions.html#vconvert">vConvert 2.0</a>
+                <a href="solutions.html#vretain">vRetain 1.0</a>
+            </div>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+			
+	<main>
+        <h2>Contact Us</h2>
+
+        <fieldset><legend>Contact a Sales Rep.</legend>
+   			<form action="http://www.vectacorp.com/vc/scripts/contactus.asp" method="post" name="contactusForm" target="_blank" id="contactusForm">
+           		<label>Name:</label>
+           		<input name="name" type="text" id="name" maxlength="30">
+               	<label>Company Name:</label>
+           		<input name="companyname" type="text" id="companyname" maxlength="30">
+                <label>Phone Number:</label>
+           		<input name="phonenumber" type="text" id="phonenumber" maxlength="10">
+                <label>Email:</label>
+           		<input name="email" id="email" type="text" maxlength="10">
+                <label>Product Interest:</label>
+           		<select name="product" id="product" size="3" multiple>
+           			<option value="vProspect 2.0">vProspect 2.0</option>
+					<option value="vConvert 2.0">vConvert 2.0</option>
+           			<option value="vRetain 1.0">vRetain 1.0</option>
+           		</select>
+            
+           		<label>Current Infrastructure:</label>
+				<select name="infrastructure" id="infrastructure">
+					<option value="Mac">Mac</option>
+					<option value="Linux">Linux</option>
+           			<option value="Unix">Unix</option>         
+           			<option value="Windows">Windows</option>
+           		</select>
+            
+           		<label>Company Size:</label>
+				<select name="companysize" id="companysize">
+					<option value="1-10">1-10 Employees</option>
+					<option value="11-50">11-50 Employees</option>
+           			<option value="51-100">51-100 Employees</option>         
+           			<option value="101+">101+ Employees</option>
+           		</select>
+            
+           		<label>How did you hear about us?</label>
+				<select name="hearaboutus" id="hearaboutus">
+					<option value="Ad">Print Ad / Web Ad</option>
+					<option value="Word of Mouth">Word of Mouth</option>
+           			<option value="Radio">Radio Ad</option>         
+           			<option value="TV Commercial">TV Commercial</option>
+           		</select>
+            
+           		<label>Questions / Comments:</label>
+           		<textarea name="questions" id="questions" rows="3"></textarea>    
+           		<br><br>
+           		<input type="submit" id="submitbutton">
+           	</form>
+        </fieldset>                   
+	</main>
+	<footer></footer>
+</body>
+</html>

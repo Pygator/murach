@@ -1,0 +1,30 @@
+{"categories":[
+    {
+        "categoryid":"1",
+        "category":"Web Design"
+    },
+    {
+        "categoryid":"2",
+        "category":"Web Development"
+    },
+    {
+        "categoryid":"3",
+        "category":"Mobile Development"
+    },
+    {
+        "categoryid":"4",
+        "category":"Database Programming"
+    },
+    {
+        "categoryid":"5",
+        "category":"Java Programming"
+    },
+    {
+        "categoryid":"6",
+        "category":"C# Programming"
+    },
+    {
+        "categoryid":"7",
+        "category":"Visual Basic Programming"
+    }
+]}

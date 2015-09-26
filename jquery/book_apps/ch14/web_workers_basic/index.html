@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Basic Web Worker Example</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+        	var worker;
+        	$("#start").click(function() {
+        		$("#result").html(""); 
+            	worker = new Worker("count.js");
+            	worker.onmessage = function(e) {
+                	$("#result").html(e.data);
+            	};
+        	});
+        	$("#stop").click(function() { 
+            	worker.terminate();
+        	});  
+    	});
+    </script>
+</head>
+<body>
+    <p>Elapsed time (in seconds): <output id="result"></output></p>
+    <button id="start">Start Worker</button> 
+    <button id="stop">Stop Worker</button>
+</body>
+</html>

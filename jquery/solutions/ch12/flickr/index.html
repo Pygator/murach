@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Flickr</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+			var url = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=waterfall,yosemite";
+	
+			$.getJSON(url, function(data){
+				var html = "";
+				$.each(data.items, function(i, item){
+					html += "<h2>" + item.title + "</h2>";	
+					html += "<p>" + item.date_taken + "</p>";
+					html += item.description;
+				});
+				$("#photos").html(html);
+			});          
+        });
+    </script>
+</head>
+
+<body>
+<main>
+	<h1>Yosemite waterfalls</h1>
+	<div id="photos"></div>
+</main>
+</body>
+</html>

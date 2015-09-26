@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
+	margin: 0 auto;
+	padding: 15px 25px;	
+}
+h1 { 
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
+}

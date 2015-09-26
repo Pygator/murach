@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Individual effects</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+	<style>
+        .ui-state-highlight {
+        	height: 1.5em;
+        }
+    </style>
+    <!-- jQuery calls to the button and sortable() methods. -->    
+    <script>
+        $(document).ready(function() {
+			$("#submitbutton").button();
+            $("#vsupport").sortable({
+                placeholder: "ui-state-highlight",
+                start: function(event, ui) {
+                	$(ui.item).effect("pulsate", { times: 3 }, 1500);
+                },
+                update: function(event, ui) {
+                	$(ui.item).effect("highlight", { color: "#7fffd4" }, 2000);
+                }
+            });
+        });
+    </script>
+</head>
+	
+<body>
+	<main>
+        <h2>Rank our Customer Support products</h2>
+		<h3>Drag up or down to rank</h3>
+            
+        <ul id="vsupport">
+          	<li class="ui-state-default">Blog / How-To Articles</li>
+            <li class="ui-state-default">Discussion Forum</li>
+            <li class="ui-state-default">Knowledge Base</li>
+            <li class="ui-state-default">Phone Support</li>
+            <li class="ui-state-default">Wiki Support</li>           
+        </ul>
+            
+        <br>
+       <input type="submit" id="submitbutton" value="Submit ">
+	</main>
+</body>
+</html>

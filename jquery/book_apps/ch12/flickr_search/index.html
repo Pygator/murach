@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Flickr Search</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+    	var searchTerm;
+    	$("#btnSearch").click(function() {
+			
+			// Set the search term
+			searchTerm = "";
+			if ($("#search").val() == "") { alert("You must enter one or more tags!"); }
+			else {
+				searchTerm = $("#search").val();
+				// Build the URL based on the search term
+				var url = "http://api.flickr.com/services/feeds/photos_public.gne?" +
+	    			  	  "format=json&jsoncallback=?&tags=" + searchTerm + "&tagmode=all";
+	
+				$.getJSON(url, function(data){
+					var html = "";
+					$.each(data.items, function(i, item){
+						html += "<h2>" + item.title + "</h2>";	
+						html += "<img src=" + item.media.m + ">";
+						html += "<p><b>Tags: </b>" + item.tags + "</p>";
+					});
+					$("#photos").html(html);
+				});
+			}
+        });
+    });
+    </script>
+</head>
+
+<body>
+<main>
+	Search by tags: <input type="text" size="30" id="search">
+	<input type="button" value="Search" id="btnSearch">
+	
+	<h1>Flickr Results</h1>
+	<div id="photos"></div>
+</main>
+</body>
+</html>

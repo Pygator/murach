@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid blue;
+    padding: 2em 2em 1em;
+	height: 150px;
+}
+h1 {
+    color: blue;
+	margin: 0;
+}
+nav {
+    
+}
+nav ul {
+    list-style-type: none;
+} 
+nav ul li {
+    border: blue solid 2px;
+	float: left;
+	margin-right: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 120px;
+	padding: .5em;
+	color: blue;
+	font-weight: bold;
+	font-size: 120%;
+}
+.mouseover {
+    background-color: blue;
+    color: white;
+}
+.mouseout {
+    background-color: white;
+    color: green;
+}

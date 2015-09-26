@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;	
+	border: 3px solid blue;
+}
+h1 { 
+	font-size: 170%;
+}
+h2 {
+	font-size: 140%;
+	padding: .25em 0 .25em 0;	
+}
+header h2 {
+	text-align: center;
+	color: blue;
+	padding-bottom: 1em;
+	border-bottom: 3px solid blue;
+}
+aside h2 {
+	margin-bottom: .5em;
+}
+main h2 {
+	padding-left: 25px;
+	background: url(images/plus.png) no-repeat left center;
+}
+main h2.minus {
+	background: url(images/minus.png) no-repeat left center;
+}
+h3 {
+	font-size: 120%;
+	padding-left: 25px;
+	padding-bottom: .25em;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+a:focus, a:hover {
+	color: blue;
+}
+div {
+	display: none;
+}
+p {
+	padding-bottom: .25em;
+	padding-left: 25px;
+}
+aside {
+	float: left;
+	width: 350px;
+	padding: 25px 0 25px 25px;
+}
+main {
+	float: left;
+	width: 535px;
+	padding: 25px;	
+}
+label {
+	float: left;
+	width: 6em;
+	text-align: right;
+}
+input, textarea {
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+#name, #position, #description {
+		width: 225px;
+}
+textarea {
+	height: 100px;
+}
+footer {
+	clear: both;
+	font-size: 80%;
+	text-align: right;
+	padding-top: 1.5em;
+	padding-right: 25px;
+	border-top: 3px solid blue;
+}

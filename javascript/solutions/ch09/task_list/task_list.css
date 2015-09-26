@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+    border: 3px solid blue;
+	padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 8em;
+}
+input {
+    width: 22em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input[type=button] {
+    width: 10em;
+}
+#tasks {
+    margin-top: 0;
+    float: right;
+}

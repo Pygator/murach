@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps API Example: Markers with Custom Flickr Images</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>	
+		$(document).ready(function(){
+			var marker;
+			var myLatlng = new google.maps.LatLng(33.4936111, -117.1475);
+			var mapOptions = {zoom: 8, center: myLatlng, mapTypeId: google.maps.MapTypeId.ROADMAP}
+			var map = new google.maps.Map($("#map").get(0), mapOptions);
+			var geocoder = new google.maps.Geocoder();
+		
+			$("#links a").click(function() {
+				var address = $(this).text();
+				if (marker) { marker.setMap(null); }
+				geocoder.geocode({address: address}, function(results) {
+			    	marker = new google.maps.Marker({
+				    	position: results[0].geometry.location,
+			    		map: map
+			    	});
+			    	var overlay = new google.maps.OverlayView();
+					overlay.draw = function() {
+			        	var point = overlay.getProjection().fromLatLngToContainerPixel(marker.getPosition());
+				    	var url = 
+			            	"http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=" 
+			                	+ address;
+						$.getJSON(url, function(data) {
+							$.each(data.items, function(i, item){	
+								$("#message").html(address + "<br><img src=" + 
+							              	  item.media.m + " width=150 height=100>");
+							});
+						});
+						$("#message").show().css({
+							top: point.y + 10, 
+							left: point.x
+						});
+					};
+					overlay.setMap(map);	
+				});
+			});
+		});
+    </script>
+</head>
+<body>
+   	<div id="map"></div>
+    <ul id="links">
+		<li><a href="#">Los Angeles, CA</a></li>
+        <li><a href="#">Temecula, CA</a></li>
+        <li><a href="#">San Diego, CA</a></li>
+        <li><a href="#">Riverside, CA</a></li>
+		<li><a href="#">Escondido, CA</a></li>
+		<li><a href="#">Anaheim, CA</a></li>
+		<li><a href="#">Oceanside, CA</a></li>
+		<li><a href="#">Santa Ana, CA</a></li>
+		<li><a href="#">Long Beach, CA</a></li>
+	</ul>
+    <div id="message" style="display:none;"></div>
+</body>
+</html>

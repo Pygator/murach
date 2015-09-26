@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sortable Interaction</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+	<style>
+        .ui-state-highlight {
+        	height: 1.5em;
+        }
+    </style>
+    <!-- jQuery calls to the button() and sortable methods. -->    
+    <script>
+        $(document).ready(function() {
+			$("#submitbutton").button();
+            $("#vsupport").sortable({
+                placeholder: "ui-state-highlight",
+				// containment: "parent",
+                items: ".sortable",
+                revert: true,
+                start: function(event, ui) {
+               		$(ui.item).removeClass("ui-state-default")                	
+                	$(ui.item).addClass("ui-state-active")
+                },
+                stop: function(event, ui) {
+                	$(ui.item).removeClass("ui-state-active")                	
+                	$(ui.item).addClass("ui-state-default")
+                }
+            });
+        });
+    </script>
+</head>
+	
+<body>
+	<main>
+        <h2>Rank our Customer Support products</h2>
+		<h3>Drag up or down to rank</h3>
+            
+        <ul id="vsupport">
+          	<li class="ui-state-default sortable">Blog / How-To Articles</li>
+            <li class="ui-state-default sortable">Discussion Forum</li>
+            <li class="ui-state-default sortable">Knowledge Base</li>
+            <li class="ui-state-default sortable">Phone Support</li>
+            <li class="ui-state-default sortable">Wiki Support</li>  
+            <li class="ui-state-default">Other</li>
+        </ul>
+            
+        <br>
+        <input type="submit" id="submitbutton" value="Submit ">
+	</main>
+</body>
+</html>

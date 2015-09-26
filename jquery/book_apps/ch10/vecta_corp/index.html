@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Vecta Corp</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+        
+    <!-- jQuery UI API calls -->
+    <script src="vecta_corp.js"></script>
+</head>
+	
+<body>
+		<header></header>
+			
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="solutions.html">Solutions</a></li>
+				<li><a href="support.html">Support</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+			
+		<main>
+           	<h2>Contact Us</h2>
+           	<form id="contactusForm">
+           		<p>Fill out the form below and a sales representative will contact you shortly.
+           		For more information on how to fill out this form, please review our 
+           		<a href="#" id="help">vSupport documentation</a>.</p>
+           		
+           		<!-- BEGIN DIALOG WIDGET -->
+           		<div id="helpdialog" title="vSupport" style="display:none;">
+               		<p>Our contact form is divided into four sections: Personal Information,
+               		Company Information, Product Interest, and Additional Information. Please
+               		provide as much information as you can so our sales representative has as 
+               		much information as possible before contacting you.</p>
+           		</div>
+           		<!-- END DIALOG WIDGET -->
+            
+           		<!-- BEGIN TABS WIDGET -->
+           		<div id="tabs">
+               		<ul>
+                   		<li><a href="#tabs-1">Personal</a></li>
+                   		<li><a href="#tabs-2">Company</a></li>
+                   		<li><a href="#tabs-3">Product</a></li>
+                   		<li><a href="#tabs-4">Additional</a></li>
+               		</ul>
+               		<div id="tabs-1">
+                   		<label>Name:</label>
+                   		<input name="name" type="text" id="name" maxlength="30" required>
+                                       
+                   		<label>Phone Number:</label>
+                   		<input name="phonenumber" type="tel" id="phonenumber" maxlength="20" required pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                    
+                   		<label>Email:</label>
+                   		<input name="email" id="email" type="email" maxlength="30" required>
+               		</div>
+               		<div id="tabs-2">
+                   		<label>Company Name:</label>
+                   		<input name="companyname" type="text" id="companyname" maxlength="30">
+                                        
+                   		<label>Company Size:</label> 
+                   		<input type="text" id="employees" style="border:0;">
+                   		<!-- BEGIN SLIDER WIDGET -->  
+                   		<div id="slider"></div><br>
+                   		<!-- END SLIDER WIDGET -->  
+                    
+                   		<label>Current Infrastructure:</label>
+                   		<select name="infrastructure" id="infrastructure">
+                       		<option value="Mac">Mac</option>
+                       		<option value="Linux">Linux</option>
+                       		<option value="Unix">Unix</option>         
+                       		<option value="Windows">Windows</option>
+                   		</select>
+               		</div>
+                	<div id="tabs-3">
+                    	<label>Product Interest:</label>
+                   		<select name="product" id="product" size="3" multiple>
+                        	<option value="vProspect 2.0">vProspect 2.0</option>
+                        	<option value="vConvert 2.0">vConvert 2.0</option>
+                       		<option value="vRetain 1.0">vRetain 1.0</option>
+                   		</select>
+               		</div>
+               		<div id="tabs-4">
+                   		<label>How did you hear about us?</label>
+                   		<select name="hearaboutus" id="hearaboutus">
+                       		<option value="Ad">Print Ad / Web Ad</option>
+                       		<option value="Word of Mouth">Word of Mouth</option>
+                       		<option value="Radio">Radio Ad</option>         
+                       		<option value="TV Commercial">TV Commercial</option>
+                   		</select>                
+                
+                   		<label>Questions / Comments:</label>
+                   		<textarea name="questions" id="questions" rows="3"></textarea>
+                    	
+                   		<label>Best day to reach you:</label>
+                   		<!-- BEGIN DATEPICKER WIDGET -->  
+                   		<input type="text" id="datepicker"><br>
+                   		<!-- END DATEPICKER WIDGET -->  
+               		</div>
+           		</div>
+           		<!-- END TABS WIDGET -->
+            
+           		<!-- BEGIN BUTTON WIDGET -->            
+           		<input type="submit" id="submitbutton" value="Submit Form">
+           		<!-- END BUTTON WIDGET -->
+           	</form>           
+		</main>
+			
+		<footer></footer>
+</body>
+</html>

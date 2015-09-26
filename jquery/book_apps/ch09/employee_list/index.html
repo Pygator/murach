@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>on method</title>
+	<link rel="stylesheet" href="main.css">
+   	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   	<script src="employees.js"></script>   	
+</head>
+
+<body>
+	<header><h2>Vecta Corp. employees</h2></header>
+	<aside>
+		<h2>Add an employee</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br>
+		<label for="position">Position:</label>
+		<input type="text" id="position" name="position"><br>
+		<label for="description">Description:</label>
+		<textarea id="description" name="description"></textarea><br>
+		<label>&nbsp;</label>
+		<input type="button" id="add" name="add" value="Add Employee"> 
+	</aside>
+	<main id="accordion">
+		<h1>Employee list</h1>
+		<h2><a href="#">Wilbur Wilkes</a></h2>
+		<div>
+           	<h3>Founder and CEO</h3>
+           	<p> While Wilbur is the founder and CEO of Vecta Corp, he is primarily known 
+           		for being the pioneer and world leader of creating vSolutions. Wilbur has 
+           		led the commercialization of vSolution technology and its success as the 
+           		world's fastest-growing, most advanced technologies in its respective 
+           		industry.</p>
+		</div>
+		<h2><a href="#">Agnes Agnew</a></h2>
+		<div>
+           	<h3>VP of Accounting</h3>
+            <p> With over 14 years of public accounting and business advisory service 
+            	experience in the Tongas, Ecuador, Canada, Botswana and the US, Agnes is the 
+            	most seasoned and diversed member of the Vecta Corp. team.</p>
+		</div>
+		<h2><a href="#">Mike Masters</a></h2>
+		<div>
+           	<h3>VP of Marketing</h3>
+           	<p> Mike serves as the Vice President of Sales and Marketing for Vecta Corp. In 
+           		this role, Mike oversees Vecta Corp's marketing and corporate communications 
+           		efforts worldwide.</p>
+		</div>
+	</main>
+	<footer>&copy; 2016 Vecta Corp.</footer>
+</body>
+</html>

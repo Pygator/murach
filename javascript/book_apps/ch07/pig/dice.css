@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 450px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 {
+    color: blue;
+    margin-bottom: .25em;
+}
+label {
+    width: 4em;
+    text-align: right;
+    padding-bottom: .5em;
+}
+input {
+    width: 4em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+fieldset {
+    margin-bottom: 1em;
+}
+#turn {
+    display: none;
+}
+#turn.open {
+    display: block;
+}
+#turn p {
+    font-weight: bold;
+    color: red;
+}
+#player1, #player2 {
+    width: 10em;
+}
+#new_game {
+    width: 6em;
+    margin-left: 1em;
+}
+#hold {
+    margin-right: 2em;
+}

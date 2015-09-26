@@ -1,0 +1,233 @@
+{"books":[
+    {
+        "bookid":"1",
+        "title":"Murach's HTML5 and CSS3",
+        "author":"Zak Ruvalcaba and Anne Boehm",
+        "isbn":"978-1-890774-83-7",
+        "chapter_count":"19",
+        "page_count":"682",
+        "description":"This 3rd edition of our unique HTML5 and CSS3 book adds professional coverage of Responsive Web Design – a must for web developers – at the same time that it updates and improves all the content in the previous edition. So whether you're a web designer, a JavaScript programmer, a server-side programmer, or a rookie, this book delivers the HTML and CSS skills that you need today.",
+        "categoryid":"1",
+        "image":"html5-and-css3.jpg"
+    },
+    {
+        "bookid":"2",
+        "title":"Murach's JavaScript and jQuery",
+        "author":"Zak Ruvalcaba and Mike Murach",
+        "isbn":"978-1-890774-70-7",
+        "chapter_count":"18",
+        "page_count":"603",
+        "description":"jQuery is a free, open-source, JavaScript library that provides dozens of methods that make it easier to code JavaScript applications (like slide shows, carousels, and image swaps). That’s just one of the reasons why jQuery is so widely used that every web developer needs to know how to use it...and use it well. And that’s where this book comes in.",
+        "categoryid":"1",
+        "image":"javascript_and_jquery.jpg"
+    },
+    {
+        "bookid":"3",
+        "title":"Murach's Dreamweaver CC 2014",
+        "author":"Zak Ruvalcaba",
+        "isbn":"978-1-890774-77-6",
+        "chapter_count":"17",
+        "page_count":"610",
+        "description":"Since 1996, Dreamweaver has been the leading product for web developers who want to build web pages by using a visual interface instead of writing the HTML code themselves. Now, Dreamweaver CC 2014 takes that to a new level, with tools that are designed to support today’s best web design practices.",
+        "categoryid":"1",
+        "image":"dreamweaver_cc_2014.jpg"
+    },
+    {
+        "bookid":"4",
+        "title":"Murach's PHP and MySQL",
+        "author":"Joel Murach and Ray Harris",
+        "isbn":"978-1-890774-79-0",
+        "chapter_count":"24",
+        "page_count":"896",
+        "description":"PHP and MySQL are two of today’s most popular, open-source tools for server-side web programming. And with this book, you’ll learn right from the start how to use them together, the way the pros do. In fact, you’ll create a database-driven website that implements the MVC pattern in the first 6 chapters! Then, the rest of the chapters show you how to build out your PHP and MySQL skills to the professional level.",
+        "categoryid":"2",
+        "image":"html5-and-css3.jpg"
+    },
+    {
+        "bookid":"5",
+        "title":"Murach's Java Servlets and JSP",
+        "author":"Joel Murach and Michael Urban",
+        "isbn":"978-1-890774-78-3",
+        "chapter_count":"23",
+        "page_count":"744",
+        "description":"From the start, servlets and JSPs have been a training problem because web programming with them requires so many different skills and so much conceptual background. But the first edition of this book solved that training problem.",
+        "categoryid":"2",
+        "image":"java-servlets-and-jsp.jpg"
+    },
+    {
+        "bookid":"6",
+        "title":"Murach's ASP.NET 4.5 Web Programming with C# 2012",
+        "author":"Mary Delamater and Anne Boehm",
+        "isbn":"978-1-890774-75-2",
+        "chapter_count":"24",
+        "page_count":"822",
+        "description":"If you know how to create Windows applications using C#, you’re ready for this latest edition of our classic web programming book. It will get you off to a fast start whether or not you have done any web programming. It will teach you the skills you need to develop bullet-proof web applications on the job. And when you’re done, this book does double duty as the best on-the-job reference that money can buy.",
+        "categoryid":"2",
+        "image":"asp_with_c_sharp.jpg"
+    },
+    {
+        "bookid":"7",
+        "title":"Murach's ASP.NET 4.5 Web Programming with VB 2012",
+        "author":"Mary Delamater and Anne Boehm",
+        "isbn":"978-1-890774-76-9",
+        "chapter_count":"24",
+        "page_count":"822",
+        "description":"If you know how to create Windows applications using Visual Basic, you’re ready for this 5th Edition of our classic web programming book. It will get you off to a fast start whether or not you have done any web programming. It will teach you the skills you need to develop bullet-proof web applications on the job. And when you’re done, this book does double duty as the best on-the-job reference that money can buy.",
+        "categoryid":"2",
+        "image":"asp_with_vb.jpg"
+    },
+    {
+        "bookid":"8",
+        "title":"Murach's Android",
+        "author":"Joel Murach",
+        "isbn":"978-1-890774-71-4",
+        "chapter_count":"18",
+        "page_count":"702",
+        "description":"If you know how to program in Java, this is the first book you should buy for learning how to develop Android apps the way the pros do. First, it shows how to set up a professional development environment. Then, it presents a series of complete Android apps that illustrate key skills…fragments, services, broadcast receivers, SQLite databases, content providers, Google Maps, and much more! Once you finish this book, the competing books will make more sense.",
+        "categoryid":"3",
+        "image":"android_programming.jpg"
+    },
+    {
+        "bookid":"9",
+        "title":"Murach's SQL Server 2012 for Developers",
+        "author":"Bryan Syverson and Joel Murach",
+        "isbn":"978-1-890774-69-1",
+        "chapter_count":"23",
+        "page_count":"794",
+        "description":"When we published the first edition of this book, we heard from plenty of people who thought it was a great way to learn SQL Server from scratch. But we also heard from a lot of experienced developers who read it and were amazed to discover how much they didn’t know about SQL. That’s why we’ve dubbed this book 'the SQL book that most developers don’t even know they need.'",
+        "categoryid":"4",
+        "image":"sql_server_2012.jpg"
+    },
+    {
+        "bookid":"10",
+        "title":"Murach's Oracle SQL and PL/SQL (Second Edition)",
+        "author":"Joel Murach",
+        "isbn":"978-1-890774-80-6",
+        "chapter_count":"18",
+        "page_count":"648",
+        "description":"Over the years, Oracle Database has gained a reputation for being expensive and difficult to use. Today, however, you can download a free IDE called SQL Developer that makes it easy to enter, edit, and run SQL and PL/SQL statements. And this book makes it easier than ever to master the SQL and PL/SQL skills for working with an Oracle database.",
+        "categoryid":"4",
+        "image":"oracle-sql-and-plsql-2nd.jpg"
+    },
+    {
+        "bookid":"11",
+        "title":"Murach's MySQL (Second Edition)",
+        "author":"Joel Murach",
+        "isbn":"978-1-890774-82-0",
+        "chapter_count":"19",
+        "page_count":"590",
+        "description":"Today, MySQL is the world’s most popular open-source database, and this book will help you master it. As you would expect, this book shows how to code all of the essential SQL statements for working with a MySQL database. But beyond that, this book shows how to design and implement a database and how to take advantage of relatively new features like foreign keys, transactions, and stored procedures. It even has a section on database administrator (DBA) skills.",
+        "categoryid":"4",
+        "image":"mysql(2nd-ed).jpg"
+    },
+    {
+        "bookid":"12",
+        "title":"Murach's Java Programming (Fourth Edition)",
+        "author":"Joel Murach",
+        "isbn":"978-1-890774-65-3",
+        "chapter_count":"23",
+        "page_count":"802",
+        "description":"This is the 4th Edition of our best-selling core Java book. Since 2001, it has been used by thousands of beginning and experienced programmers to master the core language skills that are needed to create console, web, and mobile applications. Now, to make training even easier, this book shows you how to develop Java programs using NetBeans, a popular IDE that will boost your productivity at every step.",
+        "categoryid":"5",
+        "image":"java_programming.jpg"
+    },
+    {
+        "bookid":"13",
+        "title":"Murach's Android",
+        "author":"Joel Murach",
+        "isbn":"978-1-890774-71-4",
+        "chapter_count":"18",
+        "page_count":"702",
+        "description":"If you know how to program in Java, this is the first book you should buy for learning how to develop Android apps the way the pros do. First, it shows how to set up a professional development environment. Then, it presents a series of complete Android apps that illustrate key skills…fragments, services, broadcast receivers, SQLite databases, content providers, Google Maps, and much more! Once you finish this book, the competing books will make more sense.",
+        "categoryid":"5",
+        "image":"android_programming.jpg"
+    },
+    {
+        "bookid":"14",
+        "title":"Murach's Beginning Java with NetBeans",
+        "author":"Joel Murach and Michael Urban",
+        "isbn":"978-1-890774-84-9",
+        "chapter_count":"22",
+        "page_count":"664",
+        "description":"We’ve designed Murach’s Beginning Java with NetBeans specifically for beginning programmers and programmers with limited experience who want to learn Java at a professional level. By the time you finish this book, you’ll have all the core Java skills that you need to move on to web or Android programming.",
+        "categoryid":"5",
+        "image":"beginning-java-with-netbeans.jpg"
+    },
+    {
+        "bookid":"15",
+        "title":"Murach's Java Servlets and JSP (Third Edition)",
+        "author":"Joel Murach and Michael Urban",
+        "isbn":"978-1-890774-78-3",
+        "chapter_count":"23",
+        "page_count":"744",
+        "description":"From the start, servlets and JSPs have been a training problem because web programming with them requires so many different skills and so much conceptual background. But the first edition of this book solved that training problem: It presented the critical skills in the right order with plenty of examples, allowing developers to master all the complexities in a manageable way. Now, this improved and updated 3rd Edition makes it even easier and faster for you to learn. And to prove to yourself that you will master all the servlet and JSP skills that you need to develop e-commerce applications, you can download the book’s e-commerce website that ties all the skills together.",
+        "categoryid":"5",
+        "image":"java-servlets-and-jsp.jpg"
+    },
+    {
+        "bookid":"16",
+        "title":"Murach's C# 2012",
+        "author":"Joel Murach and Anne Boehm",
+        "isbn":"978-1-890774-72-1",
+        "chapter_count":"26",
+        "page_count":"850",
+        "description":"This is the latest edition of our best-selling C# book. It focuses on how to develop professional Windows Forms applications with C#. But along the way, it teaches you the C# language and core skills that you’ll use to develop any C# application...whether for Windows, the web, or mobile devices.",
+        "categoryid":"6",
+        "image":"c_sharp_2012.jpg"
+    },
+    {
+        "bookid":"17",
+        "title":"Murach's ADO.NET 4 Database Programming with C# 2010",
+        "author":"Anne Boehm and Ged Mead",
+        "isbn":"978-1-890774-63-9",
+        "chapter_count":"18",
+        "page_count":"714",
+        "description":"If you’re still using Visual Studio 2010, this is a great book for learning database programming with ADO.NET. It shows you how to use Visual Studio 2010, ADO.NET 4, and C# 2010 to develop database applications for both Windows and web applications. If you’re using Visual Studio 2012, this is still a good book for learning database programming with ADO.NET because nothing much has changed with VS 2012. However, you will have trouble running the downloadable applications and exercises on VS 2012.",
+        "categoryid":"6",
+        "image":"ado_net_4_with_c2010.jpg"
+    },
+    {
+        "bookid":"18",
+        "title":"Murach's ASP.NET 4.5 Web Programming with C# 2012",
+        "author":"Mary Delamater and Anne Boehm",
+        "isbn":"978-1-890774-75-2",
+        "chapter_count":"24",
+        "page_count":"822",
+        "description":"If you know how to create Windows applications using C#, you’re ready for this latest edition of our classic web programming book. It will get you off to a fast start whether or not you have done any web programming. It will teach you the skills you need to develop bullet-proof web applications on the job. And when you’re done, this book does double duty as the best on-the-job reference that money can buy.",
+        "categoryid":"6",
+        "image":"asp_with_c_sharp.jpg"
+    },
+    {
+        "bookid":"19",
+        "title":"Murach's Visual Basic 2012",
+        "author":"Anne Boehm",
+        "isbn":"978-1-890774-73-8",
+        "chapter_count":"26",
+        "page_count":"876",
+        "description":"This is the latest edition of our best-selling and much-loved Visual Basic book. It focuses on how to develop professional Windows Forms applications with Visual Basic. But along the way, it teaches you the Visual Basic language and core skills that you’ll use to develop any Visual Basic application...whether for Windows, the web, or mobile devices.",
+        "categoryid":"7",
+        "image":"visual_basic_2012.jpg"
+    },
+    {
+        "bookid":"20",
+        "title":"Murach's ADO.NET 4 Database Programming with VB 2010",
+        "author":"Anne Boehm and Ged Mead",
+        "isbn":"978-1-890774-62-2",
+        "chapter_count":"18",
+        "page_count":"714",
+        "description":"If you’re still using Visual Studio 2010, this is a great book for learning database programming with ADO.NET. It shows you how to use Visual Studio 2010, ADO.NET 4, and Visual Basic 2010 to develop database applications for both Windows and web applications. If you’re using Visual Studio 2012, this is still a good book for learning database programming with ADO.NET because nothing much has changed with VS 2012. However, you will have trouble running the downloadable applications and exercises on VS 2012.",
+        "categoryid":"7",
+        "image":"ado_net-4-with-vb-2010.jpg"
+    },
+    {
+        "bookid":"21",
+        "title":"Murach's ASP.NET 4.5 Web Programming with VB 2012",
+        "author":"Mary Delamater and Anne Boehm",
+        "isbn":"978-1-890774-76-9",
+        "chapter_count":"24",
+        "page_count":"822",
+        "description":"If you know how to create Windows applications using Visual Basic, you’re ready for this 5th Edition of our classic web programming book. It will get you off to a fast start whether or not you have done any web programming. It will teach you the skills you need to develop bullet-proof web applications on the job. And when you’re done, this book does double duty as the best on-the-job reference that money can buy.",
+        "categoryid":"7",
+        "image":"asp_with_vb.jpg"
+    }
+]}

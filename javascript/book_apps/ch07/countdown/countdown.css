@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 510px;
+    margin: 0 auto;
+    border: 3px solid blue;
+	padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 8em;
+}
+input {
+    width: 20em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+#message {
+    font-weight: bold;
+    color: red;
+}

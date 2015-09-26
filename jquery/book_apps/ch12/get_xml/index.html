@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Vecta Corp.</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.get( "team.txt", function(data) {
+				$("#team").html("");
+				$(data).find("management").children().each(function() {
+					var xmlDoc = $(this);
+					$("#team").append("<h3>" + 
+						xmlDoc.find("name").text() + "</h3>" + 
+						xmlDoc.find("title").text() + "<br>" + 
+						xmlDoc.find("bio").text() + "<br>");
+				});
+			}, "xml");
+		});
+    </script>
+</head>
+
+<body>
+    <header></header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>The Vecta Corp. Management Team</h2>
+
+		<div id="team"></div>
+    </main>
+    
+    <footer></footer>
+</body>
+</html>

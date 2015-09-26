@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectable interaction</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+ 	<!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+	<!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="jquery-ui.min.js"></script>
+	<style>
+		.ui-selected {
+			background-color: #dfe3e6;
+		}
+	</style>
+	<!-- jQuery call to the selectable() method. -->
+	<script>
+		$(document).ready(function() {
+            $("#solutions").selectable({
+                stop: function() {
+                	$("#selected").text("");
+                    $(".ui-selected").each(function() {
+                        $("#selected").append(this.id + " ");
+                    });
+                }
+            });
+		});
+	</script>
+</head>
+	
+<body>
+	<main>
+        <fieldset><legend>Contact a Sales Rep.</legend>
+        	<form id="contactus_form" name="contactus_form" action="response.html" method="get">
+           		<label>Name:</label>
+           		<input name="name" type="text" id="name" maxlength="30"><br>
+           
+           		<label>Company Name:</label>
+           		<input name="companyname" type="text" id="companyname" maxlength="30"><br>
+            
+           		<label>Phone Number:</label>
+           		<input name="phonenumber" type="text" id="phonenumber" maxlength="10"><br>
+            
+           		<label>Email:</label>
+           		<input name="email" id="email" type="text" maxlength="10"><br>
+            
+            	<p>Select the products that you're interested in:</p>
+            	<ol id="solutions">
+                	<li id="vProspect"><img src="images/logo_vprospect.gif" width="63" height="36"></li>
+                	<li id="vConvert"><img src="images/logo_vconvert.gif" width="63" height="36"></li>
+                	<li id="vRetain"><img src="images/logo_vretain.gif" width="63" height="36"></li>
+            	</ol>
+            	<br><br><br><br>
+            	<p>Product(s) selected: <span id="selected"></span></p>
+            
+           		<label>Current Infrastructure:</label>
+				<select name="infrastructure" id="infrastructure">
+					<option value="Mac">Mac</option>
+					<option value="Linux">Linux</option>
+           			<option value="Unix">Unix</option>         
+           			<option value="Windows">Windows</option>
+           		</select><br>
+            
+           		<label>Company Size:</label>
+				<select name="companysize" id="companysize">
+					<option value="1-10">1-10 Employees</option>
+					<option value="11-50">11-50 Employees</option>
+           			<option value="51-100">51-100 Employees</option>         
+           			<option value="101+">101+ Employees</option>
+        		</select><br>
+            
+           		<label>How did you hear about us?</label>
+				<select name="hearaboutus" id="hearaboutus">
+					<option value="Ad">Print Ad / Web Ad</option>
+					<option value="Word of Mouth">Word of Mouth</option>
+           			<option value="Radio">Radio Ad</option>         
+           			<option value="TV Commercial">TV Commercial</option>
+        		</select><br>
+            
+           		<!-- THIS ELEMENT WILL BE RESIZABLE -->
+           		<p>Questions / Comments:</p>
+           		<textarea name="questions" id="questions"></textarea>    
+           		<!-- END RESIZABLE -->   
+            
+           		<br><br>
+           		<input type="submit" id="submitbutton">
+            
+           	</form>
+        </fieldset>
+	</main>
+</body>
+</html>

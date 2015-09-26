@@ -1,0 +1,1 @@
+xcopy "exercises\*" "C:\jquery\exercises\*" /E

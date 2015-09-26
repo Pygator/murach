@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px 20px;
+    border: 3px solid blue;
+
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input, select {
+    width: 14em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+#buttons input {
+	width: 7em;
+}
+label.error {
+	float: none;
+	color: red;
+	font-size: 87.5%;
+}
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+#expiry_month {
+	width: 3.5em;
+}
+#expiry_year {
+	width: 4.5em;
+	margin: 0;
+}

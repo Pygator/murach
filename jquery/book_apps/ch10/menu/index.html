@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="../jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="../jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- jQuery call to the menu method -->
+    <script>
+    	$(document).ready(function() {
+    		$( "#menu" ).menu({
+    			icons: { submenu: "ui-icon-triangle-1-e" }
+    		});
+  		});
+    </script>
+</head>
+	
+<body>
+	<main>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a>
+				<ul>
+					<li><a href="history.html">Company History</a></li>
+					<li><a href="staff.html">Our Staff</a></li>
+					<li><a href="headquarters.html">Our Headquarters</a></li>
+				</ul>
+			</li>
+			<li><a href="solutions.html">Solutions</a>
+				<ul>
+					<li><a href="vProspect.html">vProspect 2.0</a></li>
+					<li><a href="vConvert.html">vConvert 2.0</a></li>
+					<li><a href="vRetain.html">vRetain 1.0</a></li>
+				</ul>
+			</li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</main>
+</body>
+</html>

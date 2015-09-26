@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Invoice Total Calculator</title>
+    <link rel="stylesheet" type="text/css" href="invoice_total.css">
+    <script type="text/javascript" src="invoice_total.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Invoice Total Calculator</h1>
+        <p>Enter the two values that follow and click "Calculate".</p>
+
+        <label for="type">Customer Type:</label>
+        <select id="type">
+            <option value="r">Regular</option>
+            <option value="l">Loyalty Program</option>
+            <option value="h">Honored Citizen</option>
+            <option value="e">Employee</option>
+        </select>
+        <br>
+
+        <label for="subtotal">Invoice Subtotal:</label>
+        <input type="text" id="subtotal" /><br>
+        ----------------------------------------------------------------<br>
+
+        <label for="percent">Discount Percent:</label>
+        <input type="text" id="percent" disabled />%<br>
+
+                <label for="discount">Discount Amount:</label>
+        <input type="text" id="discount" disabled /><br>
+
+                <label for="total">Invoice Total:</label>
+        <input type="text" id="total" disabled /><br>
+
+        <label>&nbsp;</label>
+        <input type="button" id="calculate" value="Calculate" />
+    </main>
+</body>
+</html>

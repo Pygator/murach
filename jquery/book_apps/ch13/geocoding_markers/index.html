@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps API Example: Clickable Markers with Geocoding</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script>
+		$(document).ready(function(){
+			var geocoder = new google.maps.Geocoder();
+		
+			geocoder.geocode({address: "4340 N Knoll, Fresno, CA"}, function(results) {
+				alert("Latitude for " + results[0].formatted_address + " is " + results[0].geometry.location.lat());
+				alert("Longitude for " + results[0].formatted_address + " is " + results[0].geometry.location.lng());			
+			});
+		
+			var myLatLng = new google.maps.LatLng(36.799793, -119.858135);
+			geocoder.geocode({location: myLatLng}, function(results) {
+				alert("Address for latitude and longitude is " + results[0].formatted_address);
+				var mapOptions = {zoom: 8, center: myLatLng, mapTypeId: google.maps.MapTypeId.ROADMAP}
+				var map = new google.maps.Map($("#map").get(0), mapOptions);
+			
+				var marker = new google.maps.Marker( {
+					position: myLatLng,
+					map: map		
+				});			
+			});		
+		});
+    </script>
+</head>
+<body>
+   	<div id="map"></div>
+</body>
+</html>

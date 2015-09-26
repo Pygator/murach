@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Button and dialog</title>
+    <!-- jQuery UI style sheet -->
+    <link rel="stylesheet" href="../jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <!-- normal style sheet used for layout and general formatting -->
+	<link rel="stylesheet" href="main.css">
+    <!-- jQuery library -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery UI library -->
+	<script src="../jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- jQuery to convert standard input type buttons into jQuery UI buttons. -->
+    <!-- Also contains code to display modal dialog boxes when the buttons are clicked. -->
+	<script>
+		$(document).ready(function() {
+			$("#book").button();
+	
+			$("#book").click(function() { 
+				$("#dialog").dialog({modal:true});
+			});
+		});
+	</script>
+</head>
+	
+<body>
+    <main>
+    	<h1>Featured Book</h1>
+        <a id="book"><img src="images/html5.jpg" alt="HTML5 and CSS3 book" width="150" height="188" /></a>
+        <div id="dialog" title="HTML5 and CSS3" style="display: none;">
+            <p>Teach yourself how to design web pages the way the professionals do, by using HTML and CSS 
+            	in tandem to structure and format the page content. Packed with expert practices, our HTML5 
+            	and CSS3 book guides you through each step as you learn how to develop professional sites 
+            	while maintaining browser compatibility.</p>
+        </div>
+        <br><br><br><br><br><br>
+    </main>	
+</body>
+</html>
