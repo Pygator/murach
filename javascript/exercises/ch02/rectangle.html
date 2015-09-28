@@ -4,18 +4,31 @@
     <meta charset="UTF-8">	
     <title>Calculate Miles Per Gallon</title>
     <script>
-        var miles = prompt("Enter miles driven");
-        miles = parseFloat(miles);
-        var gallons = prompt("Enter gallons of gas used");
-        gallons = parseFloat(gallons);
-        var mpg = miles/gallons;
-        mpg = parseInt(mpg);
+        var length = prompt("Enter the length");
+        length = parseFloat(length);
+        var width = prompt("Enter the width");
+        width = parseFloat(width);
+        var area = length * width;
+        area = parseInt(area);
+        var perimeter = parseInt((2*length)+(2*width));
+        
         alert("Miles per gallon = " + mpg);
     </script>
 </head>
 <body>
     <main>
-        <h1>Thanks for using the Miles Per Gallon application</h1>
+    	<h1>The Area and Perimeter App</h1>
+    	<script>
+    	  document.write("Length = "+length);
+    	  document.write("<br>");
+    	  document.write("Width = "+width);
+    	  document.write("<br><br>");
+    	  document.write("Area = "+area);
+    	  document.write("<br>");
+    	  document.write("Perimeter ="+perimeter);
+    	  document.write("<br><br>");
+    	</script>
+        <p>Thanks for using the Miles Per Gallon application</p>
     </main>
 </body>
 </html>
