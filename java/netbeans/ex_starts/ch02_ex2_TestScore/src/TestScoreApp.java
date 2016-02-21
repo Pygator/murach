@@ -16,7 +16,7 @@ public class TestScoreApp
         Scanner sc = new Scanner(System.in);
 
         // get a series of test scores from the user
-        while (testScore <= 100)
+        while (testScore != 999)
         {
             // get the input from the user
             System.out.print("Enter score: ");
@@ -28,6 +28,10 @@ public class TestScoreApp
                 scoreCount = scoreCount + 1;
                 scoreTotal = scoreTotal + testScore;
             }
+            else if (testScore != 999)
+                    {
+                        System.out.println("Error: value too large.");
+                    }
         }
 
         // display the score count, score total, and average score

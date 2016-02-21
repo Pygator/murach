@@ -1,5 +1,7 @@
 import java.text.NumberFormat;
+import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class InvoiceApp
 {
@@ -11,11 +13,19 @@ public class InvoiceApp
         while (!choice.equalsIgnoreCase("n"))
         {
             // get the input from the user
-            System.out.print("Enter customer type (r/c): ");
-            String customerType = sc.next();
+            String customerType = getValidCustomerType(sc,"Enter customer type (r/c): ");
+            double subtotal;
+//            System.out.print("Enter customer type (r/c): ");
+//            String customerType = sc.next();
+            try {
             System.out.print("Enter subtotal:   ");
-            double subtotal = sc.nextDouble();
-            
+            subtotal = sc.nextDouble();
+            }
+            catch (InputMismatchException e){
+                sc.next();
+                System.out.println("Error: Invalid number");
+                continue;
+            }
             // get the discount percent
             double discountPercent = 0;
             if (customerType.equalsIgnoreCase("R"))
@@ -56,5 +66,36 @@ public class InvoiceApp
             choice = sc.next();
             System.out.println();
         }
+    }
+    public static String getValidCustomerType(Scanner sc, String prompt) {
+        String custType;
+        boolean isValid = false;
+        
+        custType = "none";
+        while (isValid == false){
+            custType = getAlphaString(sc, prompt);
+            isValid = custType.equalsIgnoreCase("c") || custType.equalsIgnoreCase("r");
+        }
+        return custType;
+    }
+    public static String getAlphaString(Scanner sc, String prompt)
+    {
+      String alphaString;
+      alphaString = "none";
+      boolean isValid = false;
+      while (isValid == false){
+          System.out.print(prompt);
+ //          while (!sc.hasNext("[A-Za-z]+")) 
+          if (!sc.hasNext("[A-Za-z]+")) {
+              System.out.println(
+                      "Error! Invalid string value. Try Again.");
+          }
+          else {
+              alphaString = sc.next();
+              isValid = true;
+          }
+          sc.nextLine();
+      }
+      return alphaString;
     }
 }
