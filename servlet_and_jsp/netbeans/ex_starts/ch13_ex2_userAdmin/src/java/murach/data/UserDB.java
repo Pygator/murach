@@ -77,6 +77,19 @@ public class UserDB {
     }
     
     public static List<User> selectUsers() {
-        return null;
+        EntityManager em = DBUtil.getEmFactory().createEntityManager();
+        String qString = "SELECT u FROM User u " ;
+        TypedQuery<User> q = em.createQuery(qString, User.class);
+        
+        List<User> users;
+
+        try {
+            users = q.getResultList();
+            if (users == null || users.isEmpty())
+                users = null;
+        } finally {
+            em.close();
+        }
+        return users;
     }
 }
