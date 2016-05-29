@@ -1,4 +1,6 @@
-package murach.rectangle;
+package murach.ui;
+
+import murach.business.Rectangle;
 
 import java.text.NumberFormat;
 import java.util.Scanner;

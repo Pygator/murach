@@ -1,4 +1,4 @@
-package murach.rectangle;
+package murach.business;
 
 import java.text.NumberFormat;
 

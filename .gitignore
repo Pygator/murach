@@ -1,7 +1,11 @@
 *.exe
 *.class
 *.zip
+*.jar
+*.war
+*.ear
 .project
+/java_eclipse/ex_starts/ch05_ex2_AreaAndPerimeter/bin
 /java/netbeans/ex_starts/ch06_ex2_FutureValue/build/
 /java/netbeans/ex_starts/ch05_ex1_Invoice/build/
 /java/netbeans/ex_starts/ch06_ex1_Invoice/build/
